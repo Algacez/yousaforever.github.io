@@ -1,0 +1,782 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><title>Python3运算符 | AmeのBlog</title><meta name="author" content="Ame"><meta name="copyright" content="Ame"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#f7f9fe"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-touch-fullscreen" content="yes"><meta name="apple-mobile-web-app-title" content="Python3运算符"><meta name="application-name" content="Python3运算符"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="#f7f9fe"><meta property="og:type" content="article"><meta property="og:title" content="Python3运算符"><meta property="og:url" content="http://486916.xyz/2023/06/03/Python3%E8%BF%90%E7%AE%97%E7%AC%A6/index.html"><meta property="og:site_name" content="AmeのBlog"><meta property="og:description" content="笔记   Python3 运算符 什么是运算符？本章节主要说明 Python 的运算符。 举个简单的例子: 14 + 5 &amp;#x3D; 9  例子中，4 和 5 被称为操作数，**+** 称为运算符。 Python 语言支持以下类型的运算符:  算术运算符 比较（关系）运算符 赋值运算符 逻辑运算符 位运算符"><meta property="og:locale" content="zh-CN"><meta property="og:image" content="https://pic.imgdb.cn/item/64e6d0f7661c6c8e54746df9.jpg"><meta property="article:author" content="Ame"><meta property="article:tag"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://pic.imgdb.cn/item/64e6d0f7661c6c8e54746df9.jpg"><meta name="description" content="笔记   Python3 运算符 什么是运算符？本章节主要说明 Python 的运算符。 举个简单的例子: 14 + 5 &amp;#x3D; 9  例子中，4 和 5 被称为操作数，**+** 称为运算符。 Python 语言支持以下类型的运算符:  算术运算符 比较（关系）运算符 赋值运算符 逻辑运算符 位运算符"><link rel="shortcut icon" href="/favicon.ico"><link rel="canonical" href="http://486916.xyz/2023/06/03/Python3%E8%BF%90%E7%AE%97%E7%AC%A6/"><link rel="preconnect" href="//npm.elemecdn.com"/><link rel="preconnect" href="//npm.onmicrosoft.cn"/><link rel="preconnect" href="//hm.baidu.com"/><meta name="google-site-verification" content="xxx"/><meta name="baidu-site-verification" content="code-xxx"/><meta name="msvalidate.01" content="xxx"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.cbd.int/@fancyapps/ui@5.0.20/dist/fancybox/fancybox.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css" media="print" onload="this.media='all'"><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?8e4110517d1babfcceed4ddebc854947";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><script>const GLOBAL_CONFIG = {
+  linkPageTop: undefined,
+  postHeadAiDescription: undefined,
+  diytitle: {"enable":true,"leaveTitle":"w(ﾟДﾟ)w 不要走！再看看嘛！","backTitle":"♪(^∇^*)欢迎回来！"},
+  LA51: undefined,
+  greetingBox: {"enable":true,"default":"你好👋","list":[{"greeting":"晚安😴","startTime":0,"endTime":5},{"greeting":"早上好鸭👋, 祝你一天好心情！","startTime":6,"endTime":9},{"greeting":"上午好👋, 状态很好，鼓励一下～","startTime":10,"endTime":10},{"greeting":"11点多啦, 在坚持一下就吃饭啦～","startTime":11,"endTime":11},{"greeting":"午安👋","startTime":12,"endTime":14},{"greeting":"🌈充实的一天辛苦啦！","startTime":14,"endTime":18},{"greeting":"19点喽, 奖励一顿丰盛的大餐吧🍔。","startTime":19,"endTime":19},{"greeting":"晚上好👋, 在属于自己的时间好好放松😌~","startTime":20,"endTime":24}]},
+  twikooEnvId: '',
+  commentBarrageConfig:undefined,
+  root: '/',
+  preloader: {"source":3},
+  friends_vue_info: undefined,
+  navMusic: true,
+  mainTone: undefined,
+  authorStatus: undefined,
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简","rightMenuMsgToTraditionalChinese":"转为繁体","rightMenuMsgToSimplifiedChinese":"转为简体"},
+  noticeOutdate: {"limitDay":365,"position":"top","messagePrev":"It has been","messageNext":"days since the last update, the content of the article may be outdated."},
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":330},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    simplehomepage: true,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"copy":true,"copyrightEbable":false,"limitCount":50,"languages":{"author":"作者: Ame","link":"链接: ","source":"来源: AmeのBlog","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。","copySuccess":"复制成功，复制和转载请标注本文地址"}},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#3b70fc","bgDark":"#1f1f1f","position":"top-center"},
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.min.js',
+      css: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false,
+  shortcutKey: undefined,
+  autoDarkmode: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  configTitle: 'AmeのBlog',
+  title: 'Python3运算符',
+  postAI: '',
+  pageFillDescription: 'Python3 运算符, 什么是运算符？, Python算术运算符, Python比较运算符, Python赋值运算符, Python位运算符, Python逻辑运算符, Python成员运算符, Python身份运算符, Python运算符优先级笔记运算符什么是运算符本章节主要说明的运算符举个简单的例子例子中和被称为操作数称为运算符语言支持以下类型的运算符算术运算符比较关系运算符赋值运算符逻辑运算符位运算符成员运算符身份运算符运算符优先级接下来让我们一个个来学习的运算符算术运算符以下假设变量变量运算符描述实例加两个对象相加输出结果减得到负数或是一个数减去另一个数输出结果乘两个数相乘或是返回一个被重复若干次的字符串输出结果除除以输出结果取模返回除法的余数输出结果幂返回的次幂为的次方取整除往小的方向取整数以下实例演示了所有算术运算符的操作实例的值为的值为的值为的值为的值为修改变量的值为的值为以上实例输出结果的值为的值为的值为的值为的值为的值为的值为比较运算符以下假设变量为变量为运算符描述实例等于比较对象是否相等返回不等于比较两个对象是否不相等返回大于返回是否大于返回小于返回是否小于所有比较运算符返回表示真返回表示假这分别与特殊的变量和等价注意这些变量名的大写返回大于等于返回是否大于等于返回小于等于返回是否小于等于返回以下实例演示了所有比较运算符的操作实例等于不等于不等于等于小于大于等于大于小于等于修改变量和的值小于等于大于大于等于小于以上实例输出结果不等于不等于大于等于大于小于等于大于等于赋值运算符以下假设变量为变量为运算符描述实例简单的赋值运算符将的运算结果赋值为加法赋值运算符等效于减法赋值运算符等效于乘法赋值运算符等效于除法赋值运算符等效于取模赋值运算符等效于幂赋值运算符等效于取整除赋值运算符等效于海象运算符可在表达式内部为变量赋值版本新增运算符在这个示例中赋值表达式可以避免调用两次以下实例演示了所有赋值运算符的操作实例的值为的值为的值为的值为的值为的值为的值为以上实例输出结果的值为的值为的值为的值为的值为的值为的值为位运算符按位运算符是把数字看作二进制来进行计算的中的按位运算法则如下下表中变量为为二进制格式如下运算符描述实例按位与运算符参与运算的两个值如果两个相应位都为则该位的结果为否则为输出结果二进制解释按位或运算符只要对应的二个二进位有一个为时结果位就为输出结果二进制解释按位异或运算符当两对应的二进位相异时结果为输出结果二进制解释按位取反运算符对数据的每个二进制位取反即把变为把变为类似于输出结果二进制解释在一个有符号二进制数的补码形式左移动运算符运算数的各二进位全部左移若干位由右边的数指定移动的位数高位丢弃低位补输出结果二进制解释右移动运算符把左边的运算数的各二进位全部右移若干位右边的数指定移动的位数输出结果二进制解释以下实例演示了所有位运算符的操作实例的值为的值为的值为的值为的值为的值为以上实例输出结果的值为的值为的值为的值为的值为的值为逻辑运算符语言支持逻辑运算符以下假设变量为为运算符逻辑表达式描述实例布尔与如果为返回的值否则返回的计算值返回布尔或如果是它返回的值否则它返回的计算值返回布尔非如果为返回如果为它返回返回以下实例演示了所有逻辑运算符的操作实例变量和都为变量和有一个不为变量和都为或其中一个变量为变量和都不为修改变量的值变量和都为变量和有一个不为变量和都为或其中一个变量为变量和都不为变量和都为或其中一个变量为变量和都为以上实例输出结果变量和都为变量和都为或其中一个变量为变量和有一个不为变量和都为或其中一个变量为变量和都为或其中一个变量为成员运算符除了以上的一些运算符之外还支持成员运算符测试实例中包含了一系列的成员包括字符串列表或元组运算符描述实例如果在指定的序列中找到值返回否则返回在序列中如果在序列中返回如果在指定的序列中没有找到值返回否则返回不在序列中如果不在序列中返回以下实例演示了所有成员运算符的操作实例变量在给定的列表中中变量不在给定的列表中中变量不在给定的列表中中变量在给定的列表中中修改变量的值变量在给定的列表中中变量不在给定的列表中中以上实例输出结果变量不在给定的列表中中变量不在给定的列表中中变量在给定的列表中中身份运算符身份运算符用于比较两个对象的存储单元运算符描述实例是判断两个标识符是不是引用自一个对象类似如果引用的是同一个对象则返回否则返回是判断两个标识符是不是引用自不同对象类似如果引用的不是同一个对象则返回结果否则返回注函数用于获取对象内存地址以下实例演示了所有身份运算符的操作实例和有相同的标识和没有相同的标识和有相同的标识和没有相同的标识修改变量的值和有相同的标识和没有相同的标识和没有相同的标识和有相同的标识以上实例输出结果和有相同的标识和有相同的标识和没有相同的标识和没有相同的标识与区别用于判断两个变量引用对象是否为同一个用于判断引用变量的值是否相等运算符优先级以下表格列出了从最高到最低优先级的所有运算符相同单元格内的运算符具有相同优先级运算符均指二元运算除非特别指出相同单元格内的运算符从左至右分组除了幂运算是从右至左分组运算符描述圆括号的表达式读取切片调用属性引用表达式乘方指数正负按位非乘矩阵乘除整除取余加和减移位按位与按位异或比较运算包括成员检测和标识号检测逻辑非逻辑与逻辑或条件表达式表达式赋值表达式以下实例演示了所有运算符优先级的操作实例运算结果为运算结果为运算结果为运算结果为以上实例输出结果运算结果为运算结果为运算结果为运算结果为拥有更高优先级实例以上实例先计算并返回然后返回输出结果注意已不支持运算符可以使用代替如果你一定要使用这种比较运算符可以使用以下的方式',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2023-08-24 12:28:34',
+  postMainColor: '',
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#18171d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#f7f9fe')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 8 || hour >= 22
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(e => {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body data-type="anzhiyu"><div id="web_bg"></div><div id="an_music_bg"></div><div id="loading-box" onclick="document.getElementById(&quot;loading-box&quot;).classList.add(&quot;loaded&quot;)"><div class="loading-bg"><img class="loading-img nolazyload" alt="加载头像" src="https://pic.imgdb.cn/item/64e42d1b661c6c8e54a18cd7.png"/><div class="loading-image-dot"></div></div></div><script>const preloader = {
+  endLoading: () => {
+    document.getElementById('loading-box').classList.add("loaded");
+  },
+  initLoading: () => {
+    document.getElementById('loading-box').classList.remove("loaded")
+  }
+}
+window.addEventListener('load',()=> { preloader.endLoading() })
+setTimeout(function(){preloader.endLoading();},10000)
+
+if (true) {
+  document.addEventListener('pjax:send', () => { preloader.initLoading() })
+  document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+}</script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/progress_bar/progress_bar.css"/><script async="async" src="https://cdn.cbd.int/pace-js@1.2.4/pace.min.js" data-pace-options="{ &quot;restartOnRequestAfter&quot;:false,&quot;eventLag&quot;:false}"></script><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><div id="nav-group"><span id="blog_name"><div class="back-home-button"><i class="anzhiyufont anzhiyu-icon-grip-vertical"></i><div class="back-menu-list-groups"><div class="back-menu-list-group"><div class="back-menu-list-title">网页</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://www.486916.xyz/" title="博客"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/favicon.ico" alt="博客"/><span class="back-menu-item-text">博客</span></a></div></div><div class="back-menu-list-group"><div class="back-menu-list-title">项目</div><div class="back-menu-list"><a class="back-menu-item" href="/" title="图床(开发中)"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://image.anheyu.com/favicon.ico" alt="图床(开发中)"/><span class="back-menu-item-text">图床(开发中)</span></a></div></div></div></div><a id="site-name" href="/" accesskey="h"><div class="title">AmeのBlog</div><i class="anzhiyufont anzhiyu-icon-house-chimney"></i></a></span><div class="mask-name-container"><div id="name-container"><a id="page-name" href="javascript:anzhiyu.scrollToDest(0, 500)">PAGE_NAME</a></div></div><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 文章</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><i class="anzhiyufont anzhiyu-icon-box-archive faa-tada" style="font-size: 0.9em;"></i><span> 归档</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><i class="anzhiyufont anzhiyu-icon-shapes faa-tada" style="font-size: 0.9em;"></i><span> 分类</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 我的</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/music/?id=168314790&amp;server=netease"><i class="anzhiyufont anzhiyu-icon-music faa-tada" style="font-size: 0.9em;"></i><span> 音乐馆</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/album/"><i class="anzhiyufont anzhiyu-icon-images faa-tada" style="font-size: 0.9em;"></i><span> 相册集</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 关于</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/about/"><i class="anzhiyufont anzhiyu-icon-paper-plane faa-tada" style="font-size: 0.9em;"></i><span> 关于本人</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/essay/"><i class="anzhiyufont anzhiyu-icon-lightbulb faa-tada" style="font-size: 0.9em;"></i><span> 说说</span></a></li></ul></div></div></div><div id="nav-right"><div class="nav-button" id="randomPost_button"><a class="site-page" onclick="toRandomPost()" title="随机前往一个文章" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-dice"></i></a></div><input id="center-console" type="checkbox"/><label class="widget" for="center-console" title="中控台" onclick="anzhiyu.switchConsole();"><i class="left"></i><i class="widget center"></i><i class="widget right"></i></label><div id="console"><div class="console-card-group-reward"><ul class="reward-all console-card"><li class="reward-item"><a href="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png" target="_blank"><img class="post-qr-code-img" alt="微信" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png" target="_blank"><img class="post-qr-code-img" alt="支付宝" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div><div class="console-card-group"><div class="console-card-group-left"><div class="console-card" id="card-newest-comments"><div class="card-content"><div class="author-content-item-tips">互动</div><span class="author-content-item-title"> <span>最新评论</span></span></div><div class="aside-list"><span>正在加载中...</span></div></div></div><div class="console-card-group-right"><div class="console-card tags"><div class="card-content"><div class="author-content-item-tips">兴趣点</div><span class="author-content-item-title">寻找你感兴趣的领域</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/Hexo/" style="font-size: 1.05rem;">Hexo<sup>1</sup></a><a href="/tags/%E5%8E%9F%E7%A5%9E/" style="font-size: 1.05rem;">原神<sup>1</sup></a></div></div><hr/></div></div><div class="console-card history"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-box-archiv"></i><span>文章</span></div><div class="card-archives"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/08/"><span class="card-archive-list-date">八月 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">5</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/07/"><span class="card-archive-list-date">七月 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">7</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/06/"><span class="card-archive-list-date">六月 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">9</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/05/"><span class="card-archive-list-date">五月 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">7</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/04/"><span class="card-archive-list-date">四月 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">8</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/03/"><span class="card-archive-list-date">三月 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">4</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/02/"><span class="card-archive-list-date">二月 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">4</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/11/"><span class="card-archive-list-date">十一月 2022</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li></ul></div><hr/></div></div></div><div class="button-group"><div class="console-btn-item"><a class="darkmode_switchbutton" onclick="anzhiyu.switchDarkMode()" title="显示模式切换" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-moon"></i></a></div><div class="console-btn-item" id="consoleHideAside" onclick="anzhiyu.hideAsideBtn()" title="边栏显示控制"><a class="asideSwitch"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></a></div><div class="console-btn-item on" id="consoleCommentBarrage" onclick="anzhiyu.switchCommentBarrage()" title="热评开关"><a class="commentBarrage"><i class="anzhiyufont anzhiyu-icon-message"></i></a></div><div class="console-btn-item" id="consoleMusic" onclick="anzhiyu.musicToggle()" title="音乐开关"><a class="music-switch"><i class="anzhiyufont anzhiyu-icon-music"></i></a></div></div><div class="console-mask" onclick="anzhiyu.hideConsole()" href="javascript:void(0);"></div></div><div class="nav-button" id="nav-totop"><a class="totopbtn" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i><span id="percent" onclick="anzhiyu.scrollToDest(0,500)">0</span></a></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" title="切换"><i class="anzhiyufont anzhiyu-icon-bars"></i></a></div></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><div id="post-firstinfo"><div class="meta-firstline"><a class="post-meta-original">原创</a><span class="article-meta tags"></span></div></div><h1 class="post-title" itemprop="name headline">Python3运算符</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="anzhiyufont anzhiyu-icon-calendar-days post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" itemprop="dateCreated datePublished" datetime="2023-06-03T12:28:56.000Z" title="发表于 2023-06-03 20:28:56">2023-06-03</time><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-history post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" itemprop="dateCreated datePublished" datetime="2023-08-24T04:28:34.636Z" title="更新于 2023-08-24 12:28:34">2023-08-24</time></span></div><div class="meta-secondline"><span class="post-meta-separator"></span><span class="post-meta-wordcount"><i class="anzhiyufont anzhiyu-icon-file-word post-meta-icon" title="文章字数"></i><span class="post-meta-label" title="文章字数">字数总计:</span><span class="word-count" title="文章字数">3.5k</span><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-clock post-meta-icon" title="阅读时长"></i><span class="post-meta-label" title="阅读时长">阅读时长:</span><span>14分钟</span></span><span class="post-meta-separator">       </span><span class="post-meta-position" title="作者IP属地为成都"><i class="anzhiyufont anzhiyu-icon-location-dot"></i>成都</span></div></div></div><article class="post-content" id="article-container" itemscope itemtype="http://486916.xyz/2023/06/03/Python3%E8%BF%90%E7%AE%97%E7%AC%A6/"><header><h1 id="CrawlerTitle" itemprop="name headline">Python3运算符</h1><span itemprop="author" itemscope itemtype="http://schema.org/Person">Ame</span><time itemprop="dateCreated datePublished" datetime="2023-06-03T12:28:56.000Z" title="发表于 2023-06-03 20:28:56">2023-06-03</time><time itemprop="dateCreated datePublished" datetime="2023-08-24T04:28:34.636Z" title="更新于 2023-08-24 12:28:34">2023-08-24</time></header><p><strong>笔记</strong></p>
+<span id="more"></span>
+
+<h1 id="Python3-运算符"><a href="#Python3-运算符" class="headerlink" title="Python3 运算符"></a>Python3 运算符</h1><hr>
+<h2 id="什么是运算符？"><a href="#什么是运算符？" class="headerlink" title="什么是运算符？"></a>什么是运算符？</h2><p>本章节主要说明 Python 的运算符。</p>
+<p>举个简单的例子:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">4 + 5 = 9</span><br></pre></td></tr></table></figure>
+
+<p>例子中，<strong>4</strong> 和 <strong>5</strong> 被称为<strong>操作数</strong>，**+** 称为<strong>运算符</strong>。</p>
+<p>Python 语言支持以下类型的运算符:</p>
+<ul>
+<li>算术运算符</li>
+<li>比较（关系）运算符</li>
+<li>赋值运算符</li>
+<li>逻辑运算符</li>
+<li>位运算符</li>
+<li>成员运算符</li>
+<li>身份运算符</li>
+<li>运算符优先级</li>
+</ul>
+<p>接下来让我们一个个来学习Python的运算符。</p>
+<hr>
+<h2 id="Python算术运算符"><a href="#Python算术运算符" class="headerlink" title="Python算术运算符"></a>Python算术运算符</h2><p>以下假设变量 <strong>a&#x3D;10</strong>，变量 <strong>b&#x3D;21</strong>：</p>
+<table>
+<thead>
+<tr>
+<th align="left">运算符</th>
+<th align="left">描述</th>
+<th align="left">实例</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">+</td>
+<td align="left">加 - 两个对象相加</td>
+<td align="left">a + b 输出结果 31</td>
+</tr>
+<tr>
+<td align="left">-</td>
+<td align="left">减 - 得到负数或是一个数减去另一个数</td>
+<td align="left">a - b 输出结果 -11</td>
+</tr>
+<tr>
+<td align="left">*</td>
+<td align="left">乘 - 两个数相乘或是返回一个被重复若干次的字符串</td>
+<td align="left">a * b 输出结果 210</td>
+</tr>
+<tr>
+<td align="left">&#x2F;</td>
+<td align="left">除 - x 除以 y</td>
+<td align="left">b &#x2F; a 输出结果 2.1</td>
+</tr>
+<tr>
+<td align="left">%</td>
+<td align="left">取模 - 返回除法的余数</td>
+<td align="left">b % a 输出结果 1</td>
+</tr>
+<tr>
+<td align="left">**</td>
+<td align="left">幂 - 返回x的y次幂</td>
+<td align="left">a**b 为10的21次方</td>
+</tr>
+<tr>
+<td align="left">&#x2F;&#x2F;</td>
+<td align="left">取整除 - 往小的方向取整数</td>
+<td align="left"><code>&gt;&gt;&gt; 9//2 4 &gt;&gt;&gt; -9//2 -5</code></td>
+</tr>
+</tbody></table>
+<p>以下实例演示了Python所有算术运算符的操作：</p>
+<p><strong>实例</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">a = 21</span><br><span class="line">b = 10</span><br><span class="line">c = 0</span><br><span class="line"> </span><br><span class="line">c = a + b</span><br><span class="line">print (&quot;1 - c 的值为：&quot;, c)</span><br><span class="line"> </span><br><span class="line">c = a - b</span><br><span class="line">print (&quot;2 - c 的值为：&quot;, c)</span><br><span class="line"> </span><br><span class="line">c = a * b</span><br><span class="line">print (&quot;3 - c 的值为：&quot;, c)</span><br><span class="line"> </span><br><span class="line">c = a / b</span><br><span class="line">print (&quot;4 - c 的值为：&quot;, c)</span><br><span class="line"> </span><br><span class="line">c = a % b</span><br><span class="line">print (&quot;5 - c 的值为：&quot;, c)</span><br><span class="line"> </span><br><span class="line"># 修改变量 a 、b 、c</span><br><span class="line">a = 2</span><br><span class="line">b = 3</span><br><span class="line">c = a**b </span><br><span class="line">print (&quot;6 - c 的值为：&quot;, c)</span><br><span class="line"> </span><br><span class="line">a = 10</span><br><span class="line">b = 5</span><br><span class="line">c = a//b </span><br><span class="line">print (&quot;7 - c 的值为：&quot;, c)</span><br></pre></td></tr></table></figure>
+
+<p>以上实例输出结果：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">1 - c 的值为： 31</span><br><span class="line">2 - c 的值为： 11</span><br><span class="line">3 - c 的值为： 210</span><br><span class="line">4 - c 的值为： 2.1</span><br><span class="line">5 - c 的值为： 1</span><br><span class="line">6 - c 的值为： 8</span><br><span class="line">7 - c 的值为： 2</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="Python比较运算符"><a href="#Python比较运算符" class="headerlink" title="Python比较运算符"></a>Python比较运算符</h2><p>以下假设变量a为10，变量b为20：</p>
+<table>
+<thead>
+<tr>
+<th align="left">运算符</th>
+<th align="left">描述</th>
+<th align="left">实例</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">&#x3D;&#x3D;</td>
+<td align="left">等于 - 比较对象是否相等</td>
+<td align="left">(a &#x3D;&#x3D; b) 返回 False。</td>
+</tr>
+<tr>
+<td align="left">!&#x3D;</td>
+<td align="left">不等于 - 比较两个对象是否不相等</td>
+<td align="left">(a !&#x3D; b) 返回 True。</td>
+</tr>
+<tr>
+<td align="left">&gt;</td>
+<td align="left">大于 - 返回x是否大于y</td>
+<td align="left">(a &gt; b) 返回 False。</td>
+</tr>
+<tr>
+<td align="left">&lt;</td>
+<td align="left">小于 - 返回x是否小于y。所有比较运算符返回1表示真，返回0表示假。这分别与特殊的变量True和False等价。注意，这些变量名的大写。</td>
+<td align="left">(a &lt; b) 返回 True。</td>
+</tr>
+<tr>
+<td align="left">&gt;&#x3D;</td>
+<td align="left">大于等于 - 返回x是否大于等于y。</td>
+<td align="left">(a &gt;&#x3D; b) 返回 False。</td>
+</tr>
+<tr>
+<td align="left">&lt;&#x3D;</td>
+<td align="left">小于等于 - 返回x是否小于等于y。</td>
+<td align="left">(a &lt;&#x3D; b) 返回 True。</td>
+</tr>
+</tbody></table>
+<p>以下实例演示了Python所有比较运算符的操作：</p>
+<p><strong>实例</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line">a = 21</span><br><span class="line">b = 10</span><br><span class="line">c = 0</span><br><span class="line"> </span><br><span class="line">if ( a == b ):</span><br><span class="line">   print (&quot;1 - a 等于 b&quot;)</span><br><span class="line">else:</span><br><span class="line">   print (&quot;1 - a 不等于 b&quot;)</span><br><span class="line"> </span><br><span class="line">if ( a != b ):</span><br><span class="line">   print (&quot;2 - a 不等于 b&quot;)</span><br><span class="line">else:</span><br><span class="line">   print (&quot;2 - a 等于 b&quot;)</span><br><span class="line"> </span><br><span class="line">if ( a &lt; b ):</span><br><span class="line">   print (&quot;3 - a 小于 b&quot;)</span><br><span class="line">else:</span><br><span class="line">   print (&quot;3 - a 大于等于 b&quot;)</span><br><span class="line"> </span><br><span class="line">if ( a &gt; b ):</span><br><span class="line">   print (&quot;4 - a 大于 b&quot;)</span><br><span class="line">else:</span><br><span class="line">   print (&quot;4 - a 小于等于 b&quot;)</span><br><span class="line"> </span><br><span class="line"># 修改变量 a 和 b 的值</span><br><span class="line">a = 5</span><br><span class="line">b = 20</span><br><span class="line">if ( a &lt;= b ):</span><br><span class="line">   print (&quot;5 - a 小于等于 b&quot;)</span><br><span class="line">else:</span><br><span class="line">   print (&quot;5 - a 大于  b&quot;)</span><br><span class="line"> </span><br><span class="line">if ( b &gt;= a ):</span><br><span class="line">   print (&quot;6 - b 大于等于 a&quot;)</span><br><span class="line">else:</span><br><span class="line">   print (&quot;6 - b 小于 a&quot;)</span><br></pre></td></tr></table></figure>
+
+<p>以上实例输出结果：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">1 - a 不等于 b</span><br><span class="line">2 - a 不等于 b</span><br><span class="line">3 - a 大于等于 b</span><br><span class="line">4 - a 大于 b</span><br><span class="line">5 - a 小于等于 b</span><br><span class="line">6 - b 大于等于 a</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="Python赋值运算符"><a href="#Python赋值运算符" class="headerlink" title="Python赋值运算符"></a>Python赋值运算符</h2><p>以下假设变量a为10，变量b为20：</p>
+<table>
+<thead>
+<tr>
+<th align="left">运算符</th>
+<th align="left">描述</th>
+<th align="left">实例</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">&#x3D;</td>
+<td align="left">简单的赋值运算符</td>
+<td align="left">c &#x3D; a + b 将 a + b 的运算结果赋值为 c</td>
+</tr>
+<tr>
+<td align="left">+&#x3D;</td>
+<td align="left">加法赋值运算符</td>
+<td align="left">c +&#x3D; a 等效于 c &#x3D; c + a</td>
+</tr>
+<tr>
+<td align="left">-&#x3D;</td>
+<td align="left">减法赋值运算符</td>
+<td align="left">c -&#x3D; a 等效于 c &#x3D; c - a</td>
+</tr>
+<tr>
+<td align="left">*&#x3D;</td>
+<td align="left">乘法赋值运算符</td>
+<td align="left">c *&#x3D; a 等效于 c &#x3D; c * a</td>
+</tr>
+<tr>
+<td align="left">&#x2F;&#x3D;</td>
+<td align="left">除法赋值运算符</td>
+<td align="left">c &#x2F;&#x3D; a 等效于 c &#x3D; c &#x2F; a</td>
+</tr>
+<tr>
+<td align="left">%&#x3D;</td>
+<td align="left">取模赋值运算符</td>
+<td align="left">c %&#x3D; a 等效于 c &#x3D; c % a</td>
+</tr>
+<tr>
+<td align="left">**&#x3D;</td>
+<td align="left">幂赋值运算符</td>
+<td align="left">c **&#x3D; a 等效于 c &#x3D; c ** a</td>
+</tr>
+<tr>
+<td align="left">&#x2F;&#x2F;&#x3D;</td>
+<td align="left">取整除赋值运算符</td>
+<td align="left">c &#x2F;&#x2F;&#x3D; a 等效于 c &#x3D; c &#x2F;&#x2F; a</td>
+</tr>
+<tr>
+<td align="left">:&#x3D;</td>
+<td align="left">海象运算符，可在表达式内部为变量赋值。<strong>Python3.8 版本新增运算符</strong>。</td>
+<td align="left">在这个示例中，赋值表达式可以避免调用 len() 两次:<code>if (n := len(a)) &gt; 10:    print(f&quot;List is too long (&#123;n&#125; elements, expected &lt;= 10)&quot;)</code></td>
+</tr>
+</tbody></table>
+<p>以下实例演示了Python所有赋值运算符的操作：</p>
+<p><strong>实例</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">a = 21</span><br><span class="line">b = 10</span><br><span class="line">c = 0</span><br><span class="line"> </span><br><span class="line">c = a + b</span><br><span class="line">print (&quot;1 - c 的值为：&quot;, c)</span><br><span class="line"> </span><br><span class="line">c += a</span><br><span class="line">print (&quot;2 - c 的值为：&quot;, c)</span><br><span class="line"> </span><br><span class="line">c *= a</span><br><span class="line">print (&quot;3 - c 的值为：&quot;, c)</span><br><span class="line"> </span><br><span class="line">c /= a </span><br><span class="line">print (&quot;4 - c 的值为：&quot;, c)</span><br><span class="line"> </span><br><span class="line">c = 2</span><br><span class="line">c %= a</span><br><span class="line">print (&quot;5 - c 的值为：&quot;, c)</span><br><span class="line"> </span><br><span class="line">c **= a</span><br><span class="line">print (&quot;6 - c 的值为：&quot;, c)</span><br><span class="line"> </span><br><span class="line">c //= a</span><br><span class="line">print (&quot;7 - c 的值为：&quot;, c)</span><br></pre></td></tr></table></figure>
+
+<p>以上实例输出结果：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">1 - c 的值为： 31</span><br><span class="line">2 - c 的值为： 52</span><br><span class="line">3 - c 的值为： 1092</span><br><span class="line">4 - c 的值为： 52.0</span><br><span class="line">5 - c 的值为： 2</span><br><span class="line">6 - c 的值为： 2097152</span><br><span class="line">7 - c 的值为： 99864</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="Python位运算符"><a href="#Python位运算符" class="headerlink" title="Python位运算符"></a>Python位运算符</h2><p>按位运算符是把数字看作二进制来进行计算的。Python中的按位运算法则如下：</p>
+<p>下表中变量 a 为 60，b 为 13二进制格式如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">a = 0011 1100</span><br><span class="line"></span><br><span class="line">b = 0000 1101</span><br><span class="line"></span><br><span class="line">-----------------</span><br><span class="line"></span><br><span class="line">a&amp;b = 0000 1100</span><br><span class="line"></span><br><span class="line">a|b = 0011 1101</span><br><span class="line"></span><br><span class="line">a^b = 0011 0001</span><br><span class="line"></span><br><span class="line">~a  = 1100 0011</span><br></pre></td></tr></table></figure>
+
+<table>
+<thead>
+<tr>
+<th align="left">运算符</th>
+<th align="left">描述</th>
+<th align="left">实例</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">&amp;</td>
+<td align="left">按位与运算符：参与运算的两个值,如果两个相应位都为1,则该位的结果为1,否则为0</td>
+<td align="left">(a &amp; b) 输出结果 12 ，二进制解释： 0000 1100</td>
+</tr>
+<tr>
+<td align="left">|</td>
+<td align="left">按位或运算符：只要对应的二个二进位有一个为1时，结果位就为1。</td>
+<td align="left">(a | b) 输出结果 61 ，二进制解释： 0011 1101</td>
+</tr>
+<tr>
+<td align="left">^</td>
+<td align="left">按位异或运算符：当两对应的二进位相异时，结果为1</td>
+<td align="left">(a ^ b) 输出结果 49 ，二进制解释： 0011 0001</td>
+</tr>
+<tr>
+<td align="left">~</td>
+<td align="left">按位取反运算符：对数据的每个二进制位取反,即把1变为0,把0变为1。**~x** 类似于 <strong>-x-1</strong></td>
+<td align="left">(~a ) 输出结果 -61 ，二进制解释： 1100 0011， 在一个有符号二进制数的补码形式。</td>
+</tr>
+<tr>
+<td align="left">&lt;&lt;</td>
+<td align="left">左移动运算符：运算数的各二进位全部左移若干位，由”&lt;&lt;”右边的数指定移动的位数，高位丢弃，低位补0。</td>
+<td align="left">a &lt;&lt; 2 输出结果 240 ，二进制解释： 1111 0000</td>
+</tr>
+<tr>
+<td align="left">&gt;&gt;</td>
+<td align="left">右移动运算符：把”&gt;&gt;”左边的运算数的各二进位全部右移若干位，”&gt;&gt;”右边的数指定移动的位数</td>
+<td align="left">a &gt;&gt; 2 输出结果 15 ，二进制解释： 0000 1111</td>
+</tr>
+</tbody></table>
+<p>以下实例演示了Python所有位运算符的操作：</p>
+<p><strong>实例</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">a = 60            # 60 = 0011 1100 </span><br><span class="line">b = 13            # 13 = 0000 1101 </span><br><span class="line">c = 0</span><br><span class="line"> </span><br><span class="line">c = a &amp; b        # 12 = 0000 1100</span><br><span class="line">print (&quot;1 - c 的值为：&quot;, c)</span><br><span class="line"> </span><br><span class="line">c = a | b        # 61 = 0011 1101 </span><br><span class="line">print (&quot;2 - c 的值为：&quot;, c)</span><br><span class="line"> </span><br><span class="line">c = a ^ b        # 49 = 0011 0001</span><br><span class="line">print (&quot;3 - c 的值为：&quot;, c)</span><br><span class="line"> </span><br><span class="line">c = ~a           # -61 = 1100 0011</span><br><span class="line">print (&quot;4 - c 的值为：&quot;, c)</span><br><span class="line"> </span><br><span class="line">c = a &lt;&lt; 2       # 240 = 1111 0000</span><br><span class="line">print (&quot;5 - c 的值为：&quot;, c)</span><br><span class="line"> </span><br><span class="line">c = a &gt;&gt; 2       # 15 = 0000 1111</span><br><span class="line">print (&quot;6 - c 的值为：&quot;, c)</span><br></pre></td></tr></table></figure>
+
+<p>以上实例输出结果：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">1 - c 的值为： 12</span><br><span class="line">2 - c 的值为： 61</span><br><span class="line">3 - c 的值为： 49</span><br><span class="line">4 - c 的值为： -61</span><br><span class="line">5 - c 的值为： 240</span><br><span class="line">6 - c 的值为： 15</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="Python逻辑运算符"><a href="#Python逻辑运算符" class="headerlink" title="Python逻辑运算符"></a>Python逻辑运算符</h2><p>Python语言支持逻辑运算符，以下假设变量 a 为 10, b为 20:</p>
+<table>
+<thead>
+<tr>
+<th align="left">运算符</th>
+<th align="left">逻辑表达式</th>
+<th align="left">描述</th>
+<th align="left">实例</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">and</td>
+<td align="left">x and y</td>
+<td align="left">布尔”与” - 如果 x 为 False，x and y 返回 x 的值，否则返回 y 的计算值。</td>
+<td align="left">(a and b) 返回 20。</td>
+</tr>
+<tr>
+<td align="left">or</td>
+<td align="left">x or y</td>
+<td align="left">布尔”或” - 如果 x 是 True，它返回 x 的值，否则它返回 y 的计算值。</td>
+<td align="left">(a or b) 返回 10。</td>
+</tr>
+<tr>
+<td align="left">not</td>
+<td align="left">not x</td>
+<td align="left">布尔”非” - 如果 x 为 True，返回 False 。如果 x 为 False，它返回 True。</td>
+<td align="left">not(a and b) 返回 False</td>
+</tr>
+</tbody></table>
+<p>以下实例演示了Python所有逻辑运算符的操作：</p>
+<p><strong>实例</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">a = 10</span><br><span class="line">b = 20</span><br><span class="line"> </span><br><span class="line">if ( a and b ):</span><br><span class="line">   print (&quot;1 - 变量 a 和 b 都为 true&quot;)</span><br><span class="line">else:</span><br><span class="line">   print (&quot;1 - 变量 a 和 b 有一个不为 true&quot;)</span><br><span class="line"> </span><br><span class="line">if ( a or b ):</span><br><span class="line">   print (&quot;2 - 变量 a 和 b 都为 true，或其中一个变量为 true&quot;)</span><br><span class="line">else:</span><br><span class="line">   print (&quot;2 - 变量 a 和 b 都不为 true&quot;)</span><br><span class="line"> </span><br><span class="line"># 修改变量 a 的值</span><br><span class="line">a = 0</span><br><span class="line">if ( a and b ):</span><br><span class="line">   print (&quot;3 - 变量 a 和 b 都为 true&quot;)</span><br><span class="line">else:</span><br><span class="line">   print (&quot;3 - 变量 a 和 b 有一个不为 true&quot;)</span><br><span class="line"> </span><br><span class="line">if ( a or b ):</span><br><span class="line">   print (&quot;4 - 变量 a 和 b 都为 true，或其中一个变量为 true&quot;)</span><br><span class="line">else:</span><br><span class="line">   print (&quot;4 - 变量 a 和 b 都不为 true&quot;)</span><br><span class="line"> </span><br><span class="line">if not( a and b ):</span><br><span class="line">   print (&quot;5 - 变量 a 和 b 都为 false，或其中一个变量为 false&quot;)</span><br><span class="line">else:</span><br><span class="line">   print (&quot;5 - 变量 a 和 b 都为 true&quot;)</span><br></pre></td></tr></table></figure>
+
+<p>以上实例输出结果：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">1 - 变量 a 和 b 都为 true</span><br><span class="line">2 - 变量 a 和 b 都为 true，或其中一个变量为 true</span><br><span class="line">3 - 变量 a 和 b 有一个不为 true</span><br><span class="line">4 - 变量 a 和 b 都为 true，或其中一个变量为 true</span><br><span class="line">5 - 变量 a 和 b 都为 false，或其中一个变量为 false</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="Python成员运算符"><a href="#Python成员运算符" class="headerlink" title="Python成员运算符"></a>Python成员运算符</h2><p>除了以上的一些运算符之外，Python还支持成员运算符，测试实例中包含了一系列的成员，包括字符串，列表或元组。</p>
+<table>
+<thead>
+<tr>
+<th align="left">运算符</th>
+<th align="left">描述</th>
+<th align="left">实例</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">in</td>
+<td align="left">如果在指定的序列中找到值返回 True，否则返回 False。</td>
+<td align="left">x 在 y 序列中 , 如果 x 在 y 序列中返回 True。</td>
+</tr>
+<tr>
+<td align="left">not in</td>
+<td align="left">如果在指定的序列中没有找到值返回 True，否则返回 False。</td>
+<td align="left">x 不在 y 序列中 , 如果 x 不在 y 序列中返回 True。</td>
+</tr>
+</tbody></table>
+<p>以下实例演示了Python所有成员运算符的操作：</p>
+<p><strong>实例</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">#!/usr/bin/python3</span><br><span class="line"> </span><br><span class="line">a = 10</span><br><span class="line">b = 20</span><br><span class="line">list = [1, 2, 3, 4, 5 ]</span><br><span class="line"> </span><br><span class="line">if ( a in list ):</span><br><span class="line">   print (&quot;1 - 变量 a 在给定的列表中 list 中&quot;)</span><br><span class="line">else:</span><br><span class="line">   print (&quot;1 - 变量 a 不在给定的列表中 list 中&quot;)</span><br><span class="line"> </span><br><span class="line">if ( b not in list ):</span><br><span class="line">   print (&quot;2 - 变量 b 不在给定的列表中 list 中&quot;)</span><br><span class="line">else:</span><br><span class="line">   print (&quot;2 - 变量 b 在给定的列表中 list 中&quot;)</span><br><span class="line"> </span><br><span class="line"># 修改变量 a 的值</span><br><span class="line">a = 2</span><br><span class="line">if ( a in list ):</span><br><span class="line">   print (&quot;3 - 变量 a 在给定的列表中 list 中&quot;)</span><br><span class="line">else:</span><br><span class="line">   print (&quot;3 - 变量 a 不在给定的列表中 list 中&quot;)</span><br></pre></td></tr></table></figure>
+
+<p>以上实例输出结果：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1 - 变量 a 不在给定的列表中 list 中</span><br><span class="line">2 - 变量 b 不在给定的列表中 list 中</span><br><span class="line">3 - 变量 a 在给定的列表中 list 中</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="Python身份运算符"><a href="#Python身份运算符" class="headerlink" title="Python身份运算符"></a>Python身份运算符</h2><p>身份运算符用于比较两个对象的存储单元</p>
+<table>
+<thead>
+<tr>
+<th align="left">运算符</th>
+<th align="left">描述</th>
+<th align="left">实例</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">is</td>
+<td align="left">is 是判断两个标识符是不是引用自一个对象</td>
+<td align="left"><strong>x is y</strong>, 类似 <strong>id(x) &#x3D;&#x3D; id(y)</strong> , 如果引用的是同一个对象则返回 True，否则返回 False</td>
+</tr>
+<tr>
+<td align="left">is not</td>
+<td align="left">is not 是判断两个标识符是不是引用自不同对象</td>
+<td align="left"><strong>x is not y</strong> ， 类似 **id(x) !&#x3D; id(y)**。如果引用的不是同一个对象则返回结果 True，否则返回 False。</td>
+</tr>
+</tbody></table>
+<p><strong>注：</strong> <code>id()</code>函数用于获取对象内存地址。</p>
+<p>以下实例演示了Python所有身份运算符的操作：</p>
+<p><strong>实例</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">a = 20</span><br><span class="line">b = 20</span><br><span class="line"> </span><br><span class="line">if ( a is b ):</span><br><span class="line">   print (&quot;1 - a 和 b 有相同的标识&quot;)</span><br><span class="line">else:</span><br><span class="line">   print (&quot;1 - a 和 b 没有相同的标识&quot;)</span><br><span class="line"> </span><br><span class="line">if ( id(a) == id(b) ):</span><br><span class="line">   print (&quot;2 - a 和 b 有相同的标识&quot;)</span><br><span class="line">else:</span><br><span class="line">   print (&quot;2 - a 和 b 没有相同的标识&quot;)</span><br><span class="line"> </span><br><span class="line"># 修改变量 b 的值</span><br><span class="line">b = 30</span><br><span class="line">if ( a is b ):</span><br><span class="line">   print (&quot;3 - a 和 b 有相同的标识&quot;)</span><br><span class="line">else:</span><br><span class="line">   print (&quot;3 - a 和 b 没有相同的标识&quot;)</span><br><span class="line"> </span><br><span class="line">if ( a is not b ):</span><br><span class="line">   print (&quot;4 - a 和 b 没有相同的标识&quot;)</span><br><span class="line">else:</span><br><span class="line">   print (&quot;4 - a 和 b 有相同的标识&quot;)</span><br></pre></td></tr></table></figure>
+
+<p>以上实例输出结果：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">1 - a 和 b 有相同的标识</span><br><span class="line">2 - a 和 b 有相同的标识</span><br><span class="line">3 - a 和 b 没有相同的标识</span><br><span class="line">4 - a 和 b 没有相同的标识</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>is 与 &#x3D;&#x3D; 区别：</p>
+<p>is 用于判断两个变量引用对象是否为同一个， &#x3D;&#x3D; 用于判断引用变量的值是否相等。</p>
+<p>&gt;&gt;&gt;a &#x3D; [1, 2, 3] &gt;&gt;&gt; b &#x3D; a &gt;&gt;&gt; b is a  True &gt;&gt;&gt; b &#x3D;&#x3D; a True &gt;&gt;&gt; b &#x3D; a[:] &gt;&gt;&gt; b is a False &gt;&gt;&gt; b &#x3D;&#x3D; a True</p>
+</blockquote>
+<hr>
+<h2 id="Python运算符优先级"><a href="#Python运算符优先级" class="headerlink" title="Python运算符优先级"></a>Python运算符优先级</h2><p>以下表格列出了从最高到最低优先级的所有运算符， 相同单元格内的运算符具有相同优先级。 运算符均指二元运算，除非特别指出。 相同单元格内的运算符从左至右分组（除了幂运算是从右至左分组）：</p>
+<table>
+<thead>
+<tr>
+<th align="left">运算符</th>
+<th align="left">描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><code>(expressions...)</code>,<code>[expressions...]</code>, <code>&#123;key: value...&#125;</code>, <code>&#123;expressions...&#125;</code></td>
+<td align="left">圆括号的表达式</td>
+</tr>
+<tr>
+<td align="left"><code>x[index]</code>, <code>x[index:index]</code>, <code>x(arguments...)</code>, <code>x.attribute</code></td>
+<td align="left">读取，切片，调用，属性引用</td>
+</tr>
+<tr>
+<td align="left">await x</td>
+<td align="left">await 表达式</td>
+</tr>
+<tr>
+<td align="left"><code>**</code></td>
+<td align="left">乘方(指数)</td>
+</tr>
+<tr>
+<td align="left"><code>+x</code>, <code>-x</code>, <code>~x</code></td>
+<td align="left">正，负，按位非 NOT</td>
+</tr>
+<tr>
+<td align="left"><code>*</code>, <code>@</code>, <code>/</code>, <code>//</code>, <code>%</code></td>
+<td align="left">乘，矩阵乘，除，整除，取余</td>
+</tr>
+<tr>
+<td align="left"><code>+</code>, <code>-</code></td>
+<td align="left">加和减</td>
+</tr>
+<tr>
+<td align="left"><code>&lt;&lt;</code>, <code>&gt;&gt;</code></td>
+<td align="left">移位</td>
+</tr>
+<tr>
+<td align="left"><code>&amp;</code></td>
+<td align="left">按位与 AND</td>
+</tr>
+<tr>
+<td align="left"><code>^</code></td>
+<td align="left">按位异或 XOR</td>
+</tr>
+<tr>
+<td align="left">&#96;</td>
+<td align="left">&#96;</td>
+</tr>
+<tr>
+<td align="left"><code>in,not in, is,is not, &lt;, &lt;=, &gt;, &gt;=, !=, ==</code></td>
+<td align="left">比较运算，包括成员检测和标识号检测</td>
+</tr>
+<tr>
+<td align="left"><code>not x</code></td>
+<td align="left">逻辑非 NOT</td>
+</tr>
+<tr>
+<td align="left"><code>and</code></td>
+<td align="left">逻辑与 AND</td>
+</tr>
+<tr>
+<td align="left"><code>or</code></td>
+<td align="left">逻辑或 OR</td>
+</tr>
+<tr>
+<td align="left"><code>if -- else</code></td>
+<td align="left">条件表达式</td>
+</tr>
+<tr>
+<td align="left"><code>lambda</code></td>
+<td align="left">lambda 表达式</td>
+</tr>
+<tr>
+<td align="left"><code>:=</code></td>
+<td align="left">赋值表达式</td>
+</tr>
+</tbody></table>
+<p>以下实例演示了Python所有运算符优先级的操作：</p>
+<p><strong>实例</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">a = 20</span><br><span class="line">b = 10</span><br><span class="line">c = 15</span><br><span class="line">d = 5</span><br><span class="line">e = 0</span><br><span class="line"> </span><br><span class="line">e = (a + b) * c / d       #( 30 * 15 ) / 5</span><br><span class="line">print (&quot;(a + b) * c / d 运算结果为：&quot;,  e)</span><br><span class="line"> </span><br><span class="line">e = ((a + b) * c) / d     # (30 * 15 ) / 5</span><br><span class="line">print (&quot;((a + b) * c) / d 运算结果为：&quot;,  e)</span><br><span class="line"> </span><br><span class="line">e = (a + b) * (c / d)    # (30) * (15/5)</span><br><span class="line">print (&quot;(a + b) * (c / d) 运算结果为：&quot;,  e)</span><br><span class="line"> </span><br><span class="line">e = a + (b * c) / d      #  20 + (150/5)</span><br><span class="line">print (&quot;a + (b * c) / d 运算结果为：&quot;,  e)</span><br></pre></td></tr></table></figure>
+
+<p>以上实例输出结果：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">(a + b) * c / d 运算结果为： 90.0</span><br><span class="line">((a + b) * c) / d 运算结果为： 90.0</span><br><span class="line">(a + b) * (c / d) 运算结果为： 90.0</span><br><span class="line">a + (b * c) / d 运算结果为： 50.0</span><br></pre></td></tr></table></figure>
+
+<p>and 拥有更高优先级:</p>
+<p><strong>实例</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">x = True</span><br><span class="line">y = False</span><br><span class="line">z = False</span><br><span class="line"> </span><br><span class="line">if x or y and z:</span><br><span class="line">    print(&quot;yes&quot;)</span><br><span class="line">else:</span><br><span class="line">    print(&quot;no&quot;)</span><br></pre></td></tr></table></figure>
+
+<p>以上实例先计算 <strong>y and z</strong> 并返回 False ，然后 <strong>x or False</strong> 返回 True，输出结果：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yes</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p><strong>注意：</strong>Python3 已不支持 <strong>&lt;&gt;</strong> 运算符，可以使用 <strong>!&#x3D;</strong> 代替，如果你一定要使用这种比较运算符，可以使用以下的方式：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; from __future__ import barry_as_FLUFL</span><br><span class="line">&gt;&gt;&gt; 1 &lt;&gt; 2</span><br><span class="line">True</span><br></pre></td></tr></table></figure>
+</blockquote>
+</article><div class="post-copyright"><div class="copyright-cc-box"><i class="anzhiyufont anzhiyu-icon-copyright"></i></div><div class="post-copyright__author_box"><a class="post-copyright__author_img" href="/" title="头像"><img class="post-copyright__author_img_back" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic.imgdb.cn/item/64e42d1b661c6c8e54a18cd7.png" title="头像" alt="头像"><img class="post-copyright__author_img_front" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic.imgdb.cn/item/64e42d1b661c6c8e54a18cd7.png" title="头像" alt="头像"></a><div class="post-copyright__author_name">Ame</div><div class="post-copyright__author_desc"></div></div><div class="post-copyright__post__info"><a class="post-copyright__original" title="该文章为原创文章，注意版权协议" href="http://486916.xyz/2023/06/03/Python3%E8%BF%90%E7%AE%97%E7%AC%A6/">原创</a><a class="post-copyright-title"><span onclick="rm.copyPageUrl('http://486916.xyz/2023/06/03/Python3%E8%BF%90%E7%AE%97%E7%AC%A6/')">Python3运算符</span></a></div><div class="post-tools" id="post-tools"><div class="post-tools-left"><div class="rewardLeftButton"></div><div class="shareRight"><div class="share-link mobile"><div class="share-qrcode"><div class="share-button" title="使用手机访问这篇文章"><i class="anzhiyufont anzhiyu-icon-qrcode"></i></div><div class="share-main"><div class="share-main-all"><div id="qrcode" title="http://486916.xyz/2023/06/03/Python3%E8%BF%90%E7%AE%97%E7%AC%A6/"></div><div class="reward-dec">使用手机访问这篇文章</div></div></div></div></div></div></div></div><div class="post-copyright__notice"><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://486916.xyz" target="_blank">AmeのBlog</a>！</span></div></div><div class="post-tools-right"><div class="tag_share"><div class="post-meta__box"><div class="post-meta__box__tag-list"></div></div></div><div class="post_share"><div class="social-share" data-image="https://pic.imgdb.cn/item/64e6e9dc661c6c8e5488b530.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.cbd.int/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"/><script src="https://cdn.cbd.int/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer="defer"></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2023/06/03/Python3%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2/"><img class="prev-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic.imgdb.cn/item/64e6d0f7661c6c8e54746df9.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Python3数据类型转换</div></div></a></div><div class="next-post pull-right"><a href="/2023/06/03/Python3%E6%95%B0%E5%AD%97/"><img class="next-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic.imgdb.cn/item/64e6d0f7661c6c8e54746df9.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Python3数字、字符串</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-content"><div class="author-info__sayhi" id="author-info__sayhi" onclick="anzhiyu.changeSayHelloText()"></div><div class="author-info-avatar" title="点击展开"><img class="avatar-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic.imgdb.cn/item/64e42d1b661c6c8e54a18cd7.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__description"></div><div class="author-info__bottom-group"><a class="author-info__bottom-group-left" href="/"><h1 class="author-info__name">Ame</h1><div class="author-info__desc"></div></a><div class="card-info-social-icons is-center"><a class="social-icon faa-parent animated-hover" href="https://github.com/yousaforever" target="_blank" title="Github"><i class="anzhiyufont anzhiyu-icon-github"></i></a></div></div></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-bars"></i><span>文章目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Python3-%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-number">1.</span> <span class="toc-text">Python3 运算符</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF%E8%BF%90%E7%AE%97%E7%AC%A6%EF%BC%9F"><span class="toc-number">1.1.</span> <span class="toc-text">什么是运算符？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Python%E7%AE%97%E6%9C%AF%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-number">1.2.</span> <span class="toc-text">Python算术运算符</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Python%E6%AF%94%E8%BE%83%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-number">1.3.</span> <span class="toc-text">Python比较运算符</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Python%E8%B5%8B%E5%80%BC%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-number">1.4.</span> <span class="toc-text">Python赋值运算符</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Python%E4%BD%8D%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-number">1.5.</span> <span class="toc-text">Python位运算符</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Python%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-number">1.6.</span> <span class="toc-text">Python逻辑运算符</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Python%E6%88%90%E5%91%98%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-number">1.7.</span> <span class="toc-text">Python成员运算符</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Python%E8%BA%AB%E4%BB%BD%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-number">1.8.</span> <span class="toc-text">Python身份运算符</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Python%E8%BF%90%E7%AE%97%E7%AC%A6%E4%BC%98%E5%85%88%E7%BA%A7"><span class="toc-number">1.9.</span> <span class="toc-text">Python运算符优先级</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-history"></i><span>最近发布</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2023/08/24/%E6%9F%90%E5%8A%A8%E6%BC%AB%E6%B8%B8%E6%88%8F3-2%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/" title="某动漫游戏3.2服务器搭建"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic.imgdb.cn/item/64e77acc661c6c8e54c4ea51.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="某动漫游戏3.2服务器搭建"/></a><div class="content"><a class="title" href="/2023/08/24/%E6%9F%90%E5%8A%A8%E6%BC%AB%E6%B8%B8%E6%88%8F3-2%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/" title="某动漫游戏3.2服务器搭建">某动漫游戏3.2服务器搭建</a><time datetime="2023-08-24T10:37:56.000Z" title="发表于 2023-08-24 18:37:56">2023-08-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/08/24/Pages%E7%9A%84Hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0HTTPS%E6%94%AF%E6%8C%81/" title="利用cloudflare为基于Github Pages的Hexo博客添加HTTPS支持"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic.imgdb.cn/item/64e6e9dc661c6c8e5488b530.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="利用cloudflare为基于Github Pages的Hexo博客添加HTTPS支持"/></a><div class="content"><a class="title" href="/2023/08/24/Pages%E7%9A%84Hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0HTTPS%E6%94%AF%E6%8C%81/" title="利用cloudflare为基于Github Pages的Hexo博客添加HTTPS支持">利用cloudflare为基于Github Pages的Hexo博客添加HTTPS支持</a><time datetime="2023-08-24T05:24:05.000Z" title="发表于 2023-08-24 13:24:05">2023-08-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/08/23/%E5%8D%9A%E5%AE%A2%E9%87%8D%E6%9E%84/" title="博客重构"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic.imgdb.cn/item/64e61d91661c6c8e5436668d.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="博客重构"/></a><div class="content"><a class="title" href="/2023/08/23/%E5%8D%9A%E5%AE%A2%E9%87%8D%E6%9E%84/" title="博客重构">博客重构</a><time datetime="2023-08-23T05:02:30.000Z" title="发表于 2023-08-23 13:02:30">2023-08-23</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/08/10/%E5%B7%A5%E4%B8%9A%E5%92%8C%E4%BF%A1%E6%81%AF%E5%8C%96%E9%83%A8%E5%85%B3%E4%BA%8E%E5%BC%80%E5%B1%95%E7%A7%BB%E5%8A%A8%E4%BA%92%E8%81%94%E7%BD%91%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E5%A4%87%E6%A1%88%E5%B7%A5%E4%BD%9C%E7%9A%84%E9%80%9A%E7%9F%A5/" title="工业和信息化部关于开展移动互联网应用程序备案工作的通知"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic.imgdb.cn/item/64e6d0f7661c6c8e54746df9.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="工业和信息化部关于开展移动互联网应用程序备案工作的通知"/></a><div class="content"><a class="title" href="/2023/08/10/%E5%B7%A5%E4%B8%9A%E5%92%8C%E4%BF%A1%E6%81%AF%E5%8C%96%E9%83%A8%E5%85%B3%E4%BA%8E%E5%BC%80%E5%B1%95%E7%A7%BB%E5%8A%A8%E4%BA%92%E8%81%94%E7%BD%91%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E5%A4%87%E6%A1%88%E5%B7%A5%E4%BD%9C%E7%9A%84%E9%80%9A%E7%9F%A5/" title="工业和信息化部关于开展移动互联网应用程序备案工作的通知">工业和信息化部关于开展移动互联网应用程序备案工作的通知</a><time datetime="2023-08-10T12:35:04.000Z" title="发表于 2023-08-10 20:35:04">2023-08-10</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/08/06/Lua%E7%AC%94%E8%AE%B0/" title="Lua笔记"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic.imgdb.cn/item/64e6d0f7661c6c8e54746df9.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Lua笔记"/></a><div class="content"><a class="title" href="/2023/08/06/Lua%E7%AC%94%E8%AE%B0/" title="Lua笔记">Lua笔记</a><time datetime="2023-08-06T14:34:39.000Z" title="发表于 2023-08-06 22:34:39">2023-08-06</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"></div><div id="footer-bar"><div class="footer-bar-links"><div class="footer-bar-left"><div id="footer-bar-tips"><div class="copyright">&copy;2023 By Ame </div></div><div id="footer-type-tips"></div></div><div class="footer-bar-right"><a class="footer-bar-link" target="_blank" rel="noopener" href="https://github.com/yousaforever/hexo-theme-anzhiyu" title="主题">主题</a></div></div></div></footer></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic.imgdb.cn/item/64e42d1b661c6c8e54a18cd7.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 文章</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><i class="anzhiyufont anzhiyu-icon-box-archive faa-tada" style="font-size: 0.9em;"></i><span> 归档</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><i class="anzhiyufont anzhiyu-icon-shapes faa-tada" style="font-size: 0.9em;"></i><span> 分类</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 我的</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/music/?id=168314790&amp;server=netease"><i class="anzhiyufont anzhiyu-icon-music faa-tada" style="font-size: 0.9em;"></i><span> 音乐馆</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/album/"><i class="anzhiyufont anzhiyu-icon-images faa-tada" style="font-size: 0.9em;"></i><span> 相册集</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 关于</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/about/"><i class="anzhiyufont anzhiyu-icon-paper-plane faa-tada" style="font-size: 0.9em;"></i><span> 关于本人</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/essay/"><i class="anzhiyufont anzhiyu-icon-lightbulb faa-tada" style="font-size: 0.9em;"></i><span> 说说</span></a></li></ul></div></div><span class="sidebar-menu-item-title">标签</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/Hexo/" style="font-size: 0.88rem;">Hexo<sup>1</sup></a><a href="/tags/%E5%8E%9F%E7%A5%9E/" style="font-size: 0.88rem;">原神<sup>1</sup></a></div></div><hr/></div></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="anzhiyufont anzhiyu-icon-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="anzhiyufont anzhiyu-icon-gear"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="anzhiyufont anzhiyu-icon-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div><div id="nav-music"><a id="nav-music-hoverTips" onclick="anzhiyu.musicToggle()" accesskey="m">播放音乐</a><div id="console-music-bg"></div><meting-js id="168314790" server="netease" type="playlist" mutex="true" preload="none" theme="var(--anzhiyu-main)" data-lrctype="0" order="random"></meting-js></div><div id="rightMenu"><div class="rightMenu-group rightMenu-small"><div class="rightMenu-item" id="menu-backward"><i class="anzhiyufont anzhiyu-icon-arrow-left"></i></div><div class="rightMenu-item" id="menu-forward"><i class="anzhiyufont anzhiyu-icon-arrow-right"></i></div><div class="rightMenu-item" id="menu-refresh"><i class="anzhiyufont anzhiyu-icon-arrow-rotate-right" style="font-size: 1rem;"></i></div><div class="rightMenu-item" id="menu-top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></div></div><div class="rightMenu-group rightMenu-line rightMenuPlugin"><div class="rightMenu-item" id="menu-copytext"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制选中文本</span></div><div class="rightMenu-item" id="menu-pastetext"><i class="anzhiyufont anzhiyu-icon-paste"></i><span>粘贴文本</span></div><a class="rightMenu-item" id="menu-commenttext"><i class="anzhiyufont anzhiyu-icon-comment-medical"></i><span>引用到评论</span></a><div class="rightMenu-item" id="menu-newwindow"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开</span></div><div class="rightMenu-item" id="menu-copylink"><i class="anzhiyufont anzhiyu-icon-link"></i><span>复制链接地址</span></div><div class="rightMenu-item" id="menu-copyimg"><i class="anzhiyufont anzhiyu-icon-images"></i><span>复制此图片</span></div><div class="rightMenu-item" id="menu-downloadimg"><i class="anzhiyufont anzhiyu-icon-download"></i><span>下载此图片</span></div><div class="rightMenu-item" id="menu-newwindowimg"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开图片</span></div><div class="rightMenu-item" id="menu-search"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>站内搜索</span></div><div class="rightMenu-item" id="menu-searchBaidu"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>百度搜索</span></div><div class="rightMenu-item" id="menu-music-toggle"><i class="anzhiyufont anzhiyu-icon-play"></i><span>播放音乐</span></div><div class="rightMenu-item" id="menu-music-back"><i class="anzhiyufont anzhiyu-icon-backward"></i><span>切换到上一首</span></div><div class="rightMenu-item" id="menu-music-forward"><i class="anzhiyufont anzhiyu-icon-forward"></i><span>切换到下一首</span></div><div class="rightMenu-item" id="menu-music-playlist" onclick="window.open(&quot;https://music.163.com/#/playlist?id=168314790&quot;, &quot;_blank&quot;);" style="display: none;"><i class="anzhiyufont anzhiyu-icon-radio"></i><span>查看所有歌曲</span></div><div class="rightMenu-item" id="menu-music-copyMusicName"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制歌名</span></div></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item menu-link" id="menu-randomPost"><i class="anzhiyufont anzhiyu-icon-shuffle"></i><span>随便逛逛</span></a><a class="rightMenu-item menu-link" href="/categories/"><i class="anzhiyufont anzhiyu-icon-cube"></i><span>博客分类</span></a><a class="rightMenu-item menu-link" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags"></i><span>文章标签</span></a></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item" id="menu-copy" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制地址</span></a><a class="rightMenu-item" id="menu-commentBarrage" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-message"></i><span class="menu-commentBarrage-text">关闭热评</span></a><a class="rightMenu-item" id="menu-darkmode" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span class="menu-darkmode-text">深色模式</span></a><a class="rightMenu-item" id="menu-translate" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-language"></i><span>轉為繁體</span></a></div></div><div id="rightmenu-mask"></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.cbd.int/@fancyapps/ui@5.0.20/dist/fancybox/fancybox.umd.js"></script><script src="https://cdn.cbd.int/instant.page@5.2.0/instantpage.js" type="module"></script><script src="https://cdn.cbd.int/vanilla-lazyload@17.8.4/dist/lazyload.iife.min.js"></script><script src="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.js"></script><canvas id="universe"></canvas><script async src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/dark/dark.js"></script><script>// 消除控制台打印
+var HoldLog = console.log;
+console.log = function () {};
+let now1 = new Date();
+queueMicrotask(() => {
+  const Log = function () {
+    HoldLog.apply(console, arguments);
+  }; //在恢复前输出日志
+  const grt = new Date("01/01/2022 00:00:00"); //此处修改你的建站时间或者网站上线时间
+  now1.setTime(now1.getTime() + 250);
+  const days = (now1 - grt) / 1000 / 60 / 60 / 24;
+  const dnum = Math.floor(days);
+  const ascll = [
+    `欢迎使用安知鱼!`,
+    `生活明朗, 万物可爱`,
+    `
+        
+       █████╗ ███╗   ██╗███████╗██╗  ██╗██╗██╗   ██╗██╗   ██╗
+      ██╔══██╗████╗  ██║╚══███╔╝██║  ██║██║╚██╗ ██╔╝██║   ██║
+      ███████║██╔██╗ ██║  ███╔╝ ███████║██║ ╚████╔╝ ██║   ██║
+      ██╔══██║██║╚██╗██║ ███╔╝  ██╔══██║██║  ╚██╔╝  ██║   ██║
+      ██║  ██║██║ ╚████║███████╗██║  ██║██║   ██║   ╚██████╔╝
+      ╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚═╝   ╚═╝    ╚═════╝
+        
+        `,
+    "已上线",
+    dnum,
+    "天",
+    "©2023 By 安知鱼 V1.6.1",
+  ];
+  const ascll2 = [`NCC2-036`, `调用前置摄像头拍照成功，识别为【小笨蛋】.`, `Photo captured: `, `🤪`];
+
+  setTimeout(
+    Log.bind(
+      console,
+      `\n%c${ascll[0]} %c ${ascll[1]} %c ${ascll[2]} %c${ascll[3]}%c ${ascll[4]}%c ${ascll[5]}\n\n%c ${ascll[6]}\n`,
+      "color:#3b70fc",
+      "",
+      "color:#3b70fc",
+      "color:#3b70fc",
+      "",
+      "color:#3b70fc",
+      ""
+    )
+  );
+  setTimeout(
+    Log.bind(
+      console,
+      `%c ${ascll2[0]} %c ${ascll2[1]} %c \n${ascll2[2]} %c\n${ascll2[3]}\n`,
+      "color:white; background-color:#4fd953",
+      "",
+      "",
+      'background:url("https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/tinggge.gif") no-repeat;font-size:450%'
+    )
+  );
+
+  setTimeout(Log.bind(console, "%c WELCOME %c 你好，小笨蛋.", "color:white; background-color:#4f90d9", ""));
+
+  setTimeout(
+    console.warn.bind(
+      console,
+      "%c ⚡ Powered by 安知鱼 %c 你正在访问 Ame 的博客.",
+      "color:white; background-color:#f0ad4e",
+      ""
+    )
+  );
+
+  setTimeout(Log.bind(console, "%c W23-12 %c 你已打开控制台.", "color:white; background-color:#4f90d9", ""));
+
+  setTimeout(
+    console.warn.bind(console, "%c S013-782 %c 你现在正处于监控中.", "color:white; background-color:#d9534f", "")
+  );
+});</script><script async src="/anzhiyu/random.js"></script><div class="js-pjax"><input type="hidden" name="page-type" id="page-type" value="post"></div><script>var visitorMail = "visitor@anheyu.com";</script><script async data-pjax src="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/waterfall/waterfall.js"></script><script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/qrcodejs/1.0.0/qrcode.min.js"></script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.9/icon/ali_iconfont_css.css"><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/aplayer/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.cbd.int/anzhiyu-blog-static@1.0.1/js/APlayer.min.js"></script><script src="https://cdn.cbd.int/hexo-anzhiyu-music@1.0.1/assets/js/Meting2.min.js"></script><script src="https://cdn.cbd.int/pjax@0.2.8/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+  // removeEventListener scroll 
+  anzhiyu.removeGlobalFnEvent('pjax')
+  anzhiyu.removeGlobalFnEvent('themeChange')
+
+  document.getElementById('rightside').classList.remove('rightside-show')
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', e => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script charset="UTF-8" src="https://cdn.cbd.int/anzhiyu-theme-static@1.1.5/accesskey/accesskey.js"></script></div><div id="popup-window"><div class="popup-window-title">通知</div><div class="popup-window-divider"></div><div class="popup-window-content"><div class="popup-tip">你好呀</div><div class="popup-link"><i class="anzhiyufont anzhiyu-icon-arrow-circle-right"></i></div></div></div></body></html>

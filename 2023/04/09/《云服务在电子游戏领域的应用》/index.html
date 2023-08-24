@@ -1,0 +1,449 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><title>《云服务在电子游戏领域的应用》 | AmeのBlog</title><meta name="author" content="Ame"><meta name="copyright" content="Ame"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#f7f9fe"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-touch-fullscreen" content="yes"><meta name="apple-mobile-web-app-title" content="《云服务在电子游戏领域的应用》"><meta name="application-name" content="《云服务在电子游戏领域的应用》"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="#f7f9fe"><meta property="og:type" content="article"><meta property="og:title" content="《云服务在电子游戏领域的应用》"><meta property="og:url" content="http://486916.xyz/2023/04/09/%E3%80%8A%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%9C%A8%E7%94%B5%E5%AD%90%E6%B8%B8%E6%88%8F%E9%A2%86%E5%9F%9F%E7%9A%84%E5%BA%94%E7%94%A8%E3%80%8B/index.html"><meta property="og:site_name" content="AmeのBlog"><meta property="og:description" content="云服务在电子游戏领域的应用 摘要：   ​	随着互联网的迅速发展以及网络数据传输服务的迅速发展，云服务逐渐被应用在更多的领域以及更大的范围，以云计算为基础的新型游戏模式”云游戏”也逐步走进大众视野。本文主要介绍了云计算和云游戏的概念，阐述云游戏的相应的基础技术以及云游戏平台的运营模式，并对云游戏产业"><meta property="og:locale" content="zh-CN"><meta property="og:image" content="https://pic.imgdb.cn/item/64e6d0f7661c6c8e54746df9.jpg"><meta property="article:author" content="Ame"><meta property="article:tag"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://pic.imgdb.cn/item/64e6d0f7661c6c8e54746df9.jpg"><meta name="description" content="云服务在电子游戏领域的应用 摘要：   ​	随着互联网的迅速发展以及网络数据传输服务的迅速发展，云服务逐渐被应用在更多的领域以及更大的范围，以云计算为基础的新型游戏模式”云游戏”也逐步走进大众视野。本文主要介绍了云计算和云游戏的概念，阐述云游戏的相应的基础技术以及云游戏平台的运营模式，并对云游戏产业"><link rel="shortcut icon" href="/favicon.ico"><link rel="canonical" href="http://486916.xyz/2023/04/09/%E3%80%8A%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%9C%A8%E7%94%B5%E5%AD%90%E6%B8%B8%E6%88%8F%E9%A2%86%E5%9F%9F%E7%9A%84%E5%BA%94%E7%94%A8%E3%80%8B/"><link rel="preconnect" href="//npm.elemecdn.com"/><link rel="preconnect" href="//npm.onmicrosoft.cn"/><link rel="preconnect" href="//hm.baidu.com"/><meta name="google-site-verification" content="xxx"/><meta name="baidu-site-verification" content="code-xxx"/><meta name="msvalidate.01" content="xxx"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.cbd.int/@fancyapps/ui@5.0.20/dist/fancybox/fancybox.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css" media="print" onload="this.media='all'"><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?8e4110517d1babfcceed4ddebc854947";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><script>const GLOBAL_CONFIG = {
+  linkPageTop: undefined,
+  postHeadAiDescription: undefined,
+  diytitle: {"enable":true,"leaveTitle":"w(ﾟДﾟ)w 不要走！再看看嘛！","backTitle":"♪(^∇^*)欢迎回来！"},
+  LA51: undefined,
+  greetingBox: {"enable":true,"default":"你好👋","list":[{"greeting":"晚安😴","startTime":0,"endTime":5},{"greeting":"早上好鸭👋, 祝你一天好心情！","startTime":6,"endTime":9},{"greeting":"上午好👋, 状态很好，鼓励一下～","startTime":10,"endTime":10},{"greeting":"11点多啦, 在坚持一下就吃饭啦～","startTime":11,"endTime":11},{"greeting":"午安👋","startTime":12,"endTime":14},{"greeting":"🌈充实的一天辛苦啦！","startTime":14,"endTime":18},{"greeting":"19点喽, 奖励一顿丰盛的大餐吧🍔。","startTime":19,"endTime":19},{"greeting":"晚上好👋, 在属于自己的时间好好放松😌~","startTime":20,"endTime":24}]},
+  twikooEnvId: '',
+  commentBarrageConfig:undefined,
+  root: '/',
+  preloader: {"source":3},
+  friends_vue_info: undefined,
+  navMusic: true,
+  mainTone: undefined,
+  authorStatus: undefined,
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简","rightMenuMsgToTraditionalChinese":"转为繁体","rightMenuMsgToSimplifiedChinese":"转为简体"},
+  noticeOutdate: {"limitDay":365,"position":"top","messagePrev":"It has been","messageNext":"days since the last update, the content of the article may be outdated."},
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":330},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    simplehomepage: true,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"copy":true,"copyrightEbable":false,"limitCount":50,"languages":{"author":"作者: Ame","link":"链接: ","source":"来源: AmeのBlog","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。","copySuccess":"复制成功，复制和转载请标注本文地址"}},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#3b70fc","bgDark":"#1f1f1f","position":"top-center"},
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.min.js',
+      css: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false,
+  shortcutKey: undefined,
+  autoDarkmode: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  configTitle: 'AmeのBlog',
+  title: '《云服务在电子游戏领域的应用》',
+  postAI: '',
+  pageFillDescription: '云游戏及其基本技术概念, 云服务概念, 云计算概念, 云游戏概念, 云游戏产生原因分析, 大型网络游戏的普及, 硬件性能的限制, 云游戏相关基础技术, 虚拟化技术, 远程渲染映射（Remote Rendering Mapping）技术, 云游戏运营模式, 边缘计算节点管理, 云游戏相对于传统游戏的优势和劣势, 优势, 劣势, 云游戏产业链, 概述, 游戏研发商, 云游戏平台, 云服务商, 通信运营商, 设备提供商, 云游戏未来发展趋势, 游戏研发商, 游戏云平台, 通信运营商, 未来展望云服务在电子游戏领域的应用摘要随着互联网的迅速发展以及网络数据传输服务的迅速发展云服务逐渐被应用在更多的领域以及更大的范围以云计算为基础的新型游戏模式云游戏也逐步走进大众视野本文主要介绍了云计算和云游戏的概念阐述云游戏的相应的基础技术以及云游戏平台的运营模式并对云游戏产业链进行了相应调查总结了云游戏相比以往传统游戏模式的优势以及云游戏市场的发展状况关键词云服务云计算云游戏市场云游戏及其基本技术概念云服务概念云服务是基于互联网的相关服务的增加使用和交互模式通常涉及通过互联网来提供动态易扩展且经常是虚拟化的资源云是网络互联网的一种比喻说法过去在图中往往用云来表示电信网后来也用来表示互联网和底层基础设施的抽象云服务指通过网络以按需易扩展的方式获得所需服务这种服务可以是和软件互联网相关也可是其他服务它意味着计算能力也可作为一种商品通过互联网进行流通云计算概念云计算是分布式计算的一种指的是通过网络云将巨大的数据计算处理程序分解成无数个小程序然后通过多部服务器组成的系统进行处理和分析这些小程序得到结果并返回给用户云游戏概念云游戏是以云计算为基础的游戏方式在云游戏的运行模式下所有游戏都在服务器端运行并将渲染完毕后的游戏画面压缩后通过网络传送给用户在客户端用户的游戏设备不需要任何高端处理器和显卡只需要基本的视频解压能力就可以了云游戏产生原因分析大型网络游戏的普及近年来越来越多大型网络游戏出现同时玩家人数也一直在不断上涨硬件性能的限制一般来说此类大型网络游戏对于游戏设备的性能都有相对较高的要求同时游戏的包体也很大如原神版本端占用云游戏则只有多而一般的游戏玩家并不愿意因此承担高昂的硬件费用所以云游戏便成为了相当一部分的用户选择上图为原神端完整包体上图为原神云游戏包体云游戏相关基础技术虚拟化技术虚拟化技术和多任务超线程技术是完全不同的多任务是指在一个操作系统中多个程序同时并行运行而在虚拟化技术中你可以拥有多个独立的操作系统同时运行每一个操作系统中都有多个程序运行每一个操作系统都运行在一个虚拟的或虚拟主机虚拟机上而超线程只是在系统中单模拟双来平衡程序运行性能这两个模拟出来的是不能分离的只能协同工作如果一个同时支持和虚拟化技术的话每一个虚拟在各自的操作系统中都被看成是两个对称多任务处理的虚拟化技术使得游戏厂商并不用将游戏进行很大的改动便可以移植到云游戏平台上同时让玩家获得原汁原味的游戏体验虚拟化技术是云计算对实现计算资源和存储资源充分高效利用的关键这项技术可以将对象的操作系统计算机系统存储设备和网络资源等进行虚拟化并生成个虚拟版本使得用户可以用与访问抽象前资源致的方法访问抽象后的资源从而隐藏属性和操作之间的差异并允许通过一种通用的方式来查看和维护资源将应用程序以及数据在不同的层次以不同的面貌加以展现进而使不同层次的使用者开发者及维持人员能够方便的使用开发维护和管理程序远程渲染映射技术基本原理是用户在客户端发出各种游戏的指令和控制信号由网络传送到云游戏的云端服务器平台云端服务器运用其强大的处理器和显卡对游戏画面进行渲染并对游戏涉及到的数据进行运算最后将渲染完毕的游戏画面形成视频流并压缩一般基于或编码通过高速网络传送至客户端解压呈现在终端显示部件上是云游戏的核心技术指令流的实现框架音视频流的实现框架云游戏完整框架云游戏运营模式云游戏运维主要包含边缘节点管理游戏管理游戏自动更新账户管理游戏安全管理服务器通信等工作云游戏需要维护大量的边缘计算节点大量的游戏而且游戏一般都比较大且更新频繁需要及时处理游戏自动更新分发同步等问题边缘计算节点管理云游戏服务的云端是服务器集群为了保证低延时一般会在不同地域设置多个服务器集群要同时维护这些节点是云游戏运营重要的一环云游戏相对于传统游戏的优势和劣势优势云游戏不需要安装可以快速进行游戏的访问云游戏的画质一般都高于终端设备云游戏的处理主要在服务器上进行因此云游戏对终端设备的要求比较低云游戏的游戏版本升级全部都在服务器上进行终端只需要更新云服务平台版本因此游戏的版本升级非常方便终端无感知每次都可以玩最新的游戏版本劣势云游戏对网络传输带宽要求很高在网络传输带宽限制下一些高清晰度的游戏在特定的网络环境下是无法基于云游戏实现的云游戏对网络的时延要求也比较高在无线网络中传输的时候如采用网络来传输时容易在一些区域造成卡顿影响玩家的体验云游戏产业链概述云游戏产业链可以分为上游的游戏研发中游的游戏运营云服务下游的游戏终端而中游的游戏运营云服务包含游戏云平台云服务商及通信运营商三个主体游戏研发商研发制作游戏产品提供内容在云游戏时代游戏体验跨越设备限制用户对于游戏品质的要求预计越来越高预计游戏品类更加重度化龙头游戏研发商的优势有望扩大云游戏平台负责云游戏运营基于云化技术负责游戏指令流和视频流的编解码将游戏内容和基础设施即服务有云对接分为云游戏平台和移动云游戏平台两大赛道大量初创公司在年切入此领域通过提过游戏运营的云化服务产生订阅收入巨头如华为腾讯年通过合作和推出自有平台的方式切入该领域预计订阅收入将成为云游戏平台的主要收入来源也将成为云游戏时代除了游戏内道具付费之外的重要变现方式云服务商具备互联网数据中心提供算力和存储服务主要为公有云平台包括阿里云腾讯云华为云百度云等游戏只是其云计算服务的一个领域通信运营商高速稳定的网络是游戏数据传输和游戏画面流畅的先决条件运营商的网络具备高下载速度低延迟等优势成为用户终端云平台数据传输的重要通道同时运营商在推广套餐时云游戏可能成为重要的内容抓手因此运营商在云游戏领域或将拥有用户入口优势成为重要的分发平台设备提供商由于云游戏将游戏的运行放在云端终端设备只需有游戏画面呈现功能即可用户存量的智能手机平板电脑智能电视以及集成游戏内容的智能机顶盒等都可成为云游戏的终端因为云游戏对终端设备较低的要求设备提供商在云游戏产业链中处于相对弱势地位云游戏未来发展趋势游戏研发商游戏重度化趋势加剧头部研发商市场份额将进一步提升游戏云平台由初创公司百花齐放到初创公司与新入局的巨头加强合作最终具备资源的云计算巨头和拥有用户流量优势的企业有望主导产业链该环节云游戏产业链中由于游戏云平台这一环节的出现订阅云服务有望成为游戏行业继付费下载游戏内付费主要为道具付费之后又一主流变现模式订阅服务收入在游戏收入中的占比有望不断提升云游戏带来用户对硬件需求的降低将转移对订阅云服务需求的提升通信运营商云游戏时代由于游戏即点即玩无需下载应用商店等渠道作用将弱化但云游戏作为重要应用领域通信运营商基于网络入口优势较过去时代有望更多切入游戏云平台运营甚至研发环节在时代三大通信运营商更多承担数据传输通道的作用数据业务收入取得大幅增长而随着来临四大运营商将不甘于仅仅起到数据通道作用而是纷纷通过自身加大资金投入以及外部合作的方式力图深度参与应用尤其是在推广的初期将流量与内容绑定通过内容来吸引用户订购套餐或将成为运营商的重要营销方式云游戏是娱乐应用领域比超高清视频更早爆发和更成熟的应用通信运营商或将基于自身海量用户通过与游戏内容方硬件终端合作的方式切入游戏云平台运营甚至研发领域未来展望年中国云游戏行业市场研究分析及未来前景展望报告数据显示随着网络的正式商用让云游戏再次成为了行业风口据调查数据显示年中国云游戏用户达到亿人同比增长并在年增至亿云游戏市场在年将达到亿元并在年增至亿元如大家所见云游戏必将成为云计算中的相当重要的应用随着广电技术的推广和网络的改善云游戏的时代已经接近在未来云游戏一定会为我们的生活创造更多的精彩参考文献百度百科云服务引用日期年月日百度百科云计算引用日期年月日百度百科云服务引用日期年月日',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2023-08-24 12:26:10',
+  postMainColor: '',
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#18171d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#f7f9fe')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 8 || hour >= 22
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(e => {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body data-type="anzhiyu"><div id="web_bg"></div><div id="an_music_bg"></div><div id="loading-box" onclick="document.getElementById(&quot;loading-box&quot;).classList.add(&quot;loaded&quot;)"><div class="loading-bg"><img class="loading-img nolazyload" alt="加载头像" src="https://pic.imgdb.cn/item/64e42d1b661c6c8e54a18cd7.png"/><div class="loading-image-dot"></div></div></div><script>const preloader = {
+  endLoading: () => {
+    document.getElementById('loading-box').classList.add("loaded");
+  },
+  initLoading: () => {
+    document.getElementById('loading-box').classList.remove("loaded")
+  }
+}
+window.addEventListener('load',()=> { preloader.endLoading() })
+setTimeout(function(){preloader.endLoading();},10000)
+
+if (true) {
+  document.addEventListener('pjax:send', () => { preloader.initLoading() })
+  document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+}</script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/progress_bar/progress_bar.css"/><script async="async" src="https://cdn.cbd.int/pace-js@1.2.4/pace.min.js" data-pace-options="{ &quot;restartOnRequestAfter&quot;:false,&quot;eventLag&quot;:false}"></script><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><div id="nav-group"><span id="blog_name"><div class="back-home-button"><i class="anzhiyufont anzhiyu-icon-grip-vertical"></i><div class="back-menu-list-groups"><div class="back-menu-list-group"><div class="back-menu-list-title">网页</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://www.486916.xyz/" title="博客"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/favicon.ico" alt="博客"/><span class="back-menu-item-text">博客</span></a></div></div><div class="back-menu-list-group"><div class="back-menu-list-title">项目</div><div class="back-menu-list"><a class="back-menu-item" href="/" title="图床(开发中)"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://image.anheyu.com/favicon.ico" alt="图床(开发中)"/><span class="back-menu-item-text">图床(开发中)</span></a></div></div></div></div><a id="site-name" href="/" accesskey="h"><div class="title">AmeのBlog</div><i class="anzhiyufont anzhiyu-icon-house-chimney"></i></a></span><div class="mask-name-container"><div id="name-container"><a id="page-name" href="javascript:anzhiyu.scrollToDest(0, 500)">PAGE_NAME</a></div></div><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 文章</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><i class="anzhiyufont anzhiyu-icon-box-archive faa-tada" style="font-size: 0.9em;"></i><span> 归档</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><i class="anzhiyufont anzhiyu-icon-shapes faa-tada" style="font-size: 0.9em;"></i><span> 分类</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 我的</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/music/?id=168314790&amp;server=netease"><i class="anzhiyufont anzhiyu-icon-music faa-tada" style="font-size: 0.9em;"></i><span> 音乐馆</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/album/"><i class="anzhiyufont anzhiyu-icon-images faa-tada" style="font-size: 0.9em;"></i><span> 相册集</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 关于</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/about/"><i class="anzhiyufont anzhiyu-icon-paper-plane faa-tada" style="font-size: 0.9em;"></i><span> 关于本人</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/essay/"><i class="anzhiyufont anzhiyu-icon-lightbulb faa-tada" style="font-size: 0.9em;"></i><span> 说说</span></a></li></ul></div></div></div><div id="nav-right"><div class="nav-button" id="randomPost_button"><a class="site-page" onclick="toRandomPost()" title="随机前往一个文章" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-dice"></i></a></div><input id="center-console" type="checkbox"/><label class="widget" for="center-console" title="中控台" onclick="anzhiyu.switchConsole();"><i class="left"></i><i class="widget center"></i><i class="widget right"></i></label><div id="console"><div class="console-card-group-reward"><ul class="reward-all console-card"><li class="reward-item"><a href="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png" target="_blank"><img class="post-qr-code-img" alt="微信" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png" target="_blank"><img class="post-qr-code-img" alt="支付宝" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div><div class="console-card-group"><div class="console-card-group-left"><div class="console-card" id="card-newest-comments"><div class="card-content"><div class="author-content-item-tips">互动</div><span class="author-content-item-title"> <span>最新评论</span></span></div><div class="aside-list"><span>正在加载中...</span></div></div></div><div class="console-card-group-right"><div class="console-card tags"><div class="card-content"><div class="author-content-item-tips">兴趣点</div><span class="author-content-item-title">寻找你感兴趣的领域</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/Hexo/" style="font-size: 1.05rem;">Hexo<sup>1</sup></a><a href="/tags/%E5%8E%9F%E7%A5%9E/" style="font-size: 1.05rem;">原神<sup>1</sup></a></div></div><hr/></div></div><div class="console-card history"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-box-archiv"></i><span>文章</span></div><div class="card-archives"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/08/"><span class="card-archive-list-date">八月 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">5</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/07/"><span class="card-archive-list-date">七月 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">7</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/06/"><span class="card-archive-list-date">六月 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">9</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/05/"><span class="card-archive-list-date">五月 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">7</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/04/"><span class="card-archive-list-date">四月 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">8</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/03/"><span class="card-archive-list-date">三月 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">4</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/02/"><span class="card-archive-list-date">二月 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">4</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/11/"><span class="card-archive-list-date">十一月 2022</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li></ul></div><hr/></div></div></div><div class="button-group"><div class="console-btn-item"><a class="darkmode_switchbutton" onclick="anzhiyu.switchDarkMode()" title="显示模式切换" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-moon"></i></a></div><div class="console-btn-item" id="consoleHideAside" onclick="anzhiyu.hideAsideBtn()" title="边栏显示控制"><a class="asideSwitch"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></a></div><div class="console-btn-item on" id="consoleCommentBarrage" onclick="anzhiyu.switchCommentBarrage()" title="热评开关"><a class="commentBarrage"><i class="anzhiyufont anzhiyu-icon-message"></i></a></div><div class="console-btn-item" id="consoleMusic" onclick="anzhiyu.musicToggle()" title="音乐开关"><a class="music-switch"><i class="anzhiyufont anzhiyu-icon-music"></i></a></div></div><div class="console-mask" onclick="anzhiyu.hideConsole()" href="javascript:void(0);"></div></div><div class="nav-button" id="nav-totop"><a class="totopbtn" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i><span id="percent" onclick="anzhiyu.scrollToDest(0,500)">0</span></a></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" title="切换"><i class="anzhiyufont anzhiyu-icon-bars"></i></a></div></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><div id="post-firstinfo"><div class="meta-firstline"><a class="post-meta-original">原创</a><span class="article-meta tags"></span></div></div><h1 class="post-title" itemprop="name headline">《云服务在电子游戏领域的应用》</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="anzhiyufont anzhiyu-icon-calendar-days post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" itemprop="dateCreated datePublished" datetime="2023-04-09T02:15:36.000Z" title="发表于 2023-04-09 10:15:36">2023-04-09</time><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-history post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" itemprop="dateCreated datePublished" datetime="2023-08-24T04:26:10.194Z" title="更新于 2023-08-24 12:26:10">2023-08-24</time></span></div><div class="meta-secondline"><span class="post-meta-separator"></span><span class="post-meta-wordcount"><i class="anzhiyufont anzhiyu-icon-file-word post-meta-icon" title="文章字数"></i><span class="post-meta-label" title="文章字数">字数总计:</span><span class="word-count" title="文章字数">3.2k</span><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-clock post-meta-icon" title="阅读时长"></i><span class="post-meta-label" title="阅读时长">阅读时长:</span><span>9分钟</span></span><span class="post-meta-separator">       </span><span class="post-meta-position" title="作者IP属地为成都"><i class="anzhiyufont anzhiyu-icon-location-dot"></i>成都</span></div></div></div><article class="post-content" id="article-container" itemscope itemtype="http://486916.xyz/2023/04/09/%E3%80%8A%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%9C%A8%E7%94%B5%E5%AD%90%E6%B8%B8%E6%88%8F%E9%A2%86%E5%9F%9F%E7%9A%84%E5%BA%94%E7%94%A8%E3%80%8B/"><header><h1 id="CrawlerTitle" itemprop="name headline">《云服务在电子游戏领域的应用》</h1><span itemprop="author" itemscope itemtype="http://schema.org/Person">Ame</span><time itemprop="dateCreated datePublished" datetime="2023-04-09T02:15:36.000Z" title="发表于 2023-04-09 10:15:36">2023-04-09</time><time itemprop="dateCreated datePublished" datetime="2023-08-24T04:26:10.194Z" title="更新于 2023-08-24 12:26:10">2023-08-24</time></header><p><strong>云服务在电子游戏领域的应用</strong></p>
+<p><strong>摘要：</strong></p>
+<span id="more"></span>
+
+<p>​	随着互联网的迅速发展以及网络数据传输服务的迅速发展，云服务逐渐被应用在更多的领域以及更大的范围，以云计算为基础的新型游戏模式”云游戏”也逐步走进大众视野。本文主要介绍了云计算和云游戏的概念，阐述云游戏的相应的基础技术以及云游戏平台的运营模式，并对云游戏产业链进行了相应调查。总结了云游戏相比以往传统游戏模式的优势以及云游戏市场的发展状况。</p>
+<p><strong>【关键词】云服务，云计算，云游戏，市场</strong></p>
+<h1 id="云游戏及其基本技术概念"><a href="#云游戏及其基本技术概念" class="headerlink" title="云游戏及其基本技术概念"></a>云游戏及其基本技术概念</h1><h2 id="云服务概念"><a href="#云服务概念" class="headerlink" title="云服务概念"></a>云服务概念</h2><blockquote>
+<p>云服务（cloud service）是基于互联网的相关服务的增加、使用和交互模式，通常涉及通过互联网来提供动态易扩展且经常是虚拟化的资源。云是网络、互联网的一种比喻说法。过去在图中往往用云来表示电信网，后来也用来表示互联网和底层基础设施的抽象。云服务指通过网络以按需、易扩展的方式获得所需服务。这种服务可以是IT和软件、互联网相关，也可是其他服务。它意味着计算能力也可作为一种商品通过互联网进行流通。</p>
+</blockquote>
+<h2 id="云计算概念"><a href="#云计算概念" class="headerlink" title="云计算概念"></a>云计算概念</h2><blockquote>
+<p>云计算（cloud computing）是分布式计算的一种，指的是通过网络”云”将巨大的数据计算处理程序分解成无数个小程序，然后，通过多部服务器组成的系统进行处理和分析这些小程序得到结果并返回给用户。</p>
+</blockquote>
+<h2 id="云游戏概念"><a href="#云游戏概念" class="headerlink" title="云游戏概念"></a>云游戏概念</h2><blockquote>
+<p>云游戏（cloud game）是以云计算为基础的游戏方式，在云游戏的运行模式下，所有游戏都在服务器端运行，并将渲染完毕后的游戏画面压缩后通过网络传送给用户。在客户端，用户的游戏设备不需要任何高端处理器和显卡，只需要基本的视频解压能力就可以了。</p>
+</blockquote>
+<h1 id="云游戏产生原因分析"><a href="#云游戏产生原因分析" class="headerlink" title="云游戏产生原因分析"></a>云游戏产生原因分析</h1><h2 id="大型网络游戏的普及"><a href="#大型网络游戏的普及" class="headerlink" title="大型网络游戏的普及"></a><strong>大型网络游戏的普及</strong></h2><blockquote>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic.imgdb.cn/item/64321da80d2dde5777bb995b.jpg">近年来，越来越多大型网络游戏出现，同时玩家人数也一直在不断上涨。</p>
+</blockquote>
+<h2 id="硬件性能的限制"><a href="#硬件性能的限制" class="headerlink" title="硬件性能的限制"></a>硬件性能的限制</h2><blockquote>
+<p>一般来说，此类大型网络游戏对于游戏设备的性能都有相对较高的要求，同时游戏的包体也很大（如《原神》3.4版本PC端占用53.1GB，云游戏则只有300多MB）而一般的游戏玩家并不愿意因此承担高昂的硬件费用，所以云游戏便成为了相当一部分的用户选择。</p>
+</blockquote>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic.imgdb.cn/item/64321dd30d2dde5777bbd706.jpg"></p>
+<p>上图为<code>原神</code>Windows端完整包体</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic.imgdb.cn/item/64321de10d2dde5777bbe7a6.jpg"></p>
+<p>上图为<code>原神</code>云游戏包体</p>
+<h1 id="云游戏相关基础技术"><a href="#云游戏相关基础技术" class="headerlink" title="云游戏相关基础技术"></a>云游戏相关基础技术</h1><h2 id="虚拟化技术"><a href="#虚拟化技术" class="headerlink" title="虚拟化技术"></a>虚拟化技术</h2><blockquote>
+<p>虚拟化技术（Virtualization Technology）和多任务（Multitasking）、超线程技术（Hyper-Threading）是完全不同的。多任务是指在一个操作系统中多个程序同时并行运行，而在虚拟化技术中，你可以拥有多个独立的操作系统同时运行，每一个操作系统中都有多个程序运行，每一个操作系统都运行在一个虚拟的CPU或虚拟主机（虚拟机）上。而Hyper-Threading超线程只是在SMP系统（Symmetric Multi Processing）中单CPU模拟双CPU来平衡程序运行性能，这两个模拟出来的CPU是不能分离的，只能协同工作。如果一个CPU同时支持Hyper-Threading和虚拟化技术的话，每一个虚拟CPU在各自的操作系统中都被看成是两个对称多任务处理的CPU。</p>
+<p>虚拟化技术使得游戏厂商并不用将游戏进行很大的改动便可以移植到云游戏平台上同时让玩家获得原汁原味的游戏体验。虚拟化技术是云计算对实现计算资源和存储资源充分高效利用的关键。这项技术可以将对象的操作系统、计算机系统、存储设备和网络资源等进行虚拟化并生成--个虚拟版本,使得用户可以用与访问抽象前资源--致的方法访问抽象后的资源。从而隐藏属性和操作之间的差异并允许通过一种通用的方式来查看和维护资源，将应用程序以及数据，在不同的层次以不同的面貌加以展现,进而使不同层次的使用者、开发者及维持人员能够方便的使用，开发，维护和管理程序。</p>
+</blockquote>
+<h2 id="远程渲染映射（Remote-Rendering-Mapping）技术"><a href="#远程渲染映射（Remote-Rendering-Mapping）技术" class="headerlink" title="远程渲染映射（Remote Rendering Mapping）技术"></a>远程渲染映射（Remote Rendering Mapping）技术</h2><blockquote>
+<p>基本原理是用户在客户端发出各种游戏的指令和控制信号，由网络传送到云游戏的云端服务器平台，云端服务器运用其强大的处理器和显卡对游戏画面进行渲染并对游戏涉及到的数据进行运算。最后将渲染完毕的游戏画面形成视频流并压缩（一般基于H.264或H.265编码）通过高速网络传送至客户端解压呈现在终端显示部件上。是云游戏的核心技术。</p>
+</blockquote>
+<p>a.  指令流的实现框架<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic.imgdb.cn/item/64321e370d2dde5777bc4481.jpg"></p>
+<p>b.  音视频流的实现框架<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic.imgdb.cn/item/64321e490d2dde5777bc580f.jpg"></p>
+<p>c.  云游戏完整框架</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic.imgdb.cn/item/64321e640d2dde5777bc77d5.jpg"></p>
+<h1 id="云游戏运营模式"><a href="#云游戏运营模式" class="headerlink" title="云游戏运营模式"></a>云游戏运营模式</h1><blockquote>
+<p>云游戏运维主要包含边缘节点管理，游戏管理，游戏自动更新，账户管理，游戏安全管理，服务器通信等工作。云游戏需要维护大量的边缘计算节点，大量的游戏，而且游戏一般都比较大且更新频繁，需要及时处理游戏自动更新分发同步等问题。</p>
+</blockquote>
+<h2 id="边缘计算节点管理"><a href="#边缘计算节点管理" class="headerlink" title="边缘计算节点管理"></a>边缘计算节点管理</h2><blockquote>
+<p>云游戏服务的云端是服务器集群，为了保证低延时，一般会在不同地域设置多个服务器集群，要同时维护这些节点是云游戏运营重要的一环。</p>
+</blockquote>
+<h1 id="云游戏相对于传统游戏的优势和劣势"><a href="#云游戏相对于传统游戏的优势和劣势" class="headerlink" title="云游戏相对于传统游戏的优势和劣势"></a>云游戏相对于传统游戏的优势和劣势</h1><h2 id="优势"><a href="#优势" class="headerlink" title="优势"></a>优势</h2><blockquote>
+<ol>
+<li><p>云游戏不需要安装，可以快速进行游戏的访问。</p>
+</li>
+<li><p>云游戏的画质一般都高于终端设备。</p>
+</li>
+<li><p>云游戏的处理主要在服务器上进行，因此，云游戏对终端设备的要求比较低。</p>
+</li>
+<li><p>云游戏的游戏版本升级，全部都在服务器上进行，终端只需要更新云服务平台版本，因此游戏的版本升级，非常方便，终端无感知，每次都可以玩最新的游戏版本。</p>
+</li>
+</ol>
+</blockquote>
+<h2 id="劣势"><a href="#劣势" class="headerlink" title="劣势"></a>劣势</h2><blockquote>
+<ol>
+<li><p>云游戏对网络传输带宽要求很高，在网络传输带宽限制下，一些高清晰度的游戏在特定的网络环境下是无法基于云游戏实现的。</p>
+</li>
+<li><p>云游戏对网络的时延要求也比较高，在无线网络中传输的时候，如采用4G，5G网络来传输时，容易在一些区域造成卡顿，影响玩家的体验。</p>
+</li>
+</ol>
+</blockquote>
+<h1 id="云游戏产业链"><a href="#云游戏产业链" class="headerlink" title="云游戏产业链"></a>云游戏产业链</h1><h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><blockquote>
+<p>云游戏产业链可以分为上游的游戏研发、中游的游戏运营云服务、下游的游戏终端。而中游的游戏运营云服务包含游戏云平台、云服务商及通信运营商三个主体。</p>
+</blockquote>
+<h2 id="游戏研发商"><a href="#游戏研发商" class="headerlink" title="游戏研发商"></a>游戏研发商</h2><blockquote>
+<p>研发、制作游戏产品，提供内容。在云游戏时代，游戏体验跨越设备限制，用户对于游戏品质的要求预计越来越高，预计游戏品类更加重度化，龙头游戏研发商的优势有望扩大。</p>
+</blockquote>
+<h2 id="云游戏平台"><a href="#云游戏平台" class="headerlink" title="云游戏平台"></a>云游戏平台</h2><blockquote>
+<p>负责云游戏运营，基于云化技术，负责游戏指令流和视频流的编解码，将游戏内容和IaaS （Infrastructure as a Service，基础设施即服务）有云对接。分为 PC云游戏平台和移动云游戏平台两大赛道，大量初创公司在 2012-2015年切入此领域，通过提过游戏运营的云化服务，产生订阅收入。巨头如华为、腾讯2019年通过合作和推出自有平台的方式切入该领域。预计订阅收入将成为云游戏平台的主要收入来源，也将成为云游戏时代除了游戏内道具付费之外的重要变现方式。</p>
+</blockquote>
+<h2 id="云服务商"><a href="#云服务商" class="headerlink" title="云服务商"></a>云服务商</h2><blockquote>
+<p>具备IDC（Internet Data Center，互联网数据中心）提供算力和存储服务，主要为 IaaS公有云平台，包括阿里云、腾讯云、华为云、百度云等。游戏只是其云计算服务的一个领域。</p>
+</blockquote>
+<h2 id="通信运营商"><a href="#通信运营商" class="headerlink" title="通信运营商"></a>通信运营商</h2><blockquote>
+<p>高速稳定的网络是游戏数据传输和游戏画面流畅的先决条件。运营商的 5G网络具备高下载速度、低延迟等优势，成为用户终端-云平台数据传输的重要通道。同时，运营商在推广5G套餐时，云游戏可能成为重要的内容抓手，因此运营商在云游戏领域或将拥有用户入口优势，成为重要的分发平台。</p>
+</blockquote>
+<h2 id="设备提供商"><a href="#设备提供商" class="headerlink" title="设备提供商"></a>设备提供商</h2><blockquote>
+<p>由于云游戏将游戏的运行放在云端，终端设备只需有游戏画面呈现功能即可，用户存量的智能手机、平板电脑、PC、智能电视以及集成游戏内容的智能机顶盒等都可成为云游戏的终端。因为云游戏对终端设备较低的要求，设备提供商在云游戏产业链中处于相对弱势地位。</p>
+</blockquote>
+<h1 id="云游戏未来发展趋势"><a href="#云游戏未来发展趋势" class="headerlink" title="云游戏未来发展趋势"></a>云游戏未来发展趋势</h1><h2 id="游戏研发商-1"><a href="#游戏研发商-1" class="headerlink" title="游戏研发商"></a>游戏研发商</h2><blockquote>
+<p>游戏重度化趋势加剧，头部研发商市场份额将进一步提升。</p>
+</blockquote>
+<h2 id="游戏云平台"><a href="#游戏云平台" class="headerlink" title="游戏云平台"></a>游戏云平台</h2><blockquote>
+<p>由初创公司百花齐放，到初创公司与新入局的巨头加强合作，最终具备 IaaS资源的云计算巨头和拥有用户、流量优势的企业有望主导产业链该环节。云游戏产业链中，由于游戏云平台这一环节的出现，订阅云服务有望成为游戏行业继付费下载、游戏内付费（主要为道具付费）之后又一主流变现模式。订阅服务收入在游戏收入中的占比有望不断提升，云游戏带来用户对硬件需求的降低将转移对订阅云服务需求的提升。</p>
+</blockquote>
+<h2 id="通信运营商-1"><a href="#通信运营商-1" class="headerlink" title="通信运营商"></a>通信运营商</h2><blockquote>
+<p>云游戏时代，由于游戏即点即玩、无需下载，应用商店等渠道作用将弱化，但云游戏作为5G重要应用领域，通信运营商基于5G 网络入口优势，较过去 4G时代有望更多切入游戏云平台运营、甚至研发环节。在 4G时代，三大通信运营商更多承担数据传输通道的作用，数据业务收入取得大幅增长。而随着5G来临，四大运营商将不甘于仅仅起到数据通道作用，而是纷纷通过自身加大资金投入以及外部合作的方式，力图深度参与5G应用。尤其是在5G推广的初期，将流量与内容绑定、通过内容来吸引用户订购5G套餐，或将成为运营商的重要营销方式。云游戏是5G娱乐应用领域比超高清视频、VR&#x2F;AR更早爆发和更成熟的应用，通信运营商或将基于自身海量用户，通过与游戏内容方、硬件终端合作的方式，切入游戏云平台运营、甚至研发领域。</p>
+</blockquote>
+<h1 id="未来展望"><a href="#未来展望" class="headerlink" title="未来展望"></a>未来展望</h1><blockquote>
+<p>《2020-2026年中国云游戏行业市场研究分析及未来前景展望报告》数据显示：随着5G网络的正式商用，让云游戏再次成为了行业风口。据调查数据显示，2020年中国云游戏用户达到 2.47 亿人，同比增长 114.8%，并在 2023 年增至6.58亿;云游戏市场在 2020 年将达到 68 亿元，并在 2023 年增至 986 亿元</p>
+<p>如大家所见，云游戏必将成为云计算中的相当重要的应用，随着广电技术的推广和网络的改善，云游戏的时代已经接近。在未来，云游戏一定会为我们的生活创造更多的精彩!</p>
+</blockquote>
+<p>参考文献：</p>
+<ol>
+<li><p><a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E4%BA%91%E6%9C%8D%E5%8A%A1/7843499?fr=aladdin">百度百科：云服务</a>[引用日期：2023年1月30日]</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E4%BA%91%E8%AE%A1%E7%AE%97/9969353?fromModule=lemma-qiyi_sense-lemma">百度百科：云计算</a>[引用日期：2023年1月30日]</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E4%BA%91%E6%B8%B8%E6%88%8F/1404089?fr=aladdin">百度百科：云服务</a>[引用日期：2023年1月30日]</p>
+</li>
+</ol>
+</article><div class="post-copyright"><div class="copyright-cc-box"><i class="anzhiyufont anzhiyu-icon-copyright"></i></div><div class="post-copyright__author_box"><a class="post-copyright__author_img" href="/" title="头像"><img class="post-copyright__author_img_back" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic.imgdb.cn/item/64e42d1b661c6c8e54a18cd7.png" title="头像" alt="头像"><img class="post-copyright__author_img_front" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic.imgdb.cn/item/64e42d1b661c6c8e54a18cd7.png" title="头像" alt="头像"></a><div class="post-copyright__author_name">Ame</div><div class="post-copyright__author_desc"></div></div><div class="post-copyright__post__info"><a class="post-copyright__original" title="该文章为原创文章，注意版权协议" href="http://486916.xyz/2023/04/09/%E3%80%8A%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%9C%A8%E7%94%B5%E5%AD%90%E6%B8%B8%E6%88%8F%E9%A2%86%E5%9F%9F%E7%9A%84%E5%BA%94%E7%94%A8%E3%80%8B/">原创</a><a class="post-copyright-title"><span onclick="rm.copyPageUrl('http://486916.xyz/2023/04/09/%E3%80%8A%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%9C%A8%E7%94%B5%E5%AD%90%E6%B8%B8%E6%88%8F%E9%A2%86%E5%9F%9F%E7%9A%84%E5%BA%94%E7%94%A8%E3%80%8B/')">《云服务在电子游戏领域的应用》</span></a></div><div class="post-tools" id="post-tools"><div class="post-tools-left"><div class="rewardLeftButton"></div><div class="shareRight"><div class="share-link mobile"><div class="share-qrcode"><div class="share-button" title="使用手机访问这篇文章"><i class="anzhiyufont anzhiyu-icon-qrcode"></i></div><div class="share-main"><div class="share-main-all"><div id="qrcode" title="http://486916.xyz/2023/04/09/%E3%80%8A%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%9C%A8%E7%94%B5%E5%AD%90%E6%B8%B8%E6%88%8F%E9%A2%86%E5%9F%9F%E7%9A%84%E5%BA%94%E7%94%A8%E3%80%8B/"></div><div class="reward-dec">使用手机访问这篇文章</div></div></div></div></div></div></div></div><div class="post-copyright__notice"><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://486916.xyz" target="_blank">AmeのBlog</a>！</span></div></div><div class="post-tools-right"><div class="tag_share"><div class="post-meta__box"><div class="post-meta__box__tag-list"></div></div></div><div class="post_share"><div class="social-share" data-image="https://pic.imgdb.cn/item/64e6e9dc661c6c8e5488b530.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.cbd.int/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"/><script src="https://cdn.cbd.int/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer="defer"></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2023/04/08/%E4%BD%9C%E4%B8%9A1/"><img class="prev-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic.imgdb.cn/item/64e6d0f7661c6c8e54746df9.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">作业1</div></div></a></div><div class="next-post pull-right"><a href="/2023/04/09/Word%E6%96%87%E6%A1%A3%E8%BD%ACMarkdown/"><img class="next-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic.imgdb.cn/item/64e6d0f7661c6c8e54746df9.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Word文档转Markdown</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-content"><div class="author-info__sayhi" id="author-info__sayhi" onclick="anzhiyu.changeSayHelloText()"></div><div class="author-info-avatar" title="点击展开"><img class="avatar-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic.imgdb.cn/item/64e42d1b661c6c8e54a18cd7.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__description"></div><div class="author-info__bottom-group"><a class="author-info__bottom-group-left" href="/"><h1 class="author-info__name">Ame</h1><div class="author-info__desc"></div></a><div class="card-info-social-icons is-center"><a class="social-icon faa-parent animated-hover" href="https://github.com/yousaforever" target="_blank" title="Github"><i class="anzhiyufont anzhiyu-icon-github"></i></a></div></div></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-bars"></i><span>文章目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%91%E6%B8%B8%E6%88%8F%E5%8F%8A%E5%85%B6%E5%9F%BA%E6%9C%AC%E6%8A%80%E6%9C%AF%E6%A6%82%E5%BF%B5"><span class="toc-number">1.</span> <span class="toc-text">云游戏及其基本技术概念</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%91%E6%9C%8D%E5%8A%A1%E6%A6%82%E5%BF%B5"><span class="toc-number">1.1.</span> <span class="toc-text">云服务概念</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%91%E8%AE%A1%E7%AE%97%E6%A6%82%E5%BF%B5"><span class="toc-number">1.2.</span> <span class="toc-text">云计算概念</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%91%E6%B8%B8%E6%88%8F%E6%A6%82%E5%BF%B5"><span class="toc-number">1.3.</span> <span class="toc-text">云游戏概念</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%91%E6%B8%B8%E6%88%8F%E4%BA%A7%E7%94%9F%E5%8E%9F%E5%9B%A0%E5%88%86%E6%9E%90"><span class="toc-number">2.</span> <span class="toc-text">云游戏产生原因分析</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A4%A7%E5%9E%8B%E7%BD%91%E7%BB%9C%E6%B8%B8%E6%88%8F%E7%9A%84%E6%99%AE%E5%8F%8A"><span class="toc-number">2.1.</span> <span class="toc-text">大型网络游戏的普及</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%A1%AC%E4%BB%B6%E6%80%A7%E8%83%BD%E7%9A%84%E9%99%90%E5%88%B6"><span class="toc-number">2.2.</span> <span class="toc-text">硬件性能的限制</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%91%E6%B8%B8%E6%88%8F%E7%9B%B8%E5%85%B3%E5%9F%BA%E7%A1%80%E6%8A%80%E6%9C%AF"><span class="toc-number">3.</span> <span class="toc-text">云游戏相关基础技术</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%99%9A%E6%8B%9F%E5%8C%96%E6%8A%80%E6%9C%AF"><span class="toc-number">3.1.</span> <span class="toc-text">虚拟化技术</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%9C%E7%A8%8B%E6%B8%B2%E6%9F%93%E6%98%A0%E5%B0%84%EF%BC%88Remote-Rendering-Mapping%EF%BC%89%E6%8A%80%E6%9C%AF"><span class="toc-number">3.2.</span> <span class="toc-text">远程渲染映射（Remote Rendering Mapping）技术</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%91%E6%B8%B8%E6%88%8F%E8%BF%90%E8%90%A5%E6%A8%A1%E5%BC%8F"><span class="toc-number">4.</span> <span class="toc-text">云游戏运营模式</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BE%B9%E7%BC%98%E8%AE%A1%E7%AE%97%E8%8A%82%E7%82%B9%E7%AE%A1%E7%90%86"><span class="toc-number">4.1.</span> <span class="toc-text">边缘计算节点管理</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%91%E6%B8%B8%E6%88%8F%E7%9B%B8%E5%AF%B9%E4%BA%8E%E4%BC%A0%E7%BB%9F%E6%B8%B8%E6%88%8F%E7%9A%84%E4%BC%98%E5%8A%BF%E5%92%8C%E5%8A%A3%E5%8A%BF"><span class="toc-number">5.</span> <span class="toc-text">云游戏相对于传统游戏的优势和劣势</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BC%98%E5%8A%BF"><span class="toc-number">5.1.</span> <span class="toc-text">优势</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8A%A3%E5%8A%BF"><span class="toc-number">5.2.</span> <span class="toc-text">劣势</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%91%E6%B8%B8%E6%88%8F%E4%BA%A7%E4%B8%9A%E9%93%BE"><span class="toc-number">6.</span> <span class="toc-text">云游戏产业链</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A6%82%E8%BF%B0"><span class="toc-number">6.1.</span> <span class="toc-text">概述</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B8%B8%E6%88%8F%E7%A0%94%E5%8F%91%E5%95%86"><span class="toc-number">6.2.</span> <span class="toc-text">游戏研发商</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%91%E6%B8%B8%E6%88%8F%E5%B9%B3%E5%8F%B0"><span class="toc-number">6.3.</span> <span class="toc-text">云游戏平台</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%95%86"><span class="toc-number">6.4.</span> <span class="toc-text">云服务商</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%80%9A%E4%BF%A1%E8%BF%90%E8%90%A5%E5%95%86"><span class="toc-number">6.5.</span> <span class="toc-text">通信运营商</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AE%BE%E5%A4%87%E6%8F%90%E4%BE%9B%E5%95%86"><span class="toc-number">6.6.</span> <span class="toc-text">设备提供商</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%91%E6%B8%B8%E6%88%8F%E6%9C%AA%E6%9D%A5%E5%8F%91%E5%B1%95%E8%B6%8B%E5%8A%BF"><span class="toc-number">7.</span> <span class="toc-text">云游戏未来发展趋势</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B8%B8%E6%88%8F%E7%A0%94%E5%8F%91%E5%95%86-1"><span class="toc-number">7.1.</span> <span class="toc-text">游戏研发商</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B8%B8%E6%88%8F%E4%BA%91%E5%B9%B3%E5%8F%B0"><span class="toc-number">7.2.</span> <span class="toc-text">游戏云平台</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%80%9A%E4%BF%A1%E8%BF%90%E8%90%A5%E5%95%86-1"><span class="toc-number">7.3.</span> <span class="toc-text">通信运营商</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%9C%AA%E6%9D%A5%E5%B1%95%E6%9C%9B"><span class="toc-number">8.</span> <span class="toc-text">未来展望</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-history"></i><span>最近发布</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2023/08/24/%E6%9F%90%E5%8A%A8%E6%BC%AB%E6%B8%B8%E6%88%8F3-2%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/" title="某动漫游戏3.2服务器搭建"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic.imgdb.cn/item/64e77acc661c6c8e54c4ea51.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="某动漫游戏3.2服务器搭建"/></a><div class="content"><a class="title" href="/2023/08/24/%E6%9F%90%E5%8A%A8%E6%BC%AB%E6%B8%B8%E6%88%8F3-2%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%90%AD%E5%BB%BA/" title="某动漫游戏3.2服务器搭建">某动漫游戏3.2服务器搭建</a><time datetime="2023-08-24T10:37:56.000Z" title="发表于 2023-08-24 18:37:56">2023-08-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/08/24/Pages%E7%9A%84Hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0HTTPS%E6%94%AF%E6%8C%81/" title="利用cloudflare为基于Github Pages的Hexo博客添加HTTPS支持"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic.imgdb.cn/item/64e6e9dc661c6c8e5488b530.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="利用cloudflare为基于Github Pages的Hexo博客添加HTTPS支持"/></a><div class="content"><a class="title" href="/2023/08/24/Pages%E7%9A%84Hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0HTTPS%E6%94%AF%E6%8C%81/" title="利用cloudflare为基于Github Pages的Hexo博客添加HTTPS支持">利用cloudflare为基于Github Pages的Hexo博客添加HTTPS支持</a><time datetime="2023-08-24T05:24:05.000Z" title="发表于 2023-08-24 13:24:05">2023-08-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/08/23/%E5%8D%9A%E5%AE%A2%E9%87%8D%E6%9E%84/" title="博客重构"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic.imgdb.cn/item/64e61d91661c6c8e5436668d.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="博客重构"/></a><div class="content"><a class="title" href="/2023/08/23/%E5%8D%9A%E5%AE%A2%E9%87%8D%E6%9E%84/" title="博客重构">博客重构</a><time datetime="2023-08-23T05:02:30.000Z" title="发表于 2023-08-23 13:02:30">2023-08-23</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/08/10/%E5%B7%A5%E4%B8%9A%E5%92%8C%E4%BF%A1%E6%81%AF%E5%8C%96%E9%83%A8%E5%85%B3%E4%BA%8E%E5%BC%80%E5%B1%95%E7%A7%BB%E5%8A%A8%E4%BA%92%E8%81%94%E7%BD%91%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E5%A4%87%E6%A1%88%E5%B7%A5%E4%BD%9C%E7%9A%84%E9%80%9A%E7%9F%A5/" title="工业和信息化部关于开展移动互联网应用程序备案工作的通知"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic.imgdb.cn/item/64e6d0f7661c6c8e54746df9.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="工业和信息化部关于开展移动互联网应用程序备案工作的通知"/></a><div class="content"><a class="title" href="/2023/08/10/%E5%B7%A5%E4%B8%9A%E5%92%8C%E4%BF%A1%E6%81%AF%E5%8C%96%E9%83%A8%E5%85%B3%E4%BA%8E%E5%BC%80%E5%B1%95%E7%A7%BB%E5%8A%A8%E4%BA%92%E8%81%94%E7%BD%91%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E5%A4%87%E6%A1%88%E5%B7%A5%E4%BD%9C%E7%9A%84%E9%80%9A%E7%9F%A5/" title="工业和信息化部关于开展移动互联网应用程序备案工作的通知">工业和信息化部关于开展移动互联网应用程序备案工作的通知</a><time datetime="2023-08-10T12:35:04.000Z" title="发表于 2023-08-10 20:35:04">2023-08-10</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/08/06/Lua%E7%AC%94%E8%AE%B0/" title="Lua笔记"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic.imgdb.cn/item/64e6d0f7661c6c8e54746df9.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Lua笔记"/></a><div class="content"><a class="title" href="/2023/08/06/Lua%E7%AC%94%E8%AE%B0/" title="Lua笔记">Lua笔记</a><time datetime="2023-08-06T14:34:39.000Z" title="发表于 2023-08-06 22:34:39">2023-08-06</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"></div><div id="footer-bar"><div class="footer-bar-links"><div class="footer-bar-left"><div id="footer-bar-tips"><div class="copyright">&copy;2023 By Ame </div></div><div id="footer-type-tips"></div></div><div class="footer-bar-right"><a class="footer-bar-link" target="_blank" rel="noopener" href="https://github.com/yousaforever/hexo-theme-anzhiyu" title="主题">主题</a></div></div></div></footer></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic.imgdb.cn/item/64e42d1b661c6c8e54a18cd7.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 文章</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><i class="anzhiyufont anzhiyu-icon-box-archive faa-tada" style="font-size: 0.9em;"></i><span> 归档</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><i class="anzhiyufont anzhiyu-icon-shapes faa-tada" style="font-size: 0.9em;"></i><span> 分类</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 我的</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/music/?id=168314790&amp;server=netease"><i class="anzhiyufont anzhiyu-icon-music faa-tada" style="font-size: 0.9em;"></i><span> 音乐馆</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/album/"><i class="anzhiyufont anzhiyu-icon-images faa-tada" style="font-size: 0.9em;"></i><span> 相册集</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 关于</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/about/"><i class="anzhiyufont anzhiyu-icon-paper-plane faa-tada" style="font-size: 0.9em;"></i><span> 关于本人</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/essay/"><i class="anzhiyufont anzhiyu-icon-lightbulb faa-tada" style="font-size: 0.9em;"></i><span> 说说</span></a></li></ul></div></div><span class="sidebar-menu-item-title">标签</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/Hexo/" style="font-size: 0.88rem;">Hexo<sup>1</sup></a><a href="/tags/%E5%8E%9F%E7%A5%9E/" style="font-size: 0.88rem;">原神<sup>1</sup></a></div></div><hr/></div></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="anzhiyufont anzhiyu-icon-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="anzhiyufont anzhiyu-icon-gear"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="anzhiyufont anzhiyu-icon-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div><div id="nav-music"><a id="nav-music-hoverTips" onclick="anzhiyu.musicToggle()" accesskey="m">播放音乐</a><div id="console-music-bg"></div><meting-js id="168314790" server="netease" type="playlist" mutex="true" preload="none" theme="var(--anzhiyu-main)" data-lrctype="0" order="random"></meting-js></div><div id="rightMenu"><div class="rightMenu-group rightMenu-small"><div class="rightMenu-item" id="menu-backward"><i class="anzhiyufont anzhiyu-icon-arrow-left"></i></div><div class="rightMenu-item" id="menu-forward"><i class="anzhiyufont anzhiyu-icon-arrow-right"></i></div><div class="rightMenu-item" id="menu-refresh"><i class="anzhiyufont anzhiyu-icon-arrow-rotate-right" style="font-size: 1rem;"></i></div><div class="rightMenu-item" id="menu-top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></div></div><div class="rightMenu-group rightMenu-line rightMenuPlugin"><div class="rightMenu-item" id="menu-copytext"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制选中文本</span></div><div class="rightMenu-item" id="menu-pastetext"><i class="anzhiyufont anzhiyu-icon-paste"></i><span>粘贴文本</span></div><a class="rightMenu-item" id="menu-commenttext"><i class="anzhiyufont anzhiyu-icon-comment-medical"></i><span>引用到评论</span></a><div class="rightMenu-item" id="menu-newwindow"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开</span></div><div class="rightMenu-item" id="menu-copylink"><i class="anzhiyufont anzhiyu-icon-link"></i><span>复制链接地址</span></div><div class="rightMenu-item" id="menu-copyimg"><i class="anzhiyufont anzhiyu-icon-images"></i><span>复制此图片</span></div><div class="rightMenu-item" id="menu-downloadimg"><i class="anzhiyufont anzhiyu-icon-download"></i><span>下载此图片</span></div><div class="rightMenu-item" id="menu-newwindowimg"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开图片</span></div><div class="rightMenu-item" id="menu-search"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>站内搜索</span></div><div class="rightMenu-item" id="menu-searchBaidu"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>百度搜索</span></div><div class="rightMenu-item" id="menu-music-toggle"><i class="anzhiyufont anzhiyu-icon-play"></i><span>播放音乐</span></div><div class="rightMenu-item" id="menu-music-back"><i class="anzhiyufont anzhiyu-icon-backward"></i><span>切换到上一首</span></div><div class="rightMenu-item" id="menu-music-forward"><i class="anzhiyufont anzhiyu-icon-forward"></i><span>切换到下一首</span></div><div class="rightMenu-item" id="menu-music-playlist" onclick="window.open(&quot;https://music.163.com/#/playlist?id=168314790&quot;, &quot;_blank&quot;);" style="display: none;"><i class="anzhiyufont anzhiyu-icon-radio"></i><span>查看所有歌曲</span></div><div class="rightMenu-item" id="menu-music-copyMusicName"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制歌名</span></div></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item menu-link" id="menu-randomPost"><i class="anzhiyufont anzhiyu-icon-shuffle"></i><span>随便逛逛</span></a><a class="rightMenu-item menu-link" href="/categories/"><i class="anzhiyufont anzhiyu-icon-cube"></i><span>博客分类</span></a><a class="rightMenu-item menu-link" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags"></i><span>文章标签</span></a></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item" id="menu-copy" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制地址</span></a><a class="rightMenu-item" id="menu-commentBarrage" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-message"></i><span class="menu-commentBarrage-text">关闭热评</span></a><a class="rightMenu-item" id="menu-darkmode" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span class="menu-darkmode-text">深色模式</span></a><a class="rightMenu-item" id="menu-translate" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-language"></i><span>轉為繁體</span></a></div></div><div id="rightmenu-mask"></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.cbd.int/@fancyapps/ui@5.0.20/dist/fancybox/fancybox.umd.js"></script><script src="https://cdn.cbd.int/instant.page@5.2.0/instantpage.js" type="module"></script><script src="https://cdn.cbd.int/vanilla-lazyload@17.8.4/dist/lazyload.iife.min.js"></script><script src="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.js"></script><canvas id="universe"></canvas><script async src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/dark/dark.js"></script><script>// 消除控制台打印
+var HoldLog = console.log;
+console.log = function () {};
+let now1 = new Date();
+queueMicrotask(() => {
+  const Log = function () {
+    HoldLog.apply(console, arguments);
+  }; //在恢复前输出日志
+  const grt = new Date("01/01/2022 00:00:00"); //此处修改你的建站时间或者网站上线时间
+  now1.setTime(now1.getTime() + 250);
+  const days = (now1 - grt) / 1000 / 60 / 60 / 24;
+  const dnum = Math.floor(days);
+  const ascll = [
+    `欢迎使用安知鱼!`,
+    `生活明朗, 万物可爱`,
+    `
+        
+       █████╗ ███╗   ██╗███████╗██╗  ██╗██╗██╗   ██╗██╗   ██╗
+      ██╔══██╗████╗  ██║╚══███╔╝██║  ██║██║╚██╗ ██╔╝██║   ██║
+      ███████║██╔██╗ ██║  ███╔╝ ███████║██║ ╚████╔╝ ██║   ██║
+      ██╔══██║██║╚██╗██║ ███╔╝  ██╔══██║██║  ╚██╔╝  ██║   ██║
+      ██║  ██║██║ ╚████║███████╗██║  ██║██║   ██║   ╚██████╔╝
+      ╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚═╝   ╚═╝    ╚═════╝
+        
+        `,
+    "已上线",
+    dnum,
+    "天",
+    "©2023 By 安知鱼 V1.6.1",
+  ];
+  const ascll2 = [`NCC2-036`, `调用前置摄像头拍照成功，识别为【小笨蛋】.`, `Photo captured: `, `🤪`];
+
+  setTimeout(
+    Log.bind(
+      console,
+      `\n%c${ascll[0]} %c ${ascll[1]} %c ${ascll[2]} %c${ascll[3]}%c ${ascll[4]}%c ${ascll[5]}\n\n%c ${ascll[6]}\n`,
+      "color:#3b70fc",
+      "",
+      "color:#3b70fc",
+      "color:#3b70fc",
+      "",
+      "color:#3b70fc",
+      ""
+    )
+  );
+  setTimeout(
+    Log.bind(
+      console,
+      `%c ${ascll2[0]} %c ${ascll2[1]} %c \n${ascll2[2]} %c\n${ascll2[3]}\n`,
+      "color:white; background-color:#4fd953",
+      "",
+      "",
+      'background:url("https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/tinggge.gif") no-repeat;font-size:450%'
+    )
+  );
+
+  setTimeout(Log.bind(console, "%c WELCOME %c 你好，小笨蛋.", "color:white; background-color:#4f90d9", ""));
+
+  setTimeout(
+    console.warn.bind(
+      console,
+      "%c ⚡ Powered by 安知鱼 %c 你正在访问 Ame 的博客.",
+      "color:white; background-color:#f0ad4e",
+      ""
+    )
+  );
+
+  setTimeout(Log.bind(console, "%c W23-12 %c 你已打开控制台.", "color:white; background-color:#4f90d9", ""));
+
+  setTimeout(
+    console.warn.bind(console, "%c S013-782 %c 你现在正处于监控中.", "color:white; background-color:#d9534f", "")
+  );
+});</script><script async src="/anzhiyu/random.js"></script><div class="js-pjax"><input type="hidden" name="page-type" id="page-type" value="post"></div><script>var visitorMail = "visitor@anheyu.com";</script><script async data-pjax src="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/waterfall/waterfall.js"></script><script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/qrcodejs/1.0.0/qrcode.min.js"></script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.9/icon/ali_iconfont_css.css"><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/aplayer/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.cbd.int/anzhiyu-blog-static@1.0.1/js/APlayer.min.js"></script><script src="https://cdn.cbd.int/hexo-anzhiyu-music@1.0.1/assets/js/Meting2.min.js"></script><script src="https://cdn.cbd.int/pjax@0.2.8/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+  // removeEventListener scroll 
+  anzhiyu.removeGlobalFnEvent('pjax')
+  anzhiyu.removeGlobalFnEvent('themeChange')
+
+  document.getElementById('rightside').classList.remove('rightside-show')
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', e => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script charset="UTF-8" src="https://cdn.cbd.int/anzhiyu-theme-static@1.1.5/accesskey/accesskey.js"></script></div><div id="popup-window"><div class="popup-window-title">通知</div><div class="popup-window-divider"></div><div class="popup-window-content"><div class="popup-tip">你好呀</div><div class="popup-link"><i class="anzhiyufont anzhiyu-icon-arrow-circle-right"></i></div></div></div></body></html>
