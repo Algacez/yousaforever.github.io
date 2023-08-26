@@ -21,6 +21,9 @@
 </blockquote>
 <p><img src="https://pic.imgdb.cn/item/641ffb1fa682492fcc887ce9.jpg"></p>
 ]]></content>
+      <categories>
+        <category>AIGC</category>
+      </categories>
   </entry>
   <entry>
     <title>CUDA</title>
@@ -213,6 +216,9 @@
 </tr>
 </tbody></table>
 ]]></content>
+      <categories>
+        <category>AIGC</category>
+      </categories>
   </entry>
   <entry>
     <title>GPT-4paper解读</title>
@@ -339,6 +345,9 @@
 <p>因此，DDSP是非常有前途，可以在音频转换、音乐合成、语音识别等领域得到广泛应用。</p>
 <h2 id="推理音频示例"><a href="#推理音频示例" class="headerlink" title="推理音频示例"></a>推理音频示例</h2><p><a href="https://filedoge.com/download/fbe2cf1f61655588aa73a868addafef2e0eb82c9dd8f21d669d534a40ce50f454f657b81f24f965ff890">下载链接</a></p>
 ]]></content>
+      <categories>
+        <category>AIGC</category>
+      </categories>
   </entry>
   <entry>
     <title>GPT1、GPT2原理</title>
@@ -428,6 +437,9 @@
 <h3 id="为什么GPT-2能够适应多任务？"><a href="#为什么GPT-2能够适应多任务？" class="headerlink" title="为什么GPT-2能够适应多任务？"></a>为什么GPT-2能够适应多任务？</h3><p>在训练的时候，采用了多任务的方式，不单单只在一个任务上进行学习，而是多个，每一个任务都要保证其损失函数能收敛，不同任务是共享主题Transformer参数的，进一步提升模型的泛化能力，因此在即使没有fine-tuning的情况下，依旧有非常不错的表现。</p>
 <p>在fine-tuning有监督任务阶段，GPT-2根据给定输入与任务来做出相应的输出，那么模型就可以表示成下面这个样子：<br>$$<br>p(output∣input,task)<br>$$<br>例如可以直接输入：(“自然语言处理”, 中文翻译)来得到我们需要的结果(“Nature Language Processing”)，因此提出的模型可以将机器翻译，自然语言推理，语义分析，关系提取等10类任务统一建模为一个分类任务，而不误再为每一个子任务单独设计一个模型。</p>
 ]]></content>
+      <categories>
+        <category>AIGC</category>
+      </categories>
   </entry>
   <entry>
     <title>GPU参数</title>
@@ -7431,6 +7443,9 @@
 <p>LoRA，他只是一种为了简化微调超级大模型需要巨多算力、传大模型麻烦而产生的算法，本质上，还是上面两种微调方法</p>
 <p>转自B站@<a href="https://space.bilibili.com/12566101/dynamic">秋葉aaaki</a></p>
 ]]></content>
+      <categories>
+        <category>AIGC</category>
+      </categories>
   </entry>
   <entry>
     <title>Python3模块</title>
@@ -9707,6 +9722,9 @@
 
 <h1 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h1><p>至此，就基本介绍完了梯度下降法的基本思想和算法流程，并且用python实现了一个简单的梯度下降算法拟合直线的案例！<br>最后，我们回到文章开头所提出的场景假设:<br>这个下山的人实际上就代表了<a href="https://en.wikipedia.org/wiki/Backpropagation"><strong>反向传播算法</strong></a>，下山的路径其实就代表着算法中一直在寻找的参数Θ，山上当前点的最陡峭的方向实际上就是代价函数在这一点的梯度方向，场景中观测最陡峭方向所用的工具就是<a href="https://en.wikipedia.org/wiki/Derivative"><strong>微分</strong></a> 。在下一次观测之前的时间就是有我们算法中的学习率α所定义的。<br>可以看到场景假设和梯度下降算法很好的完成了对应！</p>
 ]]></content>
+      <categories>
+        <category>AIGC</category>
+      </categories>
   </entry>
   <entry>
     <title>生成式人工智能服务管理办法</title>
@@ -9760,6 +9778,9 @@
 <p><strong>第二十条</strong> 提供者违反本办法规定的，由网信部门和有关主管部门按照《中华人民共和国网络安全法》《中华人民共和国数据安全法》《中华人民共和国个人信息保护法》等法律、行政法规的规定予以处罚。法律、行政法规没有规定的，由网信部门和有关主管部门依据职责给予警告、通报批评，责令限期改正；拒不改正或者情节严重的，责令暂停或者终止其利用生成式人工智能提供服务，并处一万元以上十万元以下罚款。构成违反治安管理行为的，依法给予治安管理处罚；构成犯罪的，依法追究刑事责任。</p>
 <p><strong>第二十一条</strong> 本办法自2023年 月 日起实施。</p>
 ]]></content>
+      <categories>
+        <category>AIGC</category>
+      </categories>
   </entry>
   <entry>
     <title>泠鸢Lora模型</title>
@@ -9866,6 +9887,9 @@
 <p><font color='red'>    3.严禁用此模型进行侮辱性或猎奇的创作，严禁用于任何损害泠鸢yousa名誉的行为。</font></p>
 <p><font color='red'>    4.任何由于不当使用此模型产生的后果由使用者自行承担，与模型训练者无关。</font></p>
 ]]></content>
+      <categories>
+        <category>AIGC</category>
+      </categories>
   </entry>
   <entry>
     <title>演讲</title>
@@ -9988,6 +10012,18 @@
 <p>You will endure pain and suffering needed to realize your dreams. And you will make sacrifices to dedicate yourself to a life of purpose and doing your life’s work.</p>
 <p>Class of 2023, I extend my heartfelt congratulations to each one of you. jiayou!</p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>3.4data</title>
+    <url>/2023/08/26/3-2data/</url>
+    <content><![CDATA[<p><a href="https://github.com/yousaforever/3.4data"><strong>3.4data of HK4E</strong></a></p>
+<h1 id="JSON"><a href="#JSON" class="headerlink" title="JSON"></a>JSON</h1><h1 id="LUA"><a href="#LUA" class="headerlink" title="LUA"></a>LUA</h1><h1 id="TXT"><a href="#TXT" class="headerlink" title="TXT"></a>TXT</h1>]]></content>
+      <categories>
+        <category>原神</category>
+      </categories>
+      <tags>
+        <tag>原神</tag>
+      </tags>
   </entry>
   <entry>
     <title>说说</title>
