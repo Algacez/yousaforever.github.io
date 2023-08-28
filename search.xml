@@ -738,31 +738,9 @@
     
     
     <entry>
-      <title>说说</title>
-      <link href="/essay/index.html"/>
-      <url>/essay/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>相册集</title>
+      <link href="/album/index.html"/>
+      <url>/album/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -782,31 +760,9 @@
     
     
     <entry>
-      <title>相册集</title>
-      <link href="/album/index.html"/>
-      <url>/album/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>音乐馆</title>
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>原神·精选</title>
-      <link href="/genshinimg/index.html"/>
-      <url>/genshinimg/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -826,9 +782,64 @@
     
     
     <entry>
+      <title>更新日志</title>
+      <link href="/updates/index.html"/>
+      <url>/updates/index.html</url>
+      
+        <content type="html"><![CDATA[<div class="timeline undefined"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>2023</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>08-28</p></div></div><div class='timeline-item-content'><p>更新聊天机器人<a class="btn-anzhiyu " href="https://chat.486916.xyz/"   title="ChatGPT"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>ChatGPT</span></a></p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>08-24</p></div></div><div class='timeline-item-content'><p>新主题搭建<a class="btn-anzhiyu " href="https://docs.anheyu.com/"   title="AnZhiYu"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>AnZhiYu</span></a></p></div></div></div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>说说</title>
+      <link href="/essay/index.html"/>
+      <url>/essay/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>泠鸢yousa</title>
       <link href="/yousaimg/index.html"/>
       <url>/yousaimg/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>原神·精选</title>
+      <link href="/genshinimg/index.html"/>
+      <url>/genshinimg/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
