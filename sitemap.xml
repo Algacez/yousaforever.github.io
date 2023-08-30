@@ -4,7 +4,7 @@
   <url>
     <loc>http://486916.xyz/updates/index.html</loc>
     
-    <lastmod>2023-08-29</lastmod>
+    <lastmod>2023-08-30</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>http://486916.xyz/gentleman/index.html</loc>
+    <loc>http://486916.xyz/gentleman/1.html</loc>
     
     <lastmod>2023-08-29</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>http://486916.xyz/gentleman/1.html</loc>
+    <loc>http://486916.xyz/gentleman/index.html</loc>
     
     <lastmod>2023-08-29</lastmod>
     
@@ -553,7 +553,7 @@
 
   <url>
     <loc>http://486916.xyz/</loc>
-    <lastmod>2023-08-29</lastmod>
+    <lastmod>2023-08-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -561,14 +561,14 @@
   
   <url>
     <loc>http://486916.xyz/tags/%E5%8E%9F%E7%A5%9E/</loc>
-    <lastmod>2023-08-29</lastmod>
+    <lastmod>2023-08-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://486916.xyz/tags/Hexo/</loc>
-    <lastmod>2023-08-29</lastmod>
+    <lastmod>2023-08-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -577,28 +577,28 @@
   
   <url>
     <loc>http://486916.xyz/categories/%E5%8E%9F%E7%A5%9E/</loc>
-    <lastmod>2023-08-29</lastmod>
+    <lastmod>2023-08-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://486916.xyz/categories/AIGC/</loc>
-    <lastmod>2023-08-29</lastmod>
+    <lastmod>2023-08-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://486916.xyz/categories/Hexo/</loc>
-    <lastmod>2023-08-29</lastmod>
+    <lastmod>2023-08-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://486916.xyz/categories/%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2023-08-29</lastmod>
+    <lastmod>2023-08-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
