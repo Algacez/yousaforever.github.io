@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://486916.xyz/2023/09/02/%E6%9F%90%E5%8A%A8%E6%BC%AB%E6%B8%B8%E6%88%8F%E6%B8%B8%E7%8E%A9%E6%95%99%E7%A8%8B/</loc>
+    
+    <lastmod>2023-09-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://486916.xyz/updates/index.html</loc>
     
     <lastmod>2023-08-30</lastmod>
@@ -38,7 +47,7 @@
   </url>
   
   <url>
-    <loc>http://486916.xyz/2023/08/26/3-2data/</loc>
+    <loc>http://486916.xyz/2023/08/26/3-4data/</loc>
     
     <lastmod>2023-08-26</lastmod>
     
@@ -553,7 +562,7 @@
 
   <url>
     <loc>http://486916.xyz/</loc>
-    <lastmod>2023-08-31</lastmod>
+    <lastmod>2023-09-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -561,14 +570,14 @@
   
   <url>
     <loc>http://486916.xyz/tags/%E5%8E%9F%E7%A5%9E/</loc>
-    <lastmod>2023-08-31</lastmod>
+    <lastmod>2023-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://486916.xyz/tags/Hexo/</loc>
-    <lastmod>2023-08-31</lastmod>
+    <lastmod>2023-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -577,28 +586,28 @@
   
   <url>
     <loc>http://486916.xyz/categories/%E5%8E%9F%E7%A5%9E/</loc>
-    <lastmod>2023-08-31</lastmod>
+    <lastmod>2023-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://486916.xyz/categories/AIGC/</loc>
-    <lastmod>2023-08-31</lastmod>
+    <lastmod>2023-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://486916.xyz/categories/Hexo/</loc>
-    <lastmod>2023-08-31</lastmod>
+    <lastmod>2023-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://486916.xyz/categories/%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2023-08-31</lastmod>
+    <lastmod>2023-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
