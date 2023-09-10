@@ -74,6 +74,12 @@
         <content type="html"><![CDATA[<h1 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h1><p>在传大文件时速度开始变慢，电脑变卡顿，随后死机。</p><p>无法点亮显示器、鼠标、键盘</p><h2 id="初步猜测"><a href="#初步猜测" class="headerlink" title="初步猜测"></a>初步猜测</h2><p>硬盘原因</p><p>拆开硬盘放到另一台电脑发现硬盘功能完好</p><h2 id="开始排查"><a href="#开始排查" class="headerlink" title="开始排查"></a>开始排查</h2><p>是否由于SATA或硬盘供电线损坏</p><h2 id="继续排查"><a href="#继续排查" class="headerlink" title="继续排查"></a>继续排查</h2><p>上网搜索后看到大多是由于内存条金手指氧化导致</p><p>使用橡皮擦清洁内存条金手指</p><p><strong>大力出奇迹！！！</strong></p><p>重新点亮✌</p><p>补充一些其他可能的原因：</p><ol><li>显卡金手指氧化</li><li>BIOS问题——主板放电</li><li>主板烧了（</li></ol><hr><h2 id="然后。。。"><a href="#然后。。。" class="headerlink" title="然后。。。"></a>然后。。。</h2><p><img src="https://cn.mcecy.com/image/20230902/f0ff027b71c381a055b7ee1a123758d7.png"></p><p><strong>寄</strong></p><p>最后重装系统解决</p><p>PS：360驱动大师绝对是360系列里最好用的一款</p>]]></content>
       
       
+      <categories>
+          
+          <category> 计算机 </category>
+          
+      </categories>
+      
       
         <tags>
             
@@ -845,9 +851,9 @@
     
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>关于我</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -856,9 +862,53 @@
     
     
     <entry>
-      <title>关于我</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
+      <title>相册集</title>
+      <link href="/album/index.html"/>
+      <url>/album/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>说说</title>
+      <link href="/essay/index.html"/>
+      <url>/essay/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>bh3img</title>
+      <link href="/bh3img/index.html"/>
+      <url>/bh3img/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>神里绫华</title>
+      <link href="/ayakaimg/index.html"/>
+      <url>/ayakaimg/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -878,42 +928,9 @@
     
     
     <entry>
-      <title></title>
-      <link href="/css/home.css"/>
-      <url>/css/home.css</url>
-      
-        <content type="html"><![CDATA[#recent-posts > .recent-post-item:not(a)::before {    content: "";    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 200%;    background: linear-gradient(to right, transparent, white, transparent);    transform: translateX(-200%);    transition: transform 0.5s linear;    z-index: 1;  }  #recent-posts > .recent-post-item:not(a):hover::before {    transform: translateX(100%) skewX(-60deg);  }]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/css/welcome.css"/>
-      <url>/css/welcome.css</url>
-      
-        <content type="html"><![CDATA[#welcome-info {    overflow: hidden;    border-radius: 14px;    --kouseki-welcome-color: #49B1F5;    --kouseki-ip-color: #49B1F5;    --kouseki-gl-size: 16px!important;  }]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>说说</title>
-      <link href="/essay/index.html"/>
-      <url>/essay/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>相册集</title>
-      <link href="/album/index.html"/>
-      <url>/album/index.html</url>
+      <title>bhsrimg</title>
+      <link href="/bhsrimg/index.html"/>
+      <url>/bhsrimg/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -945,10 +962,10 @@
     
     <entry>
       <title></title>
-      <link href="/json/music.json"/>
-      <url>/json/music.json</url>
+      <link href="/css/welcome.css"/>
+      <url>/css/welcome.css</url>
       
-        <content type="html"><![CDATA[[{"name":"大喜","artist":"泠鸢yousa","url":"http://192.168.1.11:5244/d/%E9%9F%B3%E4%B9%90/%E5%A4%A7%E5%96%9C%20-%20%E6%B3%A0%E9%B8%A2yousa%26%E9%9F%B3%E9%98%99%E8%AF%97%E5%90%AC.flac","cover":"https://y.qq.com/music/photo_new/T002R300x300M000003MNOTS3FmvaO_1.jpg?max_age=2592000","lrc":"http://192.168.1.11:5244/d/%E9%9F%B3%E4%B9%90/%E5%A4%A7%E5%96%9C%20-%20%E6%B3%A0%E9%B8%A2yousa%E3%80%81%E9%9F%B3%E9%98%99%E8%AF%97%E5%90%AC.lrc"}]]]></content>
+        <content type="html"><![CDATA[#welcome-info {    overflow: hidden;    border-radius: 14px;    --kouseki-welcome-color: #49B1F5;    --kouseki-ip-color: #49B1F5;    --kouseki-gl-size: 16px!important;  }]]></content>
       
     </entry>
     
@@ -956,10 +973,21 @@
     
     <entry>
       <title></title>
-      <link href="/js/welcome.js"/>
-      <url>/js/welcome.js</url>
+      <link href="/css/home.css"/>
+      <url>/css/home.css</url>
       
-        <content type="html"><![CDATA[//get请求$.ajax({    type: 'get',    url: 'https://apis.map.qq.com/ws/location/v1/ip',    data: {        key: 'MYFBZ-GHIWJ-HKTFE-XNBXG-3ABQZ-OXFI4',        output: 'jsonp',    },    dataType: 'jsonp',    success: function (res) {        ipLocation = res;    }})function getDistance(e1, n1, e2, n2) {    const R = 6371    const { sin, cos, asin, PI, hypot } = Math    let getPoint = (e, n) => {        e *= PI / 180        n *= PI / 180        return { x: cos(n) * cos(e), y: cos(n) * sin(e), z: sin(n) }    }    let a = getPoint(e1, n1)    let b = getPoint(e2, n2)    let c = hypot(a.x - b.x, a.y - b.y, a.z - b.z)    let r = asin(c / 2) * 2 * R    return Math.round(r);}function showWelcome() {    let dist = getDistance(104.08116, 30.64147, ipLocation.result.location.lng, ipLocation.result.location.lat); //这里记得换成自己的经纬度    let pos = ipLocation.result.ad_info.nation;    let ip;    let posdesc;    //根据国家、省份、城市信息自定义欢迎语    switch (ipLocation.result.ad_info.nation) {        case "日本":            posdesc = "你滴，核废水为什么要往海里排，大大滴没有素质";            break;        case "美国":            posdesc = "自由美利坚~";            break;        case "英国":            posdesc = "想同你一起夜乘伦敦眼";            break;        case "俄罗斯":            posdesc = "干了这瓶伏特加！";            break;        case "法国":            posdesc = "C'est La Vie";            break;        case "德国":            posdesc = "Die Zeit verging im Fluge.";            break;        case "澳大利亚":            posdesc = "一起去大堡礁吧！";            break;        case "加拿大":            posdesc = "拾起一片枫叶赠予你";            break;        case "中国":            pos = ipLocation.result.ad_info.province + " " + ipLocation.result.ad_info.city + " " + ipLocation.result.ad_info.district;            ip = ipLocation.result.ip;            switch (ipLocation.result.ad_info.province) {                case "北京市":                    posdesc = "北——京——欢迎你~~~";                    break;                case "天津市":                    posdesc = "讲段相声吧";                    break;                case "河北省":                    posdesc = "山势巍巍成壁垒，天下雄关铁马金戈由此向，无限江山";                    break;                case "山西省":                    posdesc = "展开坐具长三尺，已占山河五百余";                    break;                case "内蒙古自治区":                    posdesc = "天苍苍，野茫茫，风吹草低见牛羊";                    break;                case "辽宁省":                    posdesc = "我想吃烤鸡架！";                    break;                case "吉林省":                    posdesc = "状元阁就是东北烧烤之王";                    break;                case "黑龙江省":                    posdesc = "很喜欢哈尔滨大剧院";                    break;                case "上海市":                    posdesc = "原神，启动！";                    break;                case "江苏省":                    switch (ipLocation.result.ad_info.city) {                        case "南京市":                            posdesc = "这是我挺想去的城市啦";                            break;                        case "苏州市":                            posdesc = "上有天堂，下有苏杭";                            break;                        default:                            posdesc = "散装是必须要散装的";                            break;                    }                    break;                case "浙江省":                    posdesc = "东风渐绿西湖柳，雁已还人未南归";                    break;                case "河南省":                    switch (ipLocation.result.ad_info.city) {                        case "郑州市":                            posdesc = "豫州之域，天地之中";                            break;                        case "南阳市":                            posdesc = "臣本布衣，躬耕于南阳此南阳非彼南阳！";                            break;                        case "驻马店市":                            posdesc = "峰峰有奇石，石石挟仙气嵖岈山的花很美哦！";                            break;                        case "开封市":                            posdesc = "刚正不阿包青天";                            break;                        case "洛阳市":                            posdesc = "洛阳牡丹甲天下";                            break;                        default:                            posdesc = "可否带我品尝河南烩面啦？";                            break;                    }                    break;                case "安徽省":                    posdesc = "蚌埠住了，芜湖起飞";                    break;                case "福建省":                    posdesc = "井邑白云间，岩城远带山";                    break;                case "江西省":                    posdesc = "落霞与孤鹜齐飞，秋水共长天一色";                    break;                case "山东省":                    posdesc = "遥望齐州九点烟，一泓海水杯中泻";                    break;                case "湖北省":                    switch (ipLocation.result.ad_info.city) {                        case "黄冈市":                            posdesc = "红安将军县！辈出将才！";                            break;                        default:                            posdesc = "来碗热干面~";                            break;                    }                    break;                case "湖南省":                    posdesc = "74751，长沙斯塔克";                    break;                case "广东省":                    switch (ipLocation.result.ad_info.city) {                        case "广州市":                            posdesc = "看小蛮腰，喝早茶了嘛~";                            break;                        case "深圳市":                            posdesc = "今天你逛商场了嘛~";                            break;                        case "阳江市":                            posdesc = "阳春合水！博主家乡~ 欢迎来玩~";                            break;                        default:                            posdesc = "来两斤福建人~";                            break;                    }                    break;                case "广西壮族自治区":                    posdesc = "桂林山水甲天下";                    break;                case "海南省":                    posdesc = "朝观日出逐白浪，夕看云起收霞光";                    break;                case "四川省":                    posdesc = "来找我耍吧qwq";                    break;                case "贵州省":                    posdesc = "茅台，学生，再塞200";                    break;                case "云南省":                    posdesc = "玉龙飞舞云缠绕，万仞冰川直耸天";                    break;                case "西藏自治区":                    posdesc = "躺在茫茫草原上，仰望蓝天";                    break;                case "陕西省":                    posdesc = "来份臊子面加馍";                    break;                case "甘肃省":                    posdesc = "羌笛何须怨杨柳，春风不度玉门关";                    break;                case "青海省":                    posdesc = "牛肉干和老酸奶都好好吃";                    break;                case "宁夏回族自治区":                    posdesc = "大漠孤烟直，长河落日圆";                    break;                case "新疆维吾尔自治区":                    posdesc = "驼铃古道丝绸路，胡马犹闻唐汉风";                    break;                case "台湾省":                    posdesc = "我在这头，大陆在那头";                    break;                case "香港特别行政区":                    posdesc = "永定贼有残留地鬼嚎，迎击光非岁玉";                    break;                case "澳门特别行政区":                    posdesc = "性感荷官，在线发牌";                    break;                default:                    posdesc = "带我去你的城市逛逛吧！";                    break;            }            break;        default:            posdesc = "带我去你的国家逛逛吧";            break;    }    //根据本地时间切换欢迎语    let timeChange;    let date = new Date();    if (date.getHours() >= 5 && date.getHours() < 11) timeChange = "<span>🌤️ 早上好，一日之计在于晨</span>";    else if (date.getHours() >= 11 && date.getHours() < 13) timeChange = "<span>☀️ 中午好，记得午休喔~</span>";    else if (date.getHours() >= 13 && date.getHours() < 17) timeChange = "<span>🕞 下午好，努力工作哦~！</span>";    else if (date.getHours() >= 17 && date.getHours() < 19) timeChange = "<span>🚶‍♂️ 即将下班，记得按时吃饭~</span>";    else if (date.getHours() >= 19 && date.getHours() < 24) timeChange = "<span>🌙 晚上好~ 原神，启动！</span>";    else timeChange = "夜深了，早点休息，少熬夜";// 新增ipv6显示为指定内容    if (ip.includes(":")) {        ip = "<br>好复杂，咱看不懂~(ipv6)";    }    try {        //自定义文本和需要放的位置        document.getElementById("welcome-info").innerHTML =            `欢迎来自 <b><span style="color: var(--kouseki-ip-color);font-size: var(--kouseki-gl-size)">${pos}</span></b> 的小友💖<br>${posdesc}🍂<br>当前位置距博主约 <b><span style="color: var(--kouseki-ip-color)">${dist}</span></b> 公里！<br>您的IP地址为：<b><span>${ip}</span></b><br>${timeChange} <br>`;    } catch (err) {         console.log("Pjax无法获取元素")    }}window.onload = showWelcome;// 如果使用了pjax在加上下面这行代码document.addEventListener('pjax:complete', showWelcome);]]></content>
+        <content type="html"><![CDATA[#recent-posts > .recent-post-item:not(a)::before {    content: "";    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 200%;    background: linear-gradient(to right, transparent, white, transparent);    transform: translateX(-200%);    transition: transform 0.5s linear;    z-index: 1;  }  #recent-posts > .recent-post-item:not(a):hover::before {    transform: translateX(100%) skewX(-60deg);  }]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>绅士の照片集</title>
+      <link href="/gentleman/3.html"/>
+      <url>/gentleman/3.html</url>
+      
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="c9885a882da7b74ec584234deecaea5d8932a45c99280ee79715d683d4af523e">6c88885afd8b5a44e693ddf4b44973ff37f3c524fd5412347f02f809107c21d40bfffaf60e529429631229d79154ee02c2111992b6e7e4e3f82df1f83a727f590d11f20f2636c487915ba6d27257c761516a6d4a2a8b3ab2344765eae73341fd4f2c0fb9650216dc8e89014d15f34b4280d4fe38d009d379ee8ce7bb4019bb8fc83c4096106142a8c8bb6e03704379fa2f7d9c6d214fb9310340e05f4effca2e8143a610fe69b30ee957469bf9b9ed9220ba1a2693f0030be92b80dac42fc0b8ee00e5a54c3be7edc3656a2bc57249f8d8f0d6e467ead2abcadb5491525d45c1f8db646d8c52773f072a8e8d8bcd77541722b9f2ccb0f897e36e4f58e3e7268aad767f9d7a27a5235288cadc067fcd6b1bd4244e7914e961bbb509181ff2e26be0b760de8df5fd54d46f9bbeaf806a9890f370d696a817af076d3b63a85ccea8ad251ca33dc9cbc338c44a72db8d000fa5df473591dec945a5fb497fa175dbfe196a86426738e4895bebcd45e3501dd51c997afd541f51b0d02b0c7415be1b74d7dd1d8a77e145f4f1a9d134ab9066fe171f11e7077ae206f52fa68e604752a13b66cd41610b8c67780359831c38e2d3a2edf72f674f2d7cbf5a70ec3f7d3e3197d5214013542e099753cbb6f1070a78290d0304509eddae829ee1f260b6438a3f1255a8acf6419fb8e05bfeb1fb9fb87d49af23ee11b00a6970cee334e857b04a2985798d7b53519e15cb2db952a359d7687298ab2f021bbea671f7aef6fb75094ef7324c362ba78ed51eead2a2afe3e86367e9de1773e4fd4e208074fb31ac9874a0fa0db77e11aacdc17cf30336aee9992a57dc730b5908788907786f4c5b06ef4d325a514752fd78a27682afa0b75c9e63b215bebcd5db534e506b1db32933de015529ec6a668aa5e2287aa42f7e11a95694d4504b22d69eef147d101fbf1241f688fda9a654e0b89027392630c096132bf87b609dd8a5fe827a5a698777691ea306adb2f4c29604d0bc2bf1746495a4fbba732dbccdb95107422cbc71768a81f9054322b2eae6d522f2ee88577e10e9f0d1c40a8e56ef4eb7ece4b4b8172a670f1a0873623786555eb9c4eb1c76070d752714dbd2492f25abcd14b9bd45ed98cca422d9b4f311f3de59b38b64cf7ad700f84a0421459349e51160522b0b52b850bfc6f538c5eebf3dff3310f7479ab25d1bfa2407736d58a8f75c2fe83ca952c5c922c79064780068034412fe3620af4576be1423788064e017d3a034b7</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       
     </entry>
     
@@ -977,11 +1005,11 @@
     
     
     <entry>
-      <title>音乐馆</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
+      <title>绅士の照片集</title>
+      <link href="/gentleman/4.html"/>
+      <url>/gentleman/4.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="7fe576be9e58fd922fa07d4e947679a29795c1e968b113255f52271d707d139b">79f9b09b65fbbc7a10fa569215fb753ee1207a0882defdd708d034a83baca39dddf7d7c2a96d0af2abef6704cd25cd409341b6841801e76c8d19e25fc6ba04a92e2628208c30c1e88da902ec3cb92f024d549c1a94ba4e3a38743f1fd4c8d15db73e16785a5a2d87c028b1575ff923f7ccedd48fa8ed53dbd229b6fad456ab319bbf208bb26412670fc43ce3c659a95a6a6f6b1d89987e9d3d9e7d8f820db4793e4f3e267b545f0ed04d63a6fc9ef2a0262c6bff3159fb381d73cd9a46b8b7360d720ed5442bc504dfae7c377bbee03cbae37befe434566e4488810f27c0e08186737d8191a02658841ede59557bca8c01686f1d77c0539191646c401f2467cd651d40a6bdd9187fd4f11b78f151d20887c36e97c304a7303260fb2f5249021c77edaadc87c94f590c81daa5800a7dcb3e43fae6ab80ca3b698d0c05ad173bcfbe679661fcccdef3072eb86403edda8615df20953f2aadf94c5c68d9bc43925f1e20c67577fa988509385b6171ee3ea30318f444468f0a0b48a82a42c60c7c121fe16d67c0ff82baf41969cc26a6b54b184bdbad634cf9944e3d0160cf66162928f8f52fa6e704ca4968f5d51f2a6ad21afc78381b702cd5147174191f63bd67354e9acb899b3ba74097717dea8e1d0b61fbcda7e4224ed2127660cf1ce5b476169aef7f31a59082067771e7d665082fd87c1949f5a5c71baea5ffd8ee919233d5b65ab16a9192a4adc85c264aaaa39814952c2f9200e728ee383eea4599533eac0ee4fcd6599be109cc2aa7aac18006f345d97d1f5c822d261c0b18f9f81fa6af49e04ca972b6e27c9eefee3815c98a3d5a9561e88f629f92223407cced72b2cadcfe8c6e26f725fa89641907e1c849807c99067e1de983b76a86f5663a6cf0</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       
     </entry>
     
@@ -999,6 +1027,39 @@
     
     
     <entry>
+      <title>绅士の照片集</title>
+      <link href="/gentleman/5.html"/>
+      <url>/gentleman/5.html</url>
+      
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="df7864ff0f6755567c6b7f795d115f3a41d772b61dd676f81d4602b983e87ba4">0b92330e10e8f577a1853fa4ad72d19b0c7c68b4039b4b5134a53aec42d73c01c0397f37467f251f585a95328d70e86453dec4aaf5fc5bc27c2a55c41986ccd639ebb14583fe3c7cfdeab6bb6f9e4067e05d37e3038e882922df156160e974fb1ea6ebb4b248a93833af3c6720652cbcb6999a7f4ad46fd7db11b83d1249b1a04829f8d620fa45f035382a0c84f32af08280ce32ec000e14d1d3a2e7e6812fc087603dfe5d7cac5631103165f72d21501faaf13384248a0e324b68277646a638710b7e105b2fe792be40512fbc3a963aa1057c5a9e5f58b0459bd891615dab005230d73b8e3f553eb281f64c5aac752507b9bfc9c3228e5adc9ec02b12e2e28c1b6d03821280914ef7acb3719b49bd4978f716facaf0215d4e0e16780bb261d82d73f2be927f9969698c1b86e8936c8119af7257d021c5dd84f3853a099cd0f97839d972344c1ec1a22b23b122f125f4b4f552484713607447870110ac0a0a6526a269a36fc0353eb36f5462f811cc360bfd2f71b39e18517504bc4321b249a2ba83ee560477675daba74d8c314ea26788bbc645999ffd0d315fd3631061b676e698a5acdb9e2f2bc153b2b9b8126e4e815570dbe966ef0b616580ef32bf630e2277f0ef0af8b806e4d8e91c4582dc3a7539af3afad43c7f3684053477af2a9ea50343daa092d55e95e8740a0333777b8924ebc8062e88a512bac675766c3c11bf30b69f743da7c7216d7e5e1650de0d1fbe81204e95d1267b0842ca7f49cb190c7dbebd968222e3e0a6895dd3d17dbc0ccffdaa30de285ed89246922b1762e1e694f51190ace85aa1cc33b89c5bdb23cf803a23c9edac9e87c68c922d909e1ff541ef6ee7d3c6d4fd77b814bbd0ac0aff8b764542987191f886c9e4b001608fdb8ef74f8c2d0850cca114c38dcda6083e636a6445ed836242d1171951913976154f0407be3cf491fc74845c7f11c6086b64a505c43610cada326e06fdbc248bd84438230658c539ea398035b7fc7a39fb991f68228fe80d0419295db600c45c2b1bd3df9bbb8bf49c5935915b5ef9b47ca379fd7f2edd258f06d0a670f599fdf49de7bc68ea596ad782af2e61e23b9e658c6b6c3cc5ed3aeb69031d520fa135e36e73a3a114ae0925a05f7e2c05c352ec29d52629cd08f6c5ecbd3eb802bbb8c9680ace95f3f8f0f5a310c91beb0804203fbe4d69fba967d9ce1666c7f19939383b55dcf8b2926733ea6f3b7821105f98208cb4c94af7a903bf73cf9a7efe30</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/welcome.js"/>
+      <url>/js/welcome.js</url>
+      
+        <content type="html"><![CDATA[//get请求$.ajax({    type: 'get',    url: 'https://apis.map.qq.com/ws/location/v1/ip',    data: {        key: 'MYFBZ-GHIWJ-HKTFE-XNBXG-3ABQZ-OXFI4',        output: 'jsonp',    },    dataType: 'jsonp',    success: function (res) {        ipLocation = res;    }})function getDistance(e1, n1, e2, n2) {    const R = 6371    const { sin, cos, asin, PI, hypot } = Math    let getPoint = (e, n) => {        e *= PI / 180        n *= PI / 180        return { x: cos(n) * cos(e), y: cos(n) * sin(e), z: sin(n) }    }    let a = getPoint(e1, n1)    let b = getPoint(e2, n2)    let c = hypot(a.x - b.x, a.y - b.y, a.z - b.z)    let r = asin(c / 2) * 2 * R    return Math.round(r);}function showWelcome() {    let dist = getDistance(104.08116, 30.64147, ipLocation.result.location.lng, ipLocation.result.location.lat); //这里记得换成自己的经纬度    let pos = ipLocation.result.ad_info.nation;    let ip;    let posdesc;    //根据国家、省份、城市信息自定义欢迎语    switch (ipLocation.result.ad_info.nation) {        case "日本":            posdesc = "你滴，核废水为什么要往海里排，大大滴没有素质";            break;        case "美国":            posdesc = "自由美利坚~";            break;        case "英国":            posdesc = "想同你一起夜乘伦敦眼";            break;        case "俄罗斯":            posdesc = "干了这瓶伏特加！";            break;        case "法国":            posdesc = "C'est La Vie";            break;        case "德国":            posdesc = "Die Zeit verging im Fluge.";            break;        case "澳大利亚":            posdesc = "一起去大堡礁吧！";            break;        case "加拿大":            posdesc = "拾起一片枫叶赠予你";            break;        case "中国":            pos = ipLocation.result.ad_info.province + " " + ipLocation.result.ad_info.city + " " + ipLocation.result.ad_info.district;            ip = ipLocation.result.ip;            switch (ipLocation.result.ad_info.province) {                case "北京市":                    posdesc = "北——京——欢迎你~~~";                    break;                case "天津市":                    posdesc = "讲段相声吧";                    break;                case "河北省":                    posdesc = "山势巍巍成壁垒，天下雄关铁马金戈由此向，无限江山";                    break;                case "山西省":                    posdesc = "展开坐具长三尺，已占山河五百余";                    break;                case "内蒙古自治区":                    posdesc = "天苍苍，野茫茫，风吹草低见牛羊";                    break;                case "辽宁省":                    posdesc = "我想吃烤鸡架！";                    break;                case "吉林省":                    posdesc = "状元阁就是东北烧烤之王";                    break;                case "黑龙江省":                    posdesc = "很喜欢哈尔滨大剧院";                    break;                case "上海市":                    posdesc = "原神，启动！";                    break;                case "江苏省":                    switch (ipLocation.result.ad_info.city) {                        case "南京市":                            posdesc = "这是我挺想去的城市啦";                            break;                        case "苏州市":                            posdesc = "上有天堂，下有苏杭";                            break;                        default:                            posdesc = "散装是必须要散装的";                            break;                    }                    break;                case "浙江省":                    posdesc = "东风渐绿西湖柳，雁已还人未南归";                    break;                case "河南省":                    switch (ipLocation.result.ad_info.city) {                        case "郑州市":                            posdesc = "豫州之域，天地之中";                            break;                        case "南阳市":                            posdesc = "臣本布衣，躬耕于南阳此南阳非彼南阳！";                            break;                        case "驻马店市":                            posdesc = "峰峰有奇石，石石挟仙气嵖岈山的花很美哦！";                            break;                        case "开封市":                            posdesc = "刚正不阿包青天";                            break;                        case "洛阳市":                            posdesc = "洛阳牡丹甲天下";                            break;                        default:                            posdesc = "可否带我品尝河南烩面啦？";                            break;                    }                    break;                case "安徽省":                    posdesc = "蚌埠住了，芜湖起飞";                    break;                case "福建省":                    posdesc = "井邑白云间，岩城远带山";                    break;                case "江西省":                    posdesc = "落霞与孤鹜齐飞，秋水共长天一色";                    break;                case "山东省":                    posdesc = "遥望齐州九点烟，一泓海水杯中泻";                    break;                case "湖北省":                    switch (ipLocation.result.ad_info.city) {                        case "黄冈市":                            posdesc = "红安将军县！辈出将才！";                            break;                        default:                            posdesc = "来碗热干面~";                            break;                    }                    break;                case "湖南省":                    posdesc = "74751，长沙斯塔克";                    break;                case "广东省":                    switch (ipLocation.result.ad_info.city) {                        case "广州市":                            posdesc = "看小蛮腰，喝早茶了嘛~";                            break;                        case "深圳市":                            posdesc = "今天你逛商场了嘛~";                            break;                        case "阳江市":                            posdesc = "阳春合水！博主家乡~ 欢迎来玩~";                            break;                        default:                            posdesc = "来两斤福建人~";                            break;                    }                    break;                case "广西壮族自治区":                    posdesc = "桂林山水甲天下";                    break;                case "海南省":                    posdesc = "朝观日出逐白浪，夕看云起收霞光";                    break;                case "四川省":                    posdesc = "来找我耍吧qwq";                    break;                case "贵州省":                    posdesc = "茅台，学生，再塞200";                    break;                case "云南省":                    posdesc = "玉龙飞舞云缠绕，万仞冰川直耸天";                    break;                case "西藏自治区":                    posdesc = "躺在茫茫草原上，仰望蓝天";                    break;                case "陕西省":                    posdesc = "来份臊子面加馍";                    break;                case "甘肃省":                    posdesc = "羌笛何须怨杨柳，春风不度玉门关";                    break;                case "青海省":                    posdesc = "牛肉干和老酸奶都好好吃";                    break;                case "宁夏回族自治区":                    posdesc = "大漠孤烟直，长河落日圆";                    break;                case "新疆维吾尔自治区":                    posdesc = "驼铃古道丝绸路，胡马犹闻唐汉风";                    break;                case "台湾省":                    posdesc = "我在这头，大陆在那头";                    break;                case "香港特别行政区":                    posdesc = "永定贼有残留地鬼嚎，迎击光非岁玉";                    break;                case "澳门特别行政区":                    posdesc = "性感荷官，在线发牌";                    break;                default:                    posdesc = "带我去你的城市逛逛吧！";                    break;            }            break;        default:            posdesc = "带我去你的国家逛逛吧";            break;    }    //根据本地时间切换欢迎语    let timeChange;    let date = new Date();    if (date.getHours() >= 5 && date.getHours() < 11) timeChange = "<span>🌤️ 早上好，一日之计在于晨</span>";    else if (date.getHours() >= 11 && date.getHours() < 13) timeChange = "<span>☀️ 中午好，记得午休喔~</span>";    else if (date.getHours() >= 13 && date.getHours() < 17) timeChange = "<span>🕞 下午好，努力工作哦~！</span>";    else if (date.getHours() >= 17 && date.getHours() < 19) timeChange = "<span>🚶‍♂️ 即将下班，记得按时吃饭~</span>";    else if (date.getHours() >= 19 && date.getHours() < 24) timeChange = "<span>🌙 晚上好~ 原神，启动！</span>";    else timeChange = "夜深了，早点休息，少熬夜";// 新增ipv6显示为指定内容    if (ip.includes(":")) {        ip = "<br>好复杂，咱看不懂~(ipv6)";    }    try {        //自定义文本和需要放的位置        document.getElementById("welcome-info").innerHTML =            `欢迎来自 <b><span style="color: var(--kouseki-ip-color);font-size: var(--kouseki-gl-size)">${pos}</span></b> 的小友💖<br>${posdesc}🍂<br>当前位置距博主约 <b><span style="color: var(--kouseki-ip-color)">${dist}</span></b> 公里！<br>您的IP地址为：<b><span>${ip}</span></b><br>${timeChange} <br>`;    } catch (err) {         console.log("Pjax无法获取元素")    }}window.onload = showWelcome;// 如果使用了pjax在加上下面这行代码document.addEventListener('pjax:complete', showWelcome);]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>音乐馆</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>标签</title>
       <link href="/tags/index.html"/>
       <url>/tags/index.html</url>
@@ -1010,11 +1071,44 @@
     
     
     <entry>
-      <title>更新日志</title>
-      <link href="/updates/index.html"/>
-      <url>/updates/index.html</url>
+      <title>资源分享</title>
+      <link href="/resources/index.html"/>
+      <url>/resources/index.html</url>
       
-        <content type="html"><![CDATA[<div class="timeline undefined"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>2023</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>08-30</p></div></div><div class='timeline-item-content'><p>更新带有IP信息的欢迎模块<br>文章图片擦亮效果<br>关于页悬浮标签</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>08-29</p></div></div><div class='timeline-item-content'><p>更新了隐藏福利内容 ❤站❤长❤推❤荐❤ ❤深❤夜❤必❤备❤</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>08-28</p></div></div><div class='timeline-item-content'><p>更新聊天机器人<a class="btn-anzhiyu " href="https://chat.486916.xyz/"   title="ChatGPT"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>ChatGPT</span></a></p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>08-24</p></div></div><div class='timeline-item-content'><p>新主题搭建<a class="btn-anzhiyu " href="https://docs.anheyu.com/"   title="AnZhiYu"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>AnZhiYu</span></a></p></div></div></div>]]></content>
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/json/music.json"/>
+      <url>/json/music.json</url>
+      
+        <content type="html"><![CDATA[[{"name":"大喜","artist":"泠鸢yousa","url":"http://192.168.1.11:5244/d/%E9%9F%B3%E4%B9%90/%E5%A4%A7%E5%96%9C%20-%20%E6%B3%A0%E9%B8%A2yousa%26%E9%9F%B3%E9%98%99%E8%AF%97%E5%90%AC.flac","cover":"https://y.qq.com/music/photo_new/T002R300x300M000003MNOTS3FmvaO_1.jpg?max_age=2592000","lrc":"http://192.168.1.11:5244/d/%E9%9F%B3%E4%B9%90/%E5%A4%A7%E5%96%9C%20-%20%E6%B3%A0%E9%B8%A2yousa%E3%80%81%E9%9F%B3%E9%98%99%E8%AF%97%E5%90%AC.lrc"}]]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>oshinokoimg</title>
+      <link href="/oshinokoimg/index.html"/>
+      <url>/oshinokoimg/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>银狼</title>
+      <link href="/silverwolf/index.html"/>
+      <url>/silverwolf/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -1043,33 +1137,11 @@
     
     
     <entry>
-      <title>绅士の照片集</title>
-      <link href="/gentleman/3.html"/>
-      <url>/gentleman/3.html</url>
+      <title>更新日志</title>
+      <link href="/updates/index.html"/>
+      <url>/updates/index.html</url>
       
-        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="c9885a882da7b74ec584234deecaea5d8932a45c99280ee79715d683d4af523e">6c88885afd8b5a44e693ddf4b44973ff37f3c524fd5412347f02f809107c21d40bfffaf60e529429631229d79154ee02c2111992b6e7e4e3f82df1f83a727f590d11f20f2636c487915ba6d27257c761516a6d4a2a8b3ab2344765eae73341fd4f2c0fb9650216dc8e89014d15f34b4280d4fe38d009d379ee8ce7bb4019bb8fc83c4096106142a8c8bb6e03704379fa2f7d9c6d214fb9310340e05f4effca2e8143a610fe69b30ee957469bf9b9ed9220ba1a2693f0030be92b80dac42fc0b8ee00e5a54c3be7edc3656a2bc57249f8d8f0d6e467ead2abcadb5491525d45c1f8db646d8c52773f072a8e8d8bcd77541722b9f2ccb0f897e36e4f58e3e7268aad767f9d7a27a5235288cadc067fcd6b1bd4244e7914e961bbb509181ff2e26be0b760de8df5fd54d46f9bbeaf806a9890f370d696a817af076d3b63a85ccea8ad251ca33dc9cbc338c44a72db8d000fa5df473591dec945a5fb497fa175dbfe196a86426738e4895bebcd45e3501dd51c997afd541f51b0d02b0c7415be1b74d7dd1d8a77e145f4f1a9d134ab9066fe171f11e7077ae206f52fa68e604752a13b66cd41610b8c67780359831c38e2d3a2edf72f674f2d7cbf5a70ec3f7d3e3197d5214013542e099753cbb6f1070a78290d0304509eddae829ee1f260b6438a3f1255a8acf6419fb8e05bfeb1fb9fb87d49af23ee11b00a6970cee334e857b04a2985798d7b53519e15cb2db952a359d7687298ab2f021bbea671f7aef6fb75094ef7324c362ba78ed51eead2a2afe3e86367e9de1773e4fd4e208074fb31ac9874a0fa0db77e11aacdc17cf30336aee9992a57dc730b5908788907786f4c5b06ef4d325a514752fd78a27682afa0b75c9e63b215bebcd5db534e506b1db32933de015529ec6a668aa5e2287aa42f7e11a95694d4504b22d69eef147d101fbf1241f688fda9a654e0b89027392630c096132bf87b609dd8a5fe827a5a698777691ea306adb2f4c29604d0bc2bf1746495a4fbba732dbccdb95107422cbc71768a81f9054322b2eae6d522f2ee88577e10e9f0d1c40a8e56ef4eb7ece4b4b8172a670f1a0873623786555eb9c4eb1c76070d752714dbd2492f25abcd14b9bd45ed98cca422d9b4f311f3de59b38b64cf7ad700f84a0421459349e51160522b0b52b850bfc6f538c5eebf3dff3310f7479ab25d1bfa2407736d58a8f75c2fe83ca952c5c922c79064780068034412fe3620af4576be1423788064e017d3a034b7</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>绅士の照片集</title>
-      <link href="/gentleman/4.html"/>
-      <url>/gentleman/4.html</url>
-      
-        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="7fe576be9e58fd922fa07d4e947679a29795c1e968b113255f52271d707d139b">79f9b09b65fbbc7a10fa569215fb753ee1207a0882defdd708d034a83baca39dddf7d7c2a96d0af2abef6704cd25cd409341b6841801e76c8d19e25fc6ba04a92e2628208c30c1e88da902ec3cb92f024d549c1a94ba4e3a38743f1fd4c8d15db73e16785a5a2d87c028b1575ff923f7ccedd48fa8ed53dbd229b6fad456ab319bbf208bb26412670fc43ce3c659a95a6a6f6b1d89987e9d3d9e7d8f820db4793e4f3e267b545f0ed04d63a6fc9ef2a0262c6bff3159fb381d73cd9a46b8b7360d720ed5442bc504dfae7c377bbee03cbae37befe434566e4488810f27c0e08186737d8191a02658841ede59557bca8c01686f1d77c0539191646c401f2467cd651d40a6bdd9187fd4f11b78f151d20887c36e97c304a7303260fb2f5249021c77edaadc87c94f590c81daa5800a7dcb3e43fae6ab80ca3b698d0c05ad173bcfbe679661fcccdef3072eb86403edda8615df20953f2aadf94c5c68d9bc43925f1e20c67577fa988509385b6171ee3ea30318f444468f0a0b48a82a42c60c7c121fe16d67c0ff82baf41969cc26a6b54b184bdbad634cf9944e3d0160cf66162928f8f52fa6e704ca4968f5d51f2a6ad21afc78381b702cd5147174191f63bd67354e9acb899b3ba74097717dea8e1d0b61fbcda7e4224ed2127660cf1ce5b476169aef7f31a59082067771e7d665082fd87c1949f5a5c71baea5ffd8ee919233d5b65ab16a9192a4adc85c264aaaa39814952c2f9200e728ee383eea4599533eac0ee4fcd6599be109cc2aa7aac18006f345d97d1f5c822d261c0b18f9f81fa6af49e04ca972b6e27c9eefee3815c98a3d5a9561e88f629f92223407cced72b2cadcfe8c6e26f725fa89641907e1c849807c99067e1de983b76a86f5663a6cf0</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>绅士の照片集</title>
-      <link href="/gentleman/5.html"/>
-      <url>/gentleman/5.html</url>
-      
-        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="df7864ff0f6755567c6b7f795d115f3a41d772b61dd676f81d4602b983e87ba4">0b92330e10e8f577a1853fa4ad72d19b0c7c68b4039b4b5134a53aec42d73c01c0397f37467f251f585a95328d70e86453dec4aaf5fc5bc27c2a55c41986ccd639ebb14583fe3c7cfdeab6bb6f9e4067e05d37e3038e882922df156160e974fb1ea6ebb4b248a93833af3c6720652cbcb6999a7f4ad46fd7db11b83d1249b1a04829f8d620fa45f035382a0c84f32af08280ce32ec000e14d1d3a2e7e6812fc087603dfe5d7cac5631103165f72d21501faaf13384248a0e324b68277646a638710b7e105b2fe792be40512fbc3a963aa1057c5a9e5f58b0459bd891615dab005230d73b8e3f553eb281f64c5aac752507b9bfc9c3228e5adc9ec02b12e2e28c1b6d03821280914ef7acb3719b49bd4978f716facaf0215d4e0e16780bb261d82d73f2be927f9969698c1b86e8936c8119af7257d021c5dd84f3853a099cd0f97839d972344c1ec1a22b23b122f125f4b4f552484713607447870110ac0a0a6526a269a36fc0353eb36f5462f811cc360bfd2f71b39e18517504bc4321b249a2ba83ee560477675daba74d8c314ea26788bbc645999ffd0d315fd3631061b676e698a5acdb9e2f2bc153b2b9b8126e4e815570dbe966ef0b616580ef32bf630e2277f0ef0af8b806e4d8e91c4582dc3a7539af3afad43c7f3684053477af2a9ea50343daa092d55e95e8740a0333777b8924ebc8062e88a512bac675766c3c11bf30b69f743da7c7216d7e5e1650de0d1fbe81204e95d1267b0842ca7f49cb190c7dbebd968222e3e0a6895dd3d17dbc0ccffdaa30de285ed89246922b1762e1e694f51190ace85aa1cc33b89c5bdb23cf803a23c9edac9e87c68c922d909e1ff541ef6ee7d3c6d4fd77b814bbd0ac0aff8b764542987191f886c9e4b001608fdb8ef74f8c2d0850cca114c38dcda6083e636a6445ed836242d1171951913976154f0407be3cf491fc74845c7f11c6086b64a505c43610cada326e06fdbc248bd84438230658c539ea398035b7fc7a39fb991f68228fe80d0419295db600c45c2b1bd3df9bbb8bf49c5935915b5ef9b47ca379fd7f2edd258f06d0a670f599fdf49de7bc68ea596ad782af2e61e23b9e658c6b6c3cc5ed3aeb69031d520fa135e36e73a3a114ae0925a05f7e2c05c352ec29d52629cd08f6c5ecbd3eb802bbb8c9680ace95f3f8f0f5a310c91beb0804203fbe4d69fba967d9ce1666c7f19939383b55dcf8b2926733ea6f3b7821105f98208cb4c94af7a903bf73cf9a7efe30</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+        <content type="html"><![CDATA[<div class="timeline undefined"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>2023</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>08-30</p></div></div><div class='timeline-item-content'><p>更新带有IP信息的欢迎模块<br>文章图片擦亮效果<br>关于页悬浮标签</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>08-29</p></div></div><div class='timeline-item-content'><p>更新了隐藏福利内容 ❤站❤长❤推❤荐❤ ❤深❤夜❤必❤备❤</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>08-28</p></div></div><div class='timeline-item-content'><p>更新聊天机器人<a class="btn-anzhiyu " href="https://chat.486916.xyz/"   title="ChatGPT"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>ChatGPT</span></a></p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>08-24</p></div></div><div class='timeline-item-content'><p>新主题搭建<a class="btn-anzhiyu " href="https://docs.anheyu.com/"   title="AnZhiYu"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>AnZhiYu</span></a></p></div></div></div>]]></content>
       
     </entry>
     
