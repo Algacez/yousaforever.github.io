@@ -1,3 +1,7 @@
+http://486916.xyz/2023/09/16/PyTorch%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/
+http://486916.xyz/2023/06/03/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E7%AE%97%E6%B3%95%E7%AE%80%E4%BB%8B/
+http://486916.xyz/gentleman/index.html
+http://486916.xyz/gentleman/6.html
 http://486916.xyz/oshinokoimg/index.html
 http://486916.xyz/bhsrimg/index.html
 http://486916.xyz/bh3img/index.html
@@ -8,7 +12,6 @@ http://486916.xyz/updates/index.html
 http://486916.xyz/resources/index.html
 http://486916.xyz/2023/09/03/anzhiyu%E4%B8%BB%E9%A2%98%E6%A0%87%E7%AD%BE/
 http://486916.xyz/gentleman/5.html
-http://486916.xyz/gentleman/index.html
 http://486916.xyz/gentleman/4.html
 http://486916.xyz/gentleman/3.html
 http://486916.xyz/2023/09/02/%E6%9F%90%E5%8A%A8%E6%BC%AB%E6%B8%B8%E6%88%8F%E6%B8%B8%E7%8E%A9%E6%95%99%E7%A8%8B/
@@ -24,7 +27,6 @@ http://486916.xyz/2023/03/12/GPT-3%E6%A8%A1%E5%9E%8B/
 http://486916.xyz/2023/03/26/Copilot/
 http://486916.xyz/2023/05/13/DDSP-SVC-3-0/
 http://486916.xyz/2023/04/22/%E7%94%9F%E6%88%90%E5%BC%8F%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%9C%8D%E5%8A%A1%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95/
-http://486916.xyz/2023/06/03/%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E7%AE%97%E6%B3%95%E7%AE%80%E4%BB%8B/
 http://486916.xyz/yousaimg/index.html
 http://486916.xyz/album/index.html
 http://486916.xyz/worldscenery/index.html
@@ -76,8 +78,10 @@ http://486916.xyz/about/index.html
 http://486916.xyz/
 http://486916.xyz/tags/%E5%8E%9F%E7%A5%9E/
 http://486916.xyz/tags/Hexo/
+http://486916.xyz/tags/PyTorch/
 http://486916.xyz/tags/%E5%AE%89%E7%9F%A5%E9%B1%BC/
 http://486916.xyz/tags/%E7%A1%AC%E4%BB%B6/
+http://486916.xyz/tags/%E6%95%B0%E5%AD%A6/
 http://486916.xyz/categories/%E5%8E%9F%E7%A5%9E/
 http://486916.xyz/categories/AIGC/
 http://486916.xyz/categories/Hexo/
