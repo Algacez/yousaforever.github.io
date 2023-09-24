@@ -1,0 +1,558 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><title>GH200 | AmeのBlog</title><meta name="keywords" content="硬件"><meta name="author" content="Ame"><meta name="copyright" content="Ame"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#f7f9fe"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-touch-fullscreen" content="yes"><meta name="apple-mobile-web-app-title" content="GH200"><meta name="application-name" content="GH200"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="#f7f9fe"><meta property="og:type" content="article"><meta property="og:title" content="GH200"><meta property="og:url" content="http://486916.xyz/2023/09/24/GH200/index.html"><meta property="og:site_name" content="AmeのBlog"><meta property="og:description" content="5月29日，AI芯片大厂NVIDIA（英伟达）CEO黄仁勋在COMPUTEX 2023展前发布会上，正式发布了全新的GH200 Grace Hopper超级芯片，以及基于NVIDIA NVLink Switch System 驱动的拥有256个GH200超级芯片的NVIDIA DGX GH200超"><meta property="og:locale" content="zh-CN"><meta property="og:image" content="https://cn.mcecy.com/image/20230924/0b08d2a2300800bb8af290060c75bf6e.jpeg"><meta property="article:author" content="Ame"><meta property="article:tag"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://cn.mcecy.com/image/20230924/0b08d2a2300800bb8af290060c75bf6e.jpeg"><meta name="description" content="5月29日，AI芯片大厂NVIDIA（英伟达）CEO黄仁勋在COMPUTEX 2023展前发布会上，正式发布了全新的GH200 Grace Hopper超级芯片，以及基于NVIDIA NVLink Switch System 驱动的拥有256个GH200超级芯片的NVIDIA DGX GH200超"><link rel="shortcut icon" href="/favicon.ico"><link rel="canonical" href="http://486916.xyz/2023/09/24/GH200/"><link rel="preconnect" href="//npm.elemecdn.com"/><link rel="preconnect" href="//npm.onmicrosoft.cn"/><link rel="preconnect" href="//hm.baidu.com"/><meta name="google-site-verification" content="xxx"/><meta name="baidu-site-verification" content="code-xxx"/><meta name="msvalidate.01" content="xxx"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.cbd.int/@fancyapps/ui@5.0.20/dist/fancybox/fancybox.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css" media="print" onload="this.media='all'"><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?8e4110517d1babfcceed4ddebc854947";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><script>const GLOBAL_CONFIG = {
+  linkPageTop: undefined,
+  peoplecanvas: undefined,
+  postHeadAiDescription: undefined,
+  diytitle: {"enable":true,"leaveTitle":"w(ﾟДﾟ)w 不要走！再看看嘛！","backTitle":"♪(^∇^*)欢迎回来！"},
+  LA51: undefined,
+  greetingBox: {"enable":true,"default":"你好👋","list":[{"greeting":"晚安😴","startTime":0,"endTime":5},{"greeting":"早上好鸭👋, 祝你一天好心情！","startTime":6,"endTime":9},{"greeting":"上午好👋, 状态很好，鼓励一下～","startTime":10,"endTime":10},{"greeting":"11点多啦, 在坚持一下就吃饭啦～","startTime":11,"endTime":11},{"greeting":"午安👋","startTime":12,"endTime":14},{"greeting":"🌈充实的一天辛苦啦！","startTime":14,"endTime":18},{"greeting":"19点喽, 奖励一顿丰盛的大餐吧🍔。","startTime":19,"endTime":19},{"greeting":"晚上好👋, 在属于自己的时间好好放松😌~","startTime":20,"endTime":24}]},
+  twikooEnvId: 'https://ameblog.zeabur.app',
+  commentBarrageConfig:undefined,
+  root: '/',
+  preloader: {"source":3},
+  friends_vue_info: undefined,
+  navMusic: true,
+  mainTone: undefined,
+  authorStatus: undefined,
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":true,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简","rightMenuMsgToTraditionalChinese":"转为繁体","rightMenuMsgToSimplifiedChinese":"转为简体"},
+  noticeOutdate: {"limitDay":365,"position":"top","messagePrev":"距离文章发布已过去","messageNext":"天，文章内容可能过时"},
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":330},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    simplehomepage: true,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"copy":true,"copyrightEbable":false,"limitCount":50,"languages":{"author":"作者: Ame","link":"链接: ","source":"来源: AmeのBlog","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。","copySuccess":"复制成功，复制和转载请标注本文地址"}},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#425AEF","bgDark":"#1f1f1f","position":"top-center"},
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.min.js',
+      css: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false,
+  shortcutKey: {"enable":true,"delay":100,"shiftDelay":200},
+  autoDarkmode: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  configTitle: 'AmeのBlog',
+  title: 'GH200',
+  postAI: '',
+  pageFillDescription: '月日芯片大厂英伟达黄仁勋在展前发布会上正式发布了全新的超级芯片以及基于驱动的拥有个超级芯片的超级计算机旨在助力开发面向生成式语言应用推荐系统和数据分析工作负载的巨型下一代模型黄仁勋表示生成式大型语言模型和推荐系统是现代经济的数字引擎超级计算机集成了最先进的加速计算和网络技术来拓展的前沿超级芯片整合了和拥有亿个晶体管超级芯片使用芯片互连将基于的与整合在了一起以提供一致性内存模型从而不再需要传统的至连接与最新的技术相比这也将和之间的带宽提高了倍将互连功耗减少了倍以上并为超级计算机提供了一个的架构构建模块具体来说超级芯片是将核的的和的集成在同一个封装中拥有高达亿个晶体管这种组合提供了和之间惊人的数据带宽高达为某些内存受限的工作负载提供了巨大的优势黄仁勋表示超级芯片已全面投产将可为运行复杂的和高性能计算工作负载提供动力性能突破此前的系统只能将八个联合起来作为一个单元面对生成式人工智能大模型对于算力的爆炸式增长的客户迫切需要更大更强大的系统就是为了提供最大的吞吐量和可扩展性而设计的通过定制的包含个开关将个超级芯片和高达的共享内存连接成一个单元避免标准集群连接选项如和以太网的限制这种新的互连方式使系统中的个作为一个整体协同运行使其成为了专为最高端的人工智能和高性能计算工作负载而设计的系统和参考架构可支持数万亿参数大模型训练相比上代的共享内存容量提升了近倍在系统中线程可以使用页表寻址来自网络中其他超级芯片的对等和内存加速库优化通信以提高效率增强所有个的应用程序扩展包含个的与系统的拓扑结构系统中的每个都与一个网络适配器和一个配对拥有对分带宽和的网内计算可加速中常用的集体操作并通过减少集体操作的通信开销将网络系统的有效带宽提高一倍适配器还可以互连多个系统以扩展到超过个的更大的解决方案黄仁勋表示是巨型这也是第一次使用拓扑结构来构建整个超级计算机集群这种结构提供了比前一代系统高出倍的到带宽以及倍的到的带宽它还设计了提供比竞争对手高出倍的互连功耗效率和高达的对分带宽该系统有英里约公里的光纤并且重达万磅约吨但是呈现出来就像一个单一的具体性能方面得益于高达的共享内存使得其对于受内存大小瓶颈影响的和应用程序的性能有了极大的提升例如具有级嵌入式表的深度学习推荐模型级图形神经网络训练模型或大型数据分析工作负载中使用可实现至倍的加速这表明是更高级的和模型的更好解决方案这些模型需要海量内存来进行共享内存编程大内存工作负载的性能比较凭借个超级芯片的加持的性能也达到了一百万万亿次级别在软件工具方面超级计算机还配备了软件可为最大的和数据分析工作负载提供一个交钥匙式全栈解决方案软件提供工作流程管理企业级集群管理和多个加速计算存储和网络基础设施的库以及为运行工作负载而优化的系统软件此外还包含即平台的软件层它提供多个框架预训练模型和开发工具以简化生成式计算机视觉语音等生产的开发和部署谷歌云和微软将首批采用据介绍谷歌云和微软将有望成为首批通过接入系统来探索其用于生成式工作负载的能力的公司还打算将设计作为蓝图提供给云服务提供商和其他超大规模企业以便他们能够进一步根据他们自己的基础设施进行定制谷歌云计算副总裁表示构建先进的生成式模型需要创新的基础设施超级芯片的全新和共享内存解决了大规模的关键瓶颈我们期待它在谷歌云以及我们的生成式计划中发挥强大的能力基础设施系统及加速平台副总裁表示随着模型规模越来越大它们需要可扩展的强大基础设施以满足不断增长的需求的设计看起来能够让研究人员探索新的方法来解决他们面临的最巨大挑战微软基础设施企业副总裁表示在以往训练大型模型是一项资源和时间密集型任务所具备的处理级数据集的潜力使得开发人员能够在更大的规模和更快的速度下进行高级别的研究全新超级计算机年底推出正在打造自己的基于的超级计算机以支持研发团队的工作据介绍这台名为的超级计算机将配备四个系统每个都将通过网络互连以提高训练大型模型的数据吞吐量将包含个超级芯片预计将于今年年底上线系统面向最高端市场的系统系统则是面向超大规模数据中心此次还新推出了介于这两者之间的的系统表示其合作伙伴在为中心设计服务器时面临着新的挑战这些挑战可能会减慢设计和部署的速度的全新参考设计架构旨在加速这一过程可以将开发时间缩短至仅需个月开发成本也可以减少据介绍系统由模块化设计组成涵盖了的和和网络系统的所有方面但也包括基于通用和处理器的设计拥有多种参考设计还提供风冷和液冷设计选项以适应各种应用场景永擎华硕技嘉和硕超微都将使用参考架构来开发将于今年晚些时候和明年初上市的系统网络平台在发布会上还推出了一个全新的加速网络平台致力于提高基于以太网云的性能与效率是将以太网交换机与紧密结合取得了倍的整体性能和能效提升同时可在多租户环境中提供一致可预测的性能为基于以太网的网络带来了高性能集群功能为将更广泛地部署到超大规模基础设施中提供了新的选择平台还可以与现有的基于以太网的堆栈完全互操作并提供令人印象深刻的可扩展性单个交换机上最多个端口或两层叶脊拓扑中的个端口还提供加速软件和软件开发套件使开发人员能够构建软件定义的云原生应用表示这种端到端的功能交付可以减少基于的大规模生成式模型的运行时间助力网络工程师数据科学家和云服务商及时取得更好的结果并更快做出明智的决策目前平台及其相关组件包括光学器件现已上市全球头部超大规模云服务商正在采用包括领先的云创新企业作为参考设计的蓝图和测试平台正在构建一台超大规模生成式超级计算机命名为它将被部署在以色列数据中心由基于平台的戴尔服务器和交换机等打造而成用生成式激活游戏角色生命在游戏领域生成式未来有望使得游戏玩家能够与游戏角色进行互动并极大提高游戏的沉浸感对此英伟达宣布推出面向游戏的定制模型代工服务英伟达曾在年推出这一款基于和皮克斯的图形和仿真模拟平台型产品可以实现设计协作以及可扩展的多实时逼真仿真则是在的基础上让开发人员可以使用它来构建和部署用于语音对话和动画的自定义模型从而使得游戏中的角色可以像真人一样与玩家对话主要包括了三大模块一是大型语言模型这一模型使用专有数据构建自定义和部署语言模型根据游戏故事的世界观及人物背景来定制调整并且通过来保护对话的安全性和效果二是这一模块主要用于自动语音识别及文本转语音以启用实时语音对话三是主要用于配合语音音轨实时为游戏角色创建脸部表情动画例如搭配用于虚幻引擎的开发者可以直接将脸部动画添加到虚幻引擎旗下用于创作逼真人类角色的框架的角色上英伟达表示开发者可以整合整套游戏开发版解决方案或是单独使用自己需要的组件开发者与性能技术部门副总裁表示生成式将彻底改变玩家与游戏人物之间的互动方式并极大地提高游戏沉浸感基于我们在领域的专业知识加上几十年来与游戏开发者合作的经验正率先在游戏中使用生成式黄仁勋也演示了生成式合成语音通过对真人声音的模仿合成可以让虚拟人化身讲任何一种语言黄仁勋表示将成为电子游戏的未来生成式助力数字化的智能工厂目前全球各地的电子制造商正在使用新的综合参考工作流程来推进其工业数字化进程这套流程将融合的生成式协作仿真模拟和自主机器技术依托庞大的合作伙伴网络这套工作流程可帮助制造商使用一系列技术来规划建造运营和优化其工厂这些技术包括可连接顶尖计算机辅助设计应用以及生成式应用程序接口和先进框架的用于仿真和测试机器人的应用以及可用于自动光学检测的视觉框架黄仁勋在现场演示时表示全球最大的行业所制造的都是实物如果能先以数字化的方式制造这些产品就可以节省大量成本使电子产品制造商能够轻松构建和运营虚拟工厂并实现制造和检查工作流程的数字化这大大提高了质量和安全性同时减少了最后一刻的意外和延误据介绍富士康工业互联网宣鼎和硕广达和纬创正在使用新的参考工作流程来优化其工作间和装配线的运营同时降低生产成本比如富士康工业互联网正在与生态合作伙伴一起实现电路板质控检测点重要环节的自动化宜鼎正在使用实现产线光学检测流程的自动化实现降本提效还正在与数家领先的工具制造和服务提供商一同在各个工作流程层面建立统一的全栈架构在系统层面提供了一个将工业级硬件与企业级软件和支持相结合的一体化边缘平台满足了边缘计算独特的耐久性和低功耗要求同时提供了开发和运行应用所需的高性能制造商合作伙伴包括凌华科技研华安提国际和正在为工业和医疗市场开发由驱动的系统这些系统能够为实际生产带来数字化优势在平台层面与全球领先的模拟和生成式提供商相连接这个开放的开发平台可以让团队在他们喜爱的应用之间建立互操作性比如来自和西门子的应用黄仁勋演示了如何通过连接和等各种助手来简化工作流程和应用开发平台即服务已上线微软能够向企业客户提供软件应用的全栈套件和基础架构其具备云服务的规模和安全性在应用层面使企业能够构建并优化部署机器人制造商可以与工业自动化公司合作在将机器人部署到现实世界之前在仿真中对机器人任务进行编程和等仿真技术合作伙伴通过构建基于数字孪生的仿真为客户缩短开发时间中的一系列工厂自动化工作流程使工业方案商和制造商能够开发部署和管理降本提效的定制化质量控制解决方案包括凌华科技安提国际德勤和西门子在内的庞大合作伙伴生态正在帮助推广这些解决方案买的越多省的越多黄仁勋在演讲中指出随着加速计算和生成的兴起标志着计算的革新我们正处于一个全新计算时代的转折点加速计算和已经被世界上几乎所有的运算和云端公司所接受每一个计算时代你都可以从事之前无法做到的事情人工智能时代显然也能为我们赋予这样的能力比如编程门槛变得极低我们填补了数字鸿沟现在所有人都是程序员你只需要对着电脑说话即可黄仁勋说由于如此便于使用所以进步的速度飞快这会影响几乎每个行业根据公布的数据显示目前已有家大公司和家初创公司使用英伟达技术其中有超过家生成式公司采用了技术仅年软件下载量更达万次另外加速计算服务软体与系统促进诞生出新的商业模式且让现有模式更具效率除了前面介绍的生成式对于游戏智能制造等方面的助力之外生成式也正为价值亿美元的数字广告行业带来了新机遇基于和的突破性引擎可以将来自领先软件制造商的创意和工具连接在一起以大规模革新品牌内容和体验比如全球最大的营销服务机构英国集团正与英伟达合作在上构建首个生成式广告引擎为了更生动的展示生成式的能力黄仁勋还把发布会变成大型卡拉现场让以其随口说出的四句话为歌词进行编曲创作出一首歌并邀请现场与会者跟他一起唱出做的歌曲引发全场热情黄仁勋还在发布会上对比了使用和建设数据中心的差异他声称同样的投资客户可以使用更少的建设一个能够处理更大数据量的数据中心功耗也更低买的越多省的越多黄仁勋说道',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2023-09-24 11:05:56',
+  postMainColor: '',
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#18171d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#f7f9fe')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 22 || hour >= 7
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(e => {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><link rel="stylesheet" href="/css/welcome.css?1"><link rel="stylesheet" href="/css/home.css"><link rel="stylesheet" href="/css/about-tag.css"><meta name="generator" content="Hexo 6.3.0"></head><body data-type="anzhiyu"><div id="web_bg"></div><div id="an_music_bg"></div><div id="loading-box" onclick="document.getElementById(&quot;loading-box&quot;).classList.add(&quot;loaded&quot;)"><div class="loading-bg"><img class="loading-img nolazyload" alt="加载头像" src="https://pic.imgdb.cn/item/64e42d1b661c6c8e54a18cd7.png"/><div class="loading-image-dot"></div></div></div><script>const preloader = {
+  endLoading: () => {
+    document.getElementById('loading-box').classList.add("loaded");
+  },
+  initLoading: () => {
+    document.getElementById('loading-box').classList.remove("loaded")
+  }
+}
+window.addEventListener('load',()=> { preloader.endLoading() })
+setTimeout(function(){preloader.endLoading();},10000)
+
+if (true) {
+  document.addEventListener('pjax:send', () => { preloader.initLoading() })
+  document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+}</script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.10/progress_bar/progress_bar.css"/><script async="async" src="https://cdn.cbd.int/pace-js@1.2.4/pace.min.js" data-pace-options="{ &quot;restartOnRequestAfter&quot;:false,&quot;eventLag&quot;:false}"></script><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><div id="nav-group"><span id="blog_name"><div class="back-home-button"><i class="anzhiyufont anzhiyu-icon-grip-vertical"></i><div class="back-menu-list-groups"><div class="back-menu-list-group"><div class="back-menu-list-title">网页</div><div class="back-menu-list"><a class="back-menu-item" href="https://486916.xyz/" title="博客"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/favicon.ico" alt="博客"/><span class="back-menu-item-text">博客</span></a><a class="back-menu-item" target="_blank" rel="noopener" href="https://chat.486916.xyz/" title="ChatGPT"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/ChatGPT.ico" alt="ChatGPT"/><span class="back-menu-item-text">ChatGPT</span></a><a class="back-menu-item" target="_blank" rel="noopener" href="https://bilibili.com/" title="B站"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/bili.ico" alt="B站"/><span class="back-menu-item-text">B站</span></a><a class="back-menu-item" target="_blank" rel="noopener" href="https://ys.mihoyo.com/" title="启动！"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/genshin.ico" alt="启动！"/><span class="back-menu-item-text">启动！</span></a><a class="back-menu-item" target="_blank" rel="noopener" href="https://bh3.mihoyo.com/" title="崩坏三"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/bh3.ico" alt="崩坏三"/><span class="back-menu-item-text">崩坏三</span></a><a class="back-menu-item" target="_blank" rel="noopener" href="https://sr.mihoyo.com/" title="崩坏·星穹铁道"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/bhsr.ico" alt="崩坏·星穹铁道"/><span class="back-menu-item-text">崩坏·星穹铁道</span></a></div></div></div></div><a id="site-name" href="/" accesskey="h"><div class="title">AmeのBlog</div><i class="anzhiyufont anzhiyu-icon-house-chimney"></i></a></span><div class="mask-name-container"><div id="name-container"><a id="page-name" href="javascript:anzhiyu.scrollToDest(0, 500)">PAGE_NAME</a></div></div><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 文章</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><i class="anzhiyufont anzhiyu-icon-box-archive faa-tada" style="font-size: 0.9em;"></i><span> 归档</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/comments/"><i class="anzhiyufont anzhiyu-icon-envelope faa-tada" style="font-size: 0.9em;"></i><span> 留言板</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/resources/"><i class="anzhiyufont anzhiyu-icon-inbox faa-tada" style="font-size: 0.9em;"></i><span> 资源</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 我的</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/music/?id=168314790&amp;server=netease"><i class="anzhiyufont anzhiyu-icon-music faa-tada" style="font-size: 0.9em;"></i><span> 音乐馆</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/essay/"><i class="anzhiyufont anzhiyu-icon-lightbulb faa-tada" style="font-size: 0.9em;"></i><span> 说说</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/album/"><i class="anzhiyufont anzhiyu-icon-images faa-tada" style="font-size: 0.9em;"></i><span> 相册集</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 关于</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/about/"><i class="anzhiyufont anzhiyu-icon-paper-plane faa-tada" style="font-size: 0.9em;"></i><span> 关于本人</span></a></li></ul></div></div></div><div id="nav-right"><div class="nav-button" id="randomPost_button"><a class="site-page" onclick="toRandomPost()" title="随机前往一个文章" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-dice"></i></a></div><div class="nav-button" id="search-button"><a class="site-page social-icon search" href="javascript:void(0);" title="搜索🔍" accesskey="s"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span> 搜索</span></a></div><input id="center-console" type="checkbox"/><label class="widget" for="center-console" title="中控台" onclick="anzhiyu.switchConsole();"><i class="left"></i><i class="widget center"></i><i class="widget right"></i></label><div id="console"><div class="console-card-group-reward"><ul class="reward-all console-card"><li class="reward-item"><a href="/null" target="_blank"><img class="post-qr-code-img" alt="微信" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/null"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="/null" target="_blank"><img class="post-qr-code-img" alt="支付宝" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/null"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div><div class="console-card-group"><div class="console-card-group-left"><div class="console-card" id="card-newest-comments"><div class="card-content"><div class="author-content-item-tips">互动</div><span class="author-content-item-title"> 最新评论</span></div><div class="aside-list"><span>正在加载中...</span></div></div></div><div class="console-card-group-right"><div class="console-card tags"><div class="card-content"><div class="author-content-item-tips">兴趣点</div><span class="author-content-item-title">寻找你感兴趣的领域</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/Git/" style="font-size: 1.05rem;">Git<sup>1</sup></a><a href="/tags/PyTorch/" style="font-size: 1.05rem;">PyTorch<sup>1</sup></a><a href="/tags/%E5%8E%9F%E7%A5%9E/" style="font-size: 1.05rem;">原神<sup>3</sup></a><a href="/tags/%E5%AE%89%E7%9F%A5%E9%B1%BC/" style="font-size: 1.05rem;">安知鱼<sup>3</sup></a><a href="/tags/%E6%95%B0%E5%AD%A6/" style="font-size: 1.05rem;">数学<sup>1</sup></a><a href="/tags/%E7%A1%AC%E4%BB%B6/" style="font-size: 1.05rem;">硬件<sup>2</sup></a></div></div><hr/></div></div><div class="console-card history"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-box-archiv"></i><span>文章</span></div><div class="card-archives"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-archive"></i><span>归档</span><a class="card-more-btn" href="/archives/" title="查看更多">
+    <i class="anzhiyufont anzhiyu-icon-angle-right"></i></a></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/09/"><span class="card-archive-list-date">九月 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">10</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/08/"><span class="card-archive-list-date">八月 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">7</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/07/"><span class="card-archive-list-date">七月 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">7</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/06/"><span class="card-archive-list-date">六月 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">9</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/05/"><span class="card-archive-list-date">五月 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">7</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/04/"><span class="card-archive-list-date">四月 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">8</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/03/"><span class="card-archive-list-date">三月 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">4</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/02/"><span class="card-archive-list-date">二月 2023</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">4</span><span>篇</span></div></a></li></ul></div><hr/></div></div></div><div class="button-group"><div class="console-btn-item"><a class="darkmode_switchbutton" title="显示模式切换" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-moon"></i></a></div><div class="console-btn-item" id="consoleHideAside" onclick="anzhiyu.hideAsideBtn()" title="边栏显示控制"><a class="asideSwitch"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></a></div><div class="console-btn-item on" id="consoleCommentBarrage" onclick="anzhiyu.switchCommentBarrage()" title="热评开关"><a class="commentBarrage"><i class="anzhiyufont anzhiyu-icon-message"></i></a></div><div class="console-btn-item" id="consoleMusic" onclick="anzhiyu.musicToggle()" title="音乐开关"><a class="music-switch"><i class="anzhiyufont anzhiyu-icon-music"></i></a></div><div class="console-btn-item" id="consoleKeyboard" onclick="anzhiyu.keyboardToggle()" title="快捷键开关"><a class="keyboard-switch"><i class="anzhiyufont anzhiyu-icon-keyboard"></i></a></div></div><div class="console-mask" onclick="anzhiyu.hideConsole()" href="javascript:void(0);"></div></div><div class="nav-button" id="nav-totop"><a class="totopbtn" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i><span id="percent" onclick="anzhiyu.scrollToDest(0,500)">0</span></a></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" title="切换"><i class="anzhiyufont anzhiyu-icon-bars"></i></a></div></div></div></nav></header><main id="blog-container"><div class="layout" id="content-inner"><div id="post"><div id="post-info"><div id="post-firstinfo"><div class="meta-firstline"><a class="post-meta-original">原创</a><span class="post-meta-categories"><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-inbox post-meta-icon"></i><a class="post-meta-categories" href="/categories/AIGC/" itemprop="url">AIGC</a></span><span class="article-meta tags"><a class="article-meta__tags" href="/tags/%E7%A1%AC%E4%BB%B6/" tabindex="-1" itemprop="url"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>硬件</span></a></span></div></div><h1 class="post-title" itemprop="name headline">GH200</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="anzhiyufont anzhiyu-icon-calendar-days post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" itemprop="dateCreated datePublished" datetime="2023-09-24T02:54:15.000Z" title="发表于 2023-09-24 10:54:15">2023-09-24</time><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-history post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" itemprop="dateCreated datePublished" datetime="2023-09-24T03:05:56.447Z" title="更新于 2023-09-24 11:05:56">2023-09-24</time></span></div><div class="meta-secondline"><span class="post-meta-separator"></span><span class="post-meta-wordcount"><i class="anzhiyufont anzhiyu-icon-file-word post-meta-icon" title="文章字数"></i><span class="post-meta-label" title="文章字数">字数总计:</span><span class="word-count" title="文章字数">4.8k</span><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-clock post-meta-icon" title="阅读时长"></i><span class="post-meta-label" title="阅读时长">阅读时长:</span><span>15分钟</span></span><span class="post-meta-separator">       </span><span class="post-meta-position" title="作者IP属地为成都"><i class="anzhiyufont anzhiyu-icon-location-dot"></i>成都</span><span class="post-meta-separator"></span><span class="post-meta-commentcount"><i class="anzhiyufont anzhiyu-icon-comments post-meta-icon"></i><span class="post-meta-label">评论数:</span><a href="/2023/09/24/GH200/#post-comment" tabindex="-1"><span id="twikoo-count"><i class="anzhiyufont anzhiyu-icon-spinner anzhiyu-spin"></i></span></a></span></div></div></div><article class="post-content" id="article-container" itemscope itemtype="http://486916.xyz/2023/09/24/GH200/"><header><a class="post-meta-categories" href="/categories/AIGC/" itemprop="url">AIGC</a><a href="/tags/%E7%A1%AC%E4%BB%B6/" tabindex="-1" itemprop="url">硬件</a><h1 id="CrawlerTitle" itemprop="name headline">GH200</h1><span itemprop="author" itemscope itemtype="http://schema.org/Person">Ame</span><time itemprop="dateCreated datePublished" datetime="2023-09-24T02:54:15.000Z" title="发表于 2023-09-24 10:54:15">2023-09-24</time><time itemprop="dateCreated datePublished" datetime="2023-09-24T03:05:56.447Z" title="更新于 2023-09-24 11:05:56">2023-09-24</time></header><p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cn.mcecy.com/image/20230924/0b08d2a2300800bb8af290060c75bf6e.jpeg"></p>
+<p>5月29日，AI芯片大厂NVIDIA（英伟达）CEO黄仁勋在COMPUTEX 2023展前发布会上，正式发布了全新的GH200 Grace Hopper超级芯片，以及基于NVIDIA NVLink Switch System 驱动的拥有256个GH200超级芯片的NVIDIA DGX GH200超级计算机，旨在助力开发面向生成式AI语言应用、推荐系统和数据分析工作负载的巨型、下一代模型。</p>
+<p>黄仁勋表示：“生成式AI、大型语言模型和推荐系统是现代经济的数字引擎。DGX GH200 AI超级计算机集成了NVIDIA最先进的加速计算和网络技术来拓展AI的前沿。”</p>
+<p><strong>GH200超级芯片：整合了Grace CPU和H100 GPU，拥有2000亿个晶体管</strong></p>
+<p>GH200超级芯片使用NVIDIA NVLink-C2C芯片互连，将基于Arm的NVIDIA Grace CPU与NVIDIA H100 Tensor Core GPU整合在了一起，以提供CPU＋GPU一致性内存模型，从而不再需要传统的CPU至GPU PCIe连接。与最新的PCIe Gen5技术相比，这也将GPU和CPU之间的带宽提高了7倍，将互连功耗减少了5倍以上，并为DGX GH200超级计算机提供了一个600GB的Hopper架构GPU构建模块。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cn.mcecy.com/image/20230924/b1b0e2b10737eff53be5e687ac84b91a.jpeg"></p>
+<p>具体来说， GH200超级芯片，是将 72 核的Grace CPU、H100 GPU、96GB 的 HBM3 和 512 GB 的 LPDDR5X 集成在同一个封装中，拥有高达 2000 亿个晶体管。这种组合提供了 CPU 和 GPU 之间惊人的数据带宽，高达 900G &#x2F; s，为某些内存受限的工作负载提供了巨大的优势。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cn.mcecy.com/image/20230924/0375a3effb29f7ed791de0c3eb3f61a3.jpeg"></p>
+<p>黄仁勋表示，GH200 Grace Hopper超级芯片已全面投产，将可为运行复杂的AI和高性能计算工作负载提供动力。</p>
+<p><strong>NVIDIA DGX GH200：AI性能突破1 Exaflop</strong></p>
+<p>NVIDIA此前的 DGX A100 系统只能将八个 A100 GPU 联合起来作为一个单元，面对生成式人工智能大模型对于算力的爆炸式增长，NVIDIA的客户迫切需要更大、更强大的系统。DGX GH200就是为了提供最大的吞吐量和可扩展性而设计的。</p>
+<p>DGX GH200通过定制的NVLink Switch System（包含 36 个 NVLink 开关）将256个GH200超级芯片和高达144TB的共享内存连接成一个单元，避免标准集群连接选项（如 InfiniBand 和以太网）的限制，这种新的互连方式使DGX GH200系统中的256个H100 GPU作为一个整体协同运行，使其成为了专为最高端的人工智能和高性能计算工作负载而设计的系统和参考架构。可支持数万亿参数AI大模型训练。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cn.mcecy.com/image/20230924/978f5ab15f11e7bbe399d36b6f6a796a.png"></p>
+<p>△DGX GH200相比上代DGX A100的共享内存容量提升了近500倍。</p>
+<p>在 DGX GH200 系统中，GPU 线程可以使用 NVLink 页表寻址来自 NVLink 网络中其他 Grace Hopper 超级芯片的对等 HBM3 和 LPDDR5X 内存。NVIDIA Magnum I&#x2F;O加速库优化 GPU 通信以提高效率，增强所有 256 个 GPU 的应用程序扩展。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cn.mcecy.com/image/20230924/74365e5f603ae678f80db5ce37662d02.jpeg"></p>
+<p>△包含 256 个 GPU 的 NVIDIA DGX GH200与NVLink系统的拓扑结构</p>
+<p>DGX GH200系统中的每个Grace Hopper Superchip 都与一个NVIDIA ConnectX-7网络适配器和一个NVIDIA BlueField-3 NIC配对。DGX GH200 拥有 128 TBps 对分带宽和 230.4 TFLOPS 的 NVIDIA SHARP 网内计算，可加速 AI 中常用的集体操作，并通过减少集体操作的通信开销，将 NVLink 网络系统的有效带宽提高一倍。ConnectX-7 适配器还可以互连多个DGX GH200 系统，以扩展到超过256个GPU的更大的解决方案。</p>
+<p>黄仁勋表示，DGX GH200 是“巨型 GPU”，这也是NVIDIA第一次使用 NVLink Switch 拓扑结构来构建整个超级计算机集群，这种结构提供了比前一代系统高出10倍的GPU到GPU带宽，以及7倍的CPU到GPU的带宽。它还设计了提供比竞争对手高出 5 倍的互连功耗效率和高达 128 TB &#x2F; s 的对分带宽。该系统有 150 英里（约 241.4公里）的光纤，并且重达 4 万磅（约18.14吨），但是呈现出来就像一个单一的 GPU。</p>
+<p>具体性能方面，得益于DGX GH200高达144TB的共享内存，使得其对于受 GPU内存大小瓶颈影响的AI和HPC应用程序的性能有了极大的提升。例如具有 TB 级嵌入式表的深度学习推荐模型 (DLRM)、TB 级图形神经网络训练模型或大型数据分析工作负载中，使用 DGX GH200 可实现 4 至 7 倍的加速。这表明 DGX GH200 是更高级的 AI 和 HPC 模型的更好解决方案，这些模型需要海量内存来进行 GPU 共享内存编程。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cn.mcecy.com/image/20230924/1642f3729136de7af21faa298abe12da.png"></p>
+<p>△大内存 AI 工作负载的性能比较</p>
+<p>凭借256个GH200超级芯片的加持，DGX GH200 的“AI 性能”也达到了 1 exaflop（一百万万亿次）级别。</p>
+<p>在软件工具方面，DGX GH200超级计算机还配备了NVIDIA软件，可为最大的AI和数据分析工作负载提供一个交钥匙式全栈解决方案。NVIDIA Base Command软件提供AI工作流程管理、企业级集群管理和多个加速计算、存储和网络基础设施的库，以及为运行AI工作负载而优化的系统软件。</p>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cn.mcecy.com/image/20230924/4b9dcdc38b0d58983220bce02ef6ee96.jpeg"></p>
+<p>此外还包含NVIDIA AI Enterprise，即NVIDIA AI平台的软件层。它提供100多个框架、预训练模型和开发工具，以简化生成式AI、计算机视觉、语音AI等生产AI的开发和部署。</p>
+<p><strong>谷歌云、Meta和微软将首批采用</strong></p>
+<p>据介绍，谷歌云、Meta和微软将有望成为首批通过接入DGX GH200系统，来探索其用于生成式AI工作负载的能力的公司。NVIDIA还打算将DGX GH200设计作为蓝图提供给云服务提供商和其他超大规模企业，以便他们能够进一步根据他们自己的基础设施进行定制。</p>
+<p>谷歌云计算副总裁Mark Lohmeyer表示：“构建先进的生成式模型需要创新的AI基础设施。Grace Hopper超级芯片的全新NVLink和共享内存解决了大规模AI的关键瓶颈，我们期待它在谷歌云以及我们的生成式AI计划中发挥强大的能力。”</p>
+<p>Meta基础设施、AI系统及加速平台副总裁Alexis Björlin表示：“随着AI模型规模越来越大，它们需要可扩展的强大基础设施，以满足不断增长的需求。NVIDIA的Grace Hopper设计看起来能够让研究人员探索新的方法来解决他们面临的最巨大挑战。”</p>
+<p>微软Azure基础设施企业副总裁Girish Bablani表示, “在以往训练大型AI模型是一项资源和时间密集型任务。DGX GH200 所具备的处理TB级数据集的潜力使得开发人员能够在更大的规模和更快的速度下进行高级别的研究。”</p>
+<p><strong>全新NVIDIA Helios超级计算机年底推出</strong></p>
+<p>NVIDIA正在打造自己的基于DGX GH200的AI超级计算机，以支持研发团队的工作。据介绍，这台名为NVIDIA Helios的超级计算机将配备四个DGX GH200系统。每个都将通过NVIDIA Quantum-2 InfiniBand 400 Gb &#x2F; s 网络互连，以提高训练大型AI模型的数据吞吐量。Helios将包含1024个Grace Hopper超级芯片，预计将于今年年底上线。</p>
+<p><strong>NVIDIA MGX 系统</strong></p>
+<p>NVIDIA DGX 面向最高端市场的AI系统，HGX 系统则是面向超大规模数据中心，此次NVIDIA还新推出了介于这两者之间的的NVIDIA MGX 系统。</p>
+<p>NVIDIA 表示，其OEM合作伙伴在为 AI 中心设计服务器时面临着新的挑战，这些挑战可能会减慢设计和部署的速度。NVIDIA 的全新 MGX 参考设计架构旨在加速这一过程，可以将开发时间缩短2&#x2F;3至仅需6个月，开发成本也可以减少3&#x2F;4。</p>
+<p>据介绍，MGX 系统由模块化设计组成，涵盖了 NVIDIA 的 CPU 和 GPU、DPU 和网络系统的所有方面，但也包括基于通用 x86 和 Arm 处理器的设计，拥有100 多种参考设计。NVIDIA 还提供风冷和液冷设计选项，以适应各种应用场景。</p>
+<p>ASRock Rack（永擎）、华硕、GIGABYTE（技嘉）、和硕、QCT、超微（Supermicro）都将使用 MGX 参考架构来开发将于今年晚些时候和明年初上市的系统。</p>
+<p><strong>Spectrum-X网络平台</strong></p>
+<p>在发布会上，NVIDIA还推出了一个全新的加速网络平台Spectrum-X，致力于提高基于以太网AI云的性能与效率。</p>
+<p>NVIDIA Spectrum-X是将NVIDIA Spectrum-4以太网交换机与NVIDIA BlueField-3 DPU紧密结合，取得了1.7倍的整体AI性能和能效提升，同时可在多租户环境中提供一致、可预测的性能。</p>
+<p>Spectrum-X为基于以太网的网络带来了高性能 AI 集群功能，为将 AI 更广泛地部署到超大规模基础设施中提供了新的选择。Spectrum-X 平台还可以与现有的基于以太网的堆栈完全互操作，并提供令人印象深刻的可扩展性，单个交换机上最多 256 个 200 Gb&#x2F;s 端口，或两层叶脊拓扑中的 16,000 个端口。</p>
+<p>Spectrum-X还提供NVIDIA加速软件和软件开发套件（SDK），使开发人员能够构建软件定义的云原生AI应用。</p>
+<p>NVIDIA表示，这种端到端的功能交付，可以减少基于transformer的大规模生成式AI模型的运行时间，助力网络工程师、AI数据科学家和云服务商及时取得更好的结果，并更快做出明智的决策。</p>
+<p>目前，Nvidia Spectrum-X 平台及其相关组件，包括 400G LinkX 光学器件，现已上市。全球头部超大规模云服务商正在采用NVIDIA Spectrum-X，包括领先的云创新企业。</p>
+<p>作为NVIDIA Spectrum-X参考设计的蓝图和测试平台，NVIDIA正在构建一台超大规模生成式AI超级计算机，命名为Israel-1。它将被部署在NVIDIA以色列数据中心，由基于NVIDIA HGX平台的戴尔PowerEdge XE9680服务器，BlueField-3 DPU和Spectrum-4交换机等打造而成。</p>
+<p><strong>用生成式AI激活游戏角色生命</strong></p>
+<p>在游戏领域，生成式 AI 未来有望使得游戏玩家能够与游戏角色进行互动，并极大提高游戏的沉浸感。对此，英伟达宣布推出面向游戏的定制AI模型代工服务—Avatar Cloud Engine（ACE）for Game。</p>
+<p>英伟达曾在2020年推出NVIDIA Omniverse，这一款基于NVIDIA RTX和皮克斯Universal Scene Description（USD）的图形和仿真模拟平台型产品，可以实现3D设计协作以及可扩展的多GPU实时逼真仿真。</p>
+<p>ACE for Games则是在NVIDIA Omniverse的基础上，让开发人员可以使用它来构建和部署用于语音、对话和动画的自定义 AI 模型，从而使得游戏中的角色可以像真人一样与玩家对话。主要包括了三大模块：</p>
+<p>一是NVIDIA NeMo大型语言模型（LLM）。这一模型使用专有数据构建、自定义和部署语言模型，根据游戏故事的世界观及人物背景来定制调整LLM，并且通过NeMo Guardrails来保护对话的安全性和效果。</p>
+<p>二是NVIDIA Riva，这一模块主要用于自动语音识别（ASR）及文本转语音，以启用实时语音对话。</p>
+<p>三是NVIDIA Omniverse Audio2Face，主要用于配合语音音轨，实时为游戏角色创建脸部表情动画。例如，Audio2Face搭配用于虚幻引擎5的Omniverse Connector，开发者可以直接将脸部动画添加到MetaHuman（虚幻引擎旗下用于创作逼真人类角色的框架）的角色上。</p>
+<p>英伟达表示，开发者可以整合整套“ACE 游戏开发版”解决方案，或是单独使用自己需要的组件。</p>
+<p>NVIDIA开发者与性能技术部门副总裁John Spitzer表示：“生成式AI将彻底改变玩家与游戏人物之间的互动方式，并极大地提高游戏沉浸感。基于我们在AI领域的专业知识，加上几十年来与游戏开发者合作的经验，NVIDIA正率先在游戏中使用生成式AI。”</p>
+<p>黄仁勋也演示了生成式 AI 合成语音，通过对真人声音的模仿合成，可以让虚拟人“化身”讲任何一种语言。黄仁勋表示，AI将成为电子游戏的未来。</p>
+<p>**生成式AI助力*<em>数字*<em>化的智能工厂</em></em></p>
+<p>目前全球各地的电子制造商正在使用新的综合参考工作流程来推进其工业数字化进程。这套流程将融合NVIDIA的生成式AI、3D协作、仿真模拟和自主机器技术。</p>
+<p>依托庞大的合作伙伴网络，这套工作流程可帮助制造商使用一系列NVIDIA技术来规划、建造、运营和优化其工厂。这些技术包括：可连接顶尖计算机辅助设计（CAD）应用以及生成式AI应用程序接口（API）和先进框架的NVIDIA Omniverse ；用于仿真和测试机器人的NVIDIA Isaac Sim 应用；以及可用于自动光学检测的NVIDIA Metropolis视觉AI框架。</p>
+<p>黄仁勋在现场演示时表示：“全球最大的行业所制造的都是实物，如果能先以数字化的方式制造这些产品，就可以节省大量成本。NVIDIA使电子产品制造商能够轻松构建和运营虚拟工厂，并实现制造和检查工作流程的数字化，这大大提高了质量和安全性，同时减少了最后一刻的意外和延误。”</p>
+<p>据介绍，富士康工业互联网、宣鼎、和硕、广达和纬创正在使用新的参考工作流程来优化其工作间和装配线的运营，同时降低生产成本。</p>
+<p>比如，富士康工业互联网正在与NVIDIA Metropolis生态合作伙伴一起实现电路板质控检测点重要环节的自动化；宜鼎正在使用NVIDIA Metropolis实现产线光学检测流程的自动化，实现降本提效。</p>
+<p>NVIDIA还正在与数家领先的工具制造和服务提供商一同在各个工作流程层面建立统一的全栈架构。</p>
+<p>在系统层面，NVIDIA IGX Orin 提供了一个将工业级硬件与企业级软件和支持相结合的一体化边缘AI平台。IGX满足了边缘计算独特的耐久性和低功耗要求，同时提供了开发和运行AI应用所需的高性能。</p>
+<p>制造商合作伙伴包括凌华科技、研华、安提国际、Dedicated Computing、Prodrive Technologies和Yuan正在为工业和医疗市场开发由IGX驱动的系统，这些系统能够为实际生产带来数字化优势。</p>
+<p>在平台层面，Omniverse与全球领先的3D、模拟和生成式AI提供商相连接，这个开放的开发平台可以让团队在他们喜爱的应用之间建立互操作性，比如来自Adobe、Autodesk和西门子的应用。</p>
+<p>黄仁勋演示了Omniverse如何通过连接ChatGPT和Blender GPT等各种AI助手来简化3D工作流程和Python应用开发。NVIDIA Omniverse Cloud平台即服务（PaaS）已上线微软Azure，能够向企业客户提供Omniverse软件应用的全栈套件和NVIDIA OVX基础架构，其具备Azure云服务的规模和安全性。</p>
+<p>在应用层面，Isaac Sim使企业能够构建并优化部署AI机器人。制造商可以与工业自动化公司READY Robotics合作，在将机器人部署到现实世界之前，在仿真中对机器人任务进行编程。SoftServe和FS Studio等仿真技术合作伙伴通过构建基于数字孪生的仿真，为客户缩短开发时间。</p>
+<p>NVIDIA Metropolis中的一系列工厂自动化AI工作流程使工业方案商和制造商能够开发、部署和管理降本提效的定制化质量控制解决方案。包括凌华科技、安提国际、德勤、Quantiphi和西门子在内的庞大合作伙伴生态正在帮助推广这些解决方案。</p>
+<p><strong>买的越多，省的越多</strong></p>
+<p>黄仁勋在演讲中指出，随着加速计算和生成AI的兴起，标志着计算的革新，我们正处于一个全新计算时代的转折点，加速计算和AI已经被世界上几乎所有的运算和云端公司所接受。</p>
+<p>“每一个计算时代，你都可以从事之前无法做到的事情，人工智能时代显然也能为我们赋予这样的能力。”比如，“<strong>编程门槛变得极低。我们填补了数字鸿沟，现在，所有人都是程序员——你只需要对着电脑说话即可。</strong>”黄仁勋说，“由于如此便于使用，所以进步的速度飞快，这会影响几乎每个行业。”</p>
+<p>根据NVIDIA公布的数据显示，目前已有40000家大公司和15000家初创公司使用英伟达技术。其中，有超过1600家生成式AI公司采用了NVIDIA技术。仅2022 年NVIDIA CUDA 软件下载量更达2500 万次。另外，加速计算服务、软体与系统促进诞生出新的商业模式，且让现有模式更具效率。</p>
+<p>除了前面介绍的生成式AI对于游戏、智能制造等方面的助力之外，生成式AI也正为价值7000亿美元的数字广告行业带来了新机遇。基于NVIDIA AI和Omniverse的突破性引擎可以将来自领先软件制造商的创意3D和AI工具连接在一起，以大规模革新品牌内容和体验。比如，全球最大的营销服务机构英国WPP集团正与英伟达合作，在Omniverse Cloud上构建首个生成式AI广告引擎。</p>
+<p>为了更生动的展示生成式AI 的能力，黄仁勋还把发布会变成大型卡拉OK现场，让AI以其随口说出的四句话为歌词，进行编曲创作出一首歌，并邀请现场与会者跟他一起唱出AI做的歌曲，引发全场热情。</p>
+<p>黄仁勋还在发布会上对比了使用 GPU 和 CPU 建设数据中心的差异。他声称，同样的投资，客户可以使用更少的 GPU 建设一个能够处理更大数据量的数据中心，功耗也更低。</p>
+<p>“买的越多，省的越多（The more you buy, the more you save）。”黄仁勋说道。</p>
+</article><div class="post-copyright"><div class="copyright-cc-box"><i class="anzhiyufont anzhiyu-icon-copyright"></i></div><div class="post-copyright__author_box"><a class="post-copyright__author_img" href="/" title="头像"><img class="post-copyright__author_img_back" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic.imgdb.cn/item/64e42d1b661c6c8e54a18cd7.png" title="头像" alt="头像"><img class="post-copyright__author_img_front" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic.imgdb.cn/item/64e42d1b661c6c8e54a18cd7.png" title="头像" alt="头像"></a><div class="post-copyright__author_name">Ame</div><div class="post-copyright__author_desc"></div></div><div class="post-copyright__post__info"><a class="post-copyright__original" title="该文章为原创文章，注意版权协议" href="http://486916.xyz/2023/09/24/GH200/">原创</a><a class="post-copyright-title"><span onclick="rm.copyPageUrl('http://486916.xyz/2023/09/24/GH200/')">GH200</span></a></div><div class="post-tools" id="post-tools"><div class="post-tools-left"><div class="rewardLeftButton"></div><div class="shareRight"><div class="share-link mobile"><div class="share-qrcode"><div class="share-button" title="使用手机访问这篇文章"><i class="anzhiyufont anzhiyu-icon-qrcode"></i></div><div class="share-main"><div class="share-main-all"><div id="qrcode" title="http://486916.xyz/2023/09/24/GH200/"></div><div class="reward-dec">使用手机访问这篇文章</div></div></div></div></div></div></div></div><div class="post-copyright__notice"><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://486916.xyz" target="_blank">AmeのBlog</a>！</span></div></div><div class="post-tools-right"><div class="tag_share"><div class="post-meta__box"><div class="post-meta__box__tag-list"><a class="post-meta__box__tags" href="/tags/%E7%A1%AC%E4%BB%B6/"><span class="tags-punctuation"> <i class="anzhiyufont anzhiyu-icon-tag"></i></span>硬件<span class="tagsPageCount">2</span></a></div></div></div><div class="post_share"><div class="social-share" data-image="https://cn.mcecy.com/image/20230924/b95d7ad528d0caf3bfbb1857d0785a25.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.cbd.int/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"/><script src="https://cdn.cbd.int/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer="defer"></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2023/09/23/Git%E5%85%A5%E9%97%A8/"><img class="prev-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cn.mcecy.com/image/20230923/de477e121c620d0030b5a05ff2bb00ce.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Git教程</div></div></a></div><div class="next-post pull-right"><a href="/2023/09/24/%E5%AE%89%E7%9F%A5%E9%B1%BC%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/"><img class="next-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cn.mcecy.com/image/20230924/b95d7ad528d0caf3bfbb1857d0785a25.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">安知鱼主题配置</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="anzhiyufont anzhiyu-icon-thumbs-up fa-fw" style="font-size: 1.5rem; margin-right: 4px"></i><span>喜欢这篇文章的人也看了</span></div><div class="relatedPosts-list"><div><a href="/2023/09/02/%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%BB%B4%E4%BF%AE%E6%97%A5%E8%AE%B0/" title="服务器维修日记1"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cn.mcecy.com/image/20230902/984da96c1e260f96f17342124886e318.jpeg" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2023-09-02</div><div class="title">服务器维修日记1</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="anzhiyufont anzhiyu-icon-comments"></i><span> 评论</span></div><div class="comment-randomInfo"><a onclick="anzhiyu.addRandomCommentInfo()" href="javascript:void(0)">匿名评论</a><a href="/privacy" style="margin-left: 4px">隐私政策</a></div><div class="comment-tips" id="comment-tips"><span>✅ 你无需删除空行，直接评论以获取最佳展示效果</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div></div></div><div class="comment-barrage"></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-content"><div class="author-info-avatar"><img class="avatar-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic.imgdb.cn/item/64e42d1b661c6c8e54a18cd7.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__description">愛は、科学と論理では永遠に説明できないプログラムです。</div><div class="author-info__bottom-group"><a class="author-info__bottom-group-left" href="/"><h1 class="author-info__name">Ame</h1><div class="author-info__desc"></div></a><div class="card-info-social-icons is-center"><a class="social-icon faa-parent animated-hover" href="https://github.com/yousaforever" target="_blank" title="Github"><i class="anzhiyufont anzhiyu-icon-github"></i></a></div></div></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-bullhorn anzhiyu-shake"></i><span>公告</span></div><div class="announcement_content"><div id="welcome-info"></div></div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-history"></i><span>最近发布</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2023/09/24/%E5%AE%89%E7%9F%A5%E9%B1%BC%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/" title="安知鱼主题配置"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cn.mcecy.com/image/20230924/b95d7ad528d0caf3bfbb1857d0785a25.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="安知鱼主题配置"/></a><div class="content"><a class="title" href="/2023/09/24/%E5%AE%89%E7%9F%A5%E9%B1%BC%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/" title="安知鱼主题配置">安知鱼主题配置</a><time datetime="2023-09-24T03:15:02.000Z" title="发表于 2023-09-24 11:15:02">2023-09-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/09/24/GH200/" title="GH200"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cn.mcecy.com/image/20230924/0b08d2a2300800bb8af290060c75bf6e.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="GH200"/></a><div class="content"><a class="title" href="/2023/09/24/GH200/" title="GH200">GH200</a><time datetime="2023-09-24T02:54:15.000Z" title="发表于 2023-09-24 10:54:15">2023-09-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/09/23/Git%E5%85%A5%E9%97%A8/" title="Git教程"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cn.mcecy.com/image/20230923/de477e121c620d0030b5a05ff2bb00ce.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Git教程"/></a><div class="content"><a class="title" href="/2023/09/23/Git%E5%85%A5%E9%97%A8/" title="Git教程">Git教程</a><time datetime="2023-09-23T11:12:31.000Z" title="发表于 2023-09-23 19:12:31">2023-09-23</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/09/17/anzhiyu-plugins/" title="anzhiyu-plugins"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cn.mcecy.com/image/20230917/bdfcc04e8cecd96098f9bc2c14408f81.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="anzhiyu-plugins"/></a><div class="content"><a class="title" href="/2023/09/17/anzhiyu-plugins/" title="anzhiyu-plugins">anzhiyu-plugins</a><time datetime="2023-09-17T12:37:40.000Z" title="发表于 2023-09-17 20:37:40">2023-09-17</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/09/16/PyTorch%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/" title="PyTorch安装教程"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://cn.mcecy.com/image/20230910/43ebb567234fe8cdcef179259290f065.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="PyTorch安装教程"/></a><div class="content"><a class="title" href="/2023/09/16/PyTorch%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/" title="PyTorch安装教程">PyTorch安装教程</a><time datetime="2023-09-16T08:12:36.000Z" title="发表于 2023-09-16 16:12:36">2023-09-16</time></div></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div id="anzhiyu-footer"><div class="footer-group"><div class="footer-title">导航</div><div class="footer-links"><a class="footer-item" title="说说" href="/essay/">说说</a><a class="footer-item" title="聊天机器人" target="_blank" rel="noopener" href="https://chat.486916.xyz/">聊天机器人</a><a class="footer-item" title="更新日志" href="/updates/">更新日志</a></div></div><div class="footer-group"><div class="footer-title">文章</div><div class="footer-links"><a class="footer-item" title="归档" href="/archives/">归档</a><a class="footer-item" title="标签" href="/tags/">标签</a><a class="footer-item" title="分类" href="/categories/">分类</a></div></div><div class="footer-group"><div class="footer-title">我的</div><div class="footer-links"><a class="footer-item" title="关于本人" href="/about/">关于本人</a><a class="footer-item" title="音乐馆" href="/music/?id=168314790&amp;server=netease">音乐馆</a><a class="footer-item" title="相册集" href="/album/">相册集</a></div></div></div></div><div id="footer-bar"><div class="footer-bar-links"><div class="footer-bar-left"><div id="footer-bar-tips"><div class="copyright">&copy;2022 - 2023 By <a class="footer-bar-link" href="/" title="Ame" target="_blank">Ame</a></div></div><div id="footer-type-tips"></div></div><div class="footer-bar-right"><a class="footer-bar-link" target="_blank" rel="noopener" href="https://github.com/yousaforever/hexo-theme-anzhiyu" title="主题">主题</a><a class="footer-bar-link" target="_blank" rel="noopener" href="https://icp.gov.moe/?keyword=20239014" title="萌ICP备20239014号">萌ICP备20239014号</a></div></div></div></footer></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="sidebar-site-data site-data is-center"><a href="/archives/" title="archive"><div class="headline">文章</div><div class="length-num">57</div></a><a href="/tags/" title="tag"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/categories/" title="category"><div class="headline">分类</div><div class="length-num">6</div></a></div><span class="sidebar-menu-item-title">功能</span><div class="sidebar-menu-item"><a class="darkmode_switchbutton menu-child" href="javascript:void(0);" title="显示模式"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span>显示模式</span></a></div><div class="back-menu-list-groups"><div class="back-menu-list-group"><div class="back-menu-list-title">网页</div><div class="back-menu-list"><a class="back-menu-item" href="https://486916.xyz/" title="博客"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/favicon.ico" alt="博客"/><span class="back-menu-item-text">博客</span></a><a class="back-menu-item" target="_blank" rel="noopener" href="https://chat.486916.xyz/" title="ChatGPT"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/ChatGPT.ico" alt="ChatGPT"/><span class="back-menu-item-text">ChatGPT</span></a><a class="back-menu-item" target="_blank" rel="noopener" href="https://bilibili.com/" title="B站"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/bili.ico" alt="B站"/><span class="back-menu-item-text">B站</span></a><a class="back-menu-item" target="_blank" rel="noopener" href="https://ys.mihoyo.com/" title="启动！"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/genshin.ico" alt="启动！"/><span class="back-menu-item-text">启动！</span></a><a class="back-menu-item" target="_blank" rel="noopener" href="https://bh3.mihoyo.com/" title="崩坏三"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/bh3.ico" alt="崩坏三"/><span class="back-menu-item-text">崩坏三</span></a><a class="back-menu-item" target="_blank" rel="noopener" href="https://sr.mihoyo.com/" title="崩坏·星穹铁道"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/bhsr.ico" alt="崩坏·星穹铁道"/><span class="back-menu-item-text">崩坏·星穹铁道</span></a></div></div></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 文章</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><i class="anzhiyufont anzhiyu-icon-box-archive faa-tada" style="font-size: 0.9em;"></i><span> 归档</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/comments/"><i class="anzhiyufont anzhiyu-icon-envelope faa-tada" style="font-size: 0.9em;"></i><span> 留言板</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/resources/"><i class="anzhiyufont anzhiyu-icon-inbox faa-tada" style="font-size: 0.9em;"></i><span> 资源</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 我的</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/music/?id=168314790&amp;server=netease"><i class="anzhiyufont anzhiyu-icon-music faa-tada" style="font-size: 0.9em;"></i><span> 音乐馆</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/essay/"><i class="anzhiyufont anzhiyu-icon-lightbulb faa-tada" style="font-size: 0.9em;"></i><span> 说说</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/album/"><i class="anzhiyufont anzhiyu-icon-images faa-tada" style="font-size: 0.9em;"></i><span> 相册集</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 关于</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/about/"><i class="anzhiyufont anzhiyu-icon-paper-plane faa-tada" style="font-size: 0.9em;"></i><span> 关于本人</span></a></li></ul></div></div><span class="sidebar-menu-item-title">标签</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/Git/" style="font-size: 0.88rem;">Git<sup>1</sup></a><a href="/tags/PyTorch/" style="font-size: 0.88rem;">PyTorch<sup>1</sup></a><a href="/tags/%E5%8E%9F%E7%A5%9E/" style="font-size: 0.88rem;">原神<sup>3</sup></a><a href="/tags/%E5%AE%89%E7%9F%A5%E9%B1%BC/" style="font-size: 0.88rem;">安知鱼<sup>3</sup></a><a href="/tags/%E6%95%B0%E5%AD%A6/" style="font-size: 0.88rem;">数学<sup>1</sup></a><a href="/tags/%E7%A1%AC%E4%BB%B6/" style="font-size: 0.88rem;">硬件<sup>2</sup></a></div></div><hr/></div></div><div id="keyboard-tips"><div class="keyboardTitle">博客快捷键</div><div class="keybordList"><div class="keybordItem"><div class="keyGroup"><div class="key">shift K</div></div><div class="keyContent"><div class="content">关闭快捷键功能</div></div></div><div class="keybordItem"><div class="keyGroup"><div class="key">shift A</div></div><div class="keyContent"><div class="content">打开/关闭中控台</div></div></div><div class="keybordItem"><div class="keyGroup"><div class="key">shift M</div></div><div class="keyContent"><div class="content">播放/暂停音乐</div></div></div><div class="keybordItem"><div class="keyGroup"><div class="key">shift D</div></div><div class="keyContent"><div class="content">深色/浅色显示模式</div></div></div><div class="keybordItem"><div class="keyGroup"><div class="key">shift S</div></div><div class="keyContent"><div class="content">站内搜索</div></div></div><div class="keybordItem"><div class="keyGroup"><div class="key">shift R</div></div><div class="keyContent"><div class="content">随机访问</div></div></div><div class="keybordItem"><div class="keyGroup"><div class="key">shift H</div></div><div class="keyContent"><div class="content">返回首页</div></div></div><div class="keybordItem"><div class="keyGroup"><div class="key">shift F</div></div><div class="keyContent"><div class="content">友链鱼塘</div></div></div><div class="keybordItem"><div class="keyGroup"><div class="key">shift L</div></div><div class="keyContent"><div class="content">友链页面</div></div></div><div class="keybordItem"><div class="keyGroup"><div class="key">shift P</div></div><div class="keyContent"><div class="content">关于本站</div></div></div><div class="keybordItem"><div class="keyGroup"><div class="key">shift I</div></div><div class="keyContent"><div class="content">原版/本站右键菜单</div></div></div></div></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="anzhiyufont anzhiyu-icon-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="anzhiyufont anzhiyu-icon-gear"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="anzhiyufont anzhiyu-icon-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div><div id="nav-music"><a id="nav-music-hoverTips" onclick="anzhiyu.musicToggle()" accesskey="m">播放音乐</a><div id="console-music-bg"></div><meting-js id="168314790" server="netease" type="playlist" mutex="true" preload="none" theme="var(--anzhiyu-main)" data-lrctype="0" order="random"></meting-js></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="anzhiyufont anzhiyu-icon-xmark"></i></button></nav><div class="is-center" id="loading-database"><i class="anzhiyufont anzhiyu-icon-spinner anzhiyu-pulse-icon"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div id="rightMenu"><div class="rightMenu-group rightMenu-small"><div class="rightMenu-item" id="menu-backward"><i class="anzhiyufont anzhiyu-icon-arrow-left"></i></div><div class="rightMenu-item" id="menu-forward"><i class="anzhiyufont anzhiyu-icon-arrow-right"></i></div><div class="rightMenu-item" id="menu-refresh"><i class="anzhiyufont anzhiyu-icon-arrow-rotate-right" style="font-size: 1rem;"></i></div><div class="rightMenu-item" id="menu-top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></div></div><div class="rightMenu-group rightMenu-line rightMenuPlugin"><div class="rightMenu-item" id="menu-copytext"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制选中文本</span></div><div class="rightMenu-item" id="menu-pastetext"><i class="anzhiyufont anzhiyu-icon-paste"></i><span>粘贴文本</span></div><a class="rightMenu-item" id="menu-commenttext"><i class="anzhiyufont anzhiyu-icon-comment-medical"></i><span>引用到评论</span></a><div class="rightMenu-item" id="menu-newwindow"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开</span></div><div class="rightMenu-item" id="menu-copylink"><i class="anzhiyufont anzhiyu-icon-link"></i><span>复制链接地址</span></div><div class="rightMenu-item" id="menu-copyimg"><i class="anzhiyufont anzhiyu-icon-images"></i><span>复制此图片</span></div><div class="rightMenu-item" id="menu-downloadimg"><i class="anzhiyufont anzhiyu-icon-download"></i><span>下载此图片</span></div><div class="rightMenu-item" id="menu-newwindowimg"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开图片</span></div><div class="rightMenu-item" id="menu-search"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>站内搜索</span></div><div class="rightMenu-item" id="menu-searchBaidu"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>百度搜索</span></div><div class="rightMenu-item" id="menu-music-toggle"><i class="anzhiyufont anzhiyu-icon-play"></i><span>播放音乐</span></div><div class="rightMenu-item" id="menu-music-back"><i class="anzhiyufont anzhiyu-icon-backward"></i><span>切换到上一首</span></div><div class="rightMenu-item" id="menu-music-forward"><i class="anzhiyufont anzhiyu-icon-forward"></i><span>切换到下一首</span></div><div class="rightMenu-item" id="menu-music-playlist" onclick="window.open(&quot;https://music.163.com/#/playlist?id=168314790&quot;, &quot;_blank&quot;);" style="display: none;"><i class="anzhiyufont anzhiyu-icon-radio"></i><span>查看所有歌曲</span></div><div class="rightMenu-item" id="menu-music-copyMusicName"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制歌名</span></div></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item menu-link" id="menu-randomPost"><i class="anzhiyufont anzhiyu-icon-shuffle"></i><span>随便逛逛</span></a><a class="rightMenu-item menu-link" href="/categories/"><i class="anzhiyufont anzhiyu-icon-cube"></i><span>博客分类</span></a><a class="rightMenu-item menu-link" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags"></i><span>文章标签</span></a></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item" id="menu-copy" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制地址</span></a><a class="rightMenu-item" id="menu-commentBarrage" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-message"></i><span class="menu-commentBarrage-text">关闭热评</span></a><a class="rightMenu-item" id="menu-darkmode" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span class="menu-darkmode-text">深色模式</span></a><a class="rightMenu-item" id="menu-translate" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-language"></i><span>轉為繁體</span></a></div></div><div id="rightmenu-mask"></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.cbd.int/@fancyapps/ui@5.0.20/dist/fancybox/fancybox.umd.js"></script><script src="https://cdn.cbd.int/instant.page@5.2.0/instantpage.js" type="module"></script><script src="https://cdn.cbd.int/vanilla-lazyload@17.8.4/dist/lazyload.iife.min.js"></script><script src="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.js"></script><canvas id="universe"></canvas><script async src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/dark/dark.js"></script><script>// 消除控制台打印
+var HoldLog = console.log;
+console.log = function () {};
+let now1 = new Date();
+queueMicrotask(() => {
+  const Log = function () {
+    HoldLog.apply(console, arguments);
+  }; //在恢复前输出日志
+  const grt = new Date("01/01/2022 00:00:00"); //此处修改你的建站时间或者网站上线时间
+  now1.setTime(now1.getTime() + 250);
+  const days = (now1 - grt) / 1000 / 60 / 60 / 24;
+  const dnum = Math.floor(days);
+  const ascll = [
+    `欢迎使用安知鱼!`,
+    `生活明朗, 万物可爱`,
+    `
+        
+       █████╗ ███╗   ██╗███████╗██╗  ██╗██╗██╗   ██╗██╗   ██╗
+      ██╔══██╗████╗  ██║╚══███╔╝██║  ██║██║╚██╗ ██╔╝██║   ██║
+      ███████║██╔██╗ ██║  ███╔╝ ███████║██║ ╚████╔╝ ██║   ██║
+      ██╔══██║██║╚██╗██║ ███╔╝  ██╔══██║██║  ╚██╔╝  ██║   ██║
+      ██║  ██║██║ ╚████║███████╗██║  ██║██║   ██║   ╚██████╔╝
+      ╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚═╝   ╚═╝    ╚═════╝
+        
+        `,
+    "已上线",
+    dnum,
+    "天",
+    "©2022 By 安知鱼 V1.6.6",
+  ];
+  const ascll2 = [`NCC2-036`, `调用前置摄像头拍照成功，识别为【小笨蛋】.`, `Photo captured: `, `🤪`];
+
+  setTimeout(
+    Log.bind(
+      console,
+      `\n%c${ascll[0]} %c ${ascll[1]} %c ${ascll[2]} %c${ascll[3]}%c ${ascll[4]}%c ${ascll[5]}\n\n%c ${ascll[6]}\n`,
+      "color:#425AEF",
+      "",
+      "color:#425AEF",
+      "color:#425AEF",
+      "",
+      "color:#425AEF",
+      ""
+    )
+  );
+  setTimeout(
+    Log.bind(
+      console,
+      `%c ${ascll2[0]} %c ${ascll2[1]} %c \n${ascll2[2]} %c\n${ascll2[3]}\n`,
+      "color:white; background-color:#4fd953",
+      "",
+      "",
+      'background:url("https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/tinggge.gif") no-repeat;font-size:450%'
+    )
+  );
+
+  setTimeout(Log.bind(console, "%c WELCOME %c 你好，小笨蛋.", "color:white; background-color:#4f90d9", ""));
+
+  setTimeout(
+    console.warn.bind(
+      console,
+      "%c ⚡ Powered by 安知鱼 %c 你正在访问 Ame 的博客.",
+      "color:white; background-color:#f0ad4e",
+      ""
+    )
+  );
+
+  setTimeout(Log.bind(console, "%c W23-12 %c 你已打开控制台.", "color:white; background-color:#4f90d9", ""));
+
+  setTimeout(
+    console.warn.bind(console, "%c S013-782 %c 你现在正处于监控中.", "color:white; background-color:#d9534f", "")
+  );
+});</script><script async src="/anzhiyu/random.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>(() => {
+  const init = () => {
+    twikoo.init(Object.assign({
+      el: '#twikoo-wrap',
+      envId: 'https://ameblog.zeabur.app',
+      region: '',
+      onCommentLoaded: () => {
+        anzhiyu.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
+      }
+    }, null))
+  }
+
+  const loadTwikoo = () => {
+    if (typeof twikoo === 'object') setTimeout(runFn,0)
+    else getScript('https://cdn.cbd.int/twikoo@1.6.19/dist/twikoo.all.min.js').then(runFn)
+  }
+
+  const getCount = () => {
+    const countELement = document.getElementById('twikoo-count')
+    if(!countELement) return
+    twikoo.getCommentsCount({
+      envId: 'https://ameblog.zeabur.app',
+      region: '',
+      urls: [window.location.pathname],
+      includeReply: false
+    }).then(res => {
+      countELement.textContent = res[0].count
+    }).catch(err => {
+      console.error(err)
+    })
+  }
+
+  const runFn = () => {
+    init();
+    GLOBAL_CONFIG_SITE.isPost && getCount()
+  }
+
+  if ('Twikoo' === 'Twikoo' || !false) {
+    if (false) anzhiyu.loadComment(document.getElementById('twikoo-wrap'), loadTwikoo)
+    else {
+      loadTwikoo()
+    }
+  } else {
+    window.loadOtherComment = loadTwikoo
+  }
+})()</script><input type="hidden" name="page-type" id="page-type" value="post"></div><script>window.addEventListener('load', () => {
+  const changeContent = (content) => {
+    if (content === '') return content
+
+    content = content.replace(/<img.*?src="(.*?)"?[^\>]+>/ig, '[图片]') // replace image link
+    content = content.replace(/<a[^>]+?href=["']?([^"']+)["']?[^>]*>([^<]+)<\/a>/gi, '[链接]') // replace url
+    content = content.replace(/<pre><code>.*?<\/pre>/gi, '[代码]') // replace code
+    content = content.replace(/<[^>]+>/g,"") // remove html tag
+
+    if (content.length > 150) {
+      content = content.substring(0,150) + '...'
+    }
+    return content
+  }
+
+  const getComment = () => {
+    const runTwikoo = () => {
+      twikoo.getRecentComments({
+        envId: 'https://ameblog.zeabur.app',
+        region: '',
+        pageSize: 6,
+        includeReply: true
+      }).then(function (res) {
+        const twikooArray = res.map(e => {
+          return {
+            'content': changeContent(e.comment),
+            'avatar': e.avatar,
+            'nick': e.nick,
+            'url': e.url + '#' + e.id,
+            'date': new Date(e.created).toISOString()
+          }
+        })
+
+        saveToLocal.set('twikoo-newest-comments', JSON.stringify(twikooArray), 10/(60*24))
+        generateHtml(twikooArray)
+      }).catch(function (err) {
+        const $dom = document.querySelector('#card-newest-comments .aside-list')
+        $dom.textContent= "无法获取评论，请确认相关配置是否正确"
+      })
+    }
+
+    if (typeof twikoo === 'object') {
+      runTwikoo()
+    } else {
+      getScript('https://cdn.cbd.int/twikoo@1.6.19/dist/twikoo.all.min.js').then(runTwikoo)
+    }
+  }
+
+  const generateHtml = array => {
+    let result = ''
+
+    if (array.length) {
+      for (let i = 0; i < array.length; i++) {
+        result += '<div class=\'aside-list-item\'>'
+
+        if (true) {
+          const name = 'data-lazy-src'
+          result += `<a href='${array[i].url}' class='thumbnail'><img ${name}='${array[i].avatar}' alt='${array[i].nick}'><div class='name'><span>${array[i].nick} </span></div></a>`
+        }
+        
+        result += `<div class='content'>
+        <a class='comment' href='${array[i].url}' title='${array[i].content}'>${array[i].content}</a>
+        <time datetime="${array[i].date}">${anzhiyu.diffDate(array[i].date, true)}</time></div>
+        </div>`
+      }
+    } else {
+      result += '没有评论'
+    }
+
+    let $dom = document.querySelector('#card-newest-comments .aside-list')
+    $dom.innerHTML= result
+    window.lazyLoadInstance && window.lazyLoadInstance.update()
+    window.pjax && window.pjax.refresh($dom)
+  }
+
+  const newestCommentInit = () => {
+    if (document.querySelector('#card-newest-comments .aside-list')) {
+      const data = saveToLocal.get('twikoo-newest-comments')
+      if (data) {
+        generateHtml(JSON.parse(data))
+      } else {
+        getComment()
+      }
+    }
+  }
+
+  newestCommentInit()
+  document.addEventListener('pjax:complete', newestCommentInit)
+})</script><script async data-pjax src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.1/bubble/bubble.js"></script><script>var visitorMail = "visitor@ame.com";
+</script><script async data-pjax src="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/waterfall/waterfall.js"></script><script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/qrcodejs/1.0.0/qrcode.min.js"></script><script src="/js/anzhiyu/right_click_menu.js"></script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.9/icon/ali_iconfont_css.css"><script type="text/javascript" src="https://unpkg.zhimg.com/jquery@latest/dist/jquery.min.js"></script><script defer="true" src="/js/welcome.js"></script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/aplayer/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.cbd.int/anzhiyu-blog-static@1.0.1/js/APlayer.min.js"></script><script src="https://cdn.cbd.int/hexo-anzhiyu-music@1.0.1/assets/js/Meting2.min.js"></script><script src="https://cdn.cbd.int/pjax@0.2.8/pjax.min.js"></script><script>let pjaxSelectors = ["meta[property=\"og:image\"]","meta[property=\"og:title\"]","meta[property=\"og:url\"]","meta[property=\"og:type\"]","meta[property=\"og:site_name\"]","meta[property=\"og:description\"]","head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+  // removeEventListener scroll 
+  anzhiyu.removeGlobalFnEvent('pjax')
+  anzhiyu.removeGlobalFnEvent('themeChange')
+
+  document.getElementById('rightside').classList.remove('rightside-show')
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', e => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script charset="UTF-8" src="https://cdn.cbd.int/anzhiyu-theme-static@1.1.5/accesskey/accesskey.js"></script></div><div id="popup-window"><div class="popup-window-title">通知</div><div class="popup-window-divider"></div><div class="popup-window-content"><div class="popup-tip">你好呀</div><div class="popup-link"><i class="anzhiyufont anzhiyu-icon-arrow-circle-right"></i></div></div></div></body></html>
