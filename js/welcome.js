@@ -176,7 +176,7 @@ function showWelcome() {
                     posdesc = "朝观日出逐白浪，夕看云起收霞光";
                     break;
                 case "四川省":
-                    posdesc = "来找我耍吧qwq";
+                    posdesc = "你好！";
                     break;
                 case "贵州省":
                     posdesc = "茅台，学生，再塞200";
