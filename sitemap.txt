@@ -1,6 +1,6 @@
 http://486916.xyz/updates/index.html
-http://486916.xyz/2023/09/17/anzhiyu-plugins/
 http://486916.xyz/2023/09/03/anzhiyu%E4%B8%BB%E9%A2%98%E6%A0%87%E7%AD%BE/
+http://486916.xyz/2023/09/17/anzhiyu-plugins/
 http://486916.xyz/2023/09/24/GH200/
 http://486916.xyz/2023/09/23/Git%E5%85%A5%E9%97%A8/
 http://486916.xyz/2023/09/16/PyTorch%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/
