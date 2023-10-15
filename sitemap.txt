@@ -1,5 +1,6 @@
-http://486916.xyz/resources/index.html
+http://486916.xyz/2023/10/15/StarLink/
 http://486916.xyz/updates/index.html
+http://486916.xyz/resources/index.html
 http://486916.xyz/2023/10/14/%E5%9B%BE%E4%B9%A6%E9%A1%B5%E9%9D%A2%E9%85%8D%E7%BD%AE/
 http://486916.xyz/books/index.html
 http://486916.xyz/2023/09/17/anzhiyu-plugins/
@@ -115,6 +116,7 @@ http://486916.xyz/tags/%E7%A1%AC%E4%BB%B6/
 http://486916.xyz/tags/Git/
 http://486916.xyz/tags/PyTorch/
 http://486916.xyz/tags/%E7%A1%AC%E7%9B%98/
+http://486916.xyz/tags/SpaceX/
 http://486916.xyz/tags/%E5%AE%89%E7%9F%A5%E9%B1%BC/
 http://486916.xyz/tags/huggingface/
 http://486916.xyz/tags/%E7%BD%91%E7%BB%9C/
@@ -126,3 +128,4 @@ http://486916.xyz/categories/Hexo/
 http://486916.xyz/categories/%E6%95%99%E7%A8%8B/
 http://486916.xyz/categories/%E5%AD%A6%E4%B9%A0/
 http://486916.xyz/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/
+http://486916.xyz/categories/%E7%A7%91%E6%8A%80/
