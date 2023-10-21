@@ -1,3 +1,4 @@
+http://486916.xyz/resources/index.html
 http://486916.xyz/updates/index.html
 http://486916.xyz/package.json
 http://486916.xyz/node_modules/hexo-abbrlink/package.json
@@ -17,7 +18,6 @@ http://486916.xyz/2023/07/13/Python3%E5%87%BD%E6%95%B0/
 http://486916.xyz/2023/10/21/%E6%88%91%E8%A6%81%E6%88%91%E4%BB%AC%E5%9C%A8%E4%B8%80%E8%B5%B7/
 http://486916.xyz/gentleman/21.html
 http://486916.xyz/2023/10/15/StarLink/
-http://486916.xyz/resources/index.html
 http://486916.xyz/2023/10/14/%E5%9B%BE%E4%B9%A6%E9%A1%B5%E9%9D%A2%E9%85%8D%E7%BD%AE/
 http://486916.xyz/books/index.html
 http://486916.xyz/2023/09/17/anzhiyu-plugins/
