@@ -4,7 +4,43 @@
   <url>
     <loc>http://486916.xyz/2023/10/28/Github%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA/</loc>
     
-    <lastmod>2023-10-28</lastmod>
+    <lastmod>2023-10-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://486916.xyz/gentleman/index.html</loc>
+    
+    <lastmod>2023-10-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://486916.xyz/gentleman/23.html</loc>
+    
+    <lastmod>2023-10-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://486916.xyz/gentleman/22.html</loc>
+    
+    <lastmod>2023-10-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://486916.xyz/gentleman/21.html</loc>
+    
+    <lastmod>2023-10-29</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -263,15 +299,6 @@
   </url>
   
   <url>
-    <loc>http://486916.xyz/gentleman/21.html</loc>
-    
-    <lastmod>2023-10-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://486916.xyz/books/index.html</loc>
     
     <lastmod>2023-10-14</lastmod>
@@ -473,15 +500,6 @@
     <loc>http://486916.xyz/link/index.html</loc>
     
     <lastmod>2023-10-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://486916.xyz/gentleman/index.html</loc>
-    
-    <lastmod>2023-10-01</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1048,7 +1066,7 @@
 
   <url>
     <loc>http://486916.xyz/</loc>
-    <lastmod>2023-10-28</lastmod>
+    <lastmod>2023-10-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -1056,98 +1074,98 @@
   
   <url>
     <loc>http://486916.xyz/tags/%E5%8E%9F%E7%A5%9E/</loc>
-    <lastmod>2023-10-28</lastmod>
+    <lastmod>2023-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://486916.xyz/tags/%E7%A1%AC%E4%BB%B6/</loc>
-    <lastmod>2023-10-28</lastmod>
+    <lastmod>2023-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://486916.xyz/tags/Github/</loc>
-    <lastmod>2023-10-28</lastmod>
+    <lastmod>2023-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://486916.xyz/tags/Git/</loc>
-    <lastmod>2023-10-28</lastmod>
+    <lastmod>2023-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://486916.xyz/tags/Python/</loc>
-    <lastmod>2023-10-28</lastmod>
+    <lastmod>2023-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://486916.xyz/tags/PyTorch/</loc>
-    <lastmod>2023-10-28</lastmod>
+    <lastmod>2023-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://486916.xyz/tags/SpaceX/</loc>
-    <lastmod>2023-10-28</lastmod>
+    <lastmod>2023-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://486916.xyz/tags/%E7%A1%AC%E7%9B%98/</loc>
-    <lastmod>2023-10-28</lastmod>
+    <lastmod>2023-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://486916.xyz/tags/%E5%AE%89%E7%9F%A5%E9%B1%BC/</loc>
-    <lastmod>2023-10-28</lastmod>
+    <lastmod>2023-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://486916.xyz/tags/huggingface/</loc>
-    <lastmod>2023-10-28</lastmod>
+    <lastmod>2023-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://486916.xyz/tags/%E7%BD%91%E7%BB%9C/</loc>
-    <lastmod>2023-10-28</lastmod>
+    <lastmod>2023-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://486916.xyz/tags/%E6%95%B0%E5%AD%A6/</loc>
-    <lastmod>2023-10-28</lastmod>
+    <lastmod>2023-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://486916.xyz/tags/%E5%B0%8F%E8%AF%B4/</loc>
-    <lastmod>2023-10-28</lastmod>
+    <lastmod>2023-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://486916.xyz/tags/%E7%AE%97%E6%B3%95/</loc>
-    <lastmod>2023-10-28</lastmod>
+    <lastmod>2023-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -1156,56 +1174,56 @@
   
   <url>
     <loc>http://486916.xyz/categories/%E5%8E%9F%E7%A5%9E/</loc>
-    <lastmod>2023-10-28</lastmod>
+    <lastmod>2023-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://486916.xyz/categories/AIGC/</loc>
-    <lastmod>2023-10-28</lastmod>
+    <lastmod>2023-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://486916.xyz/categories/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2023-10-28</lastmod>
+    <lastmod>2023-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://486916.xyz/categories/Hexo/</loc>
-    <lastmod>2023-10-28</lastmod>
+    <lastmod>2023-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://486916.xyz/categories/%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2023-10-28</lastmod>
+    <lastmod>2023-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://486916.xyz/categories/%E7%A7%91%E6%8A%80/</loc>
-    <lastmod>2023-10-28</lastmod>
+    <lastmod>2023-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://486916.xyz/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/</loc>
-    <lastmod>2023-10-28</lastmod>
+    <lastmod>2023-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://486916.xyz/categories/%E9%A1%B9%E7%9B%AE/</loc>
-    <lastmod>2023-10-28</lastmod>
+    <lastmod>2023-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
