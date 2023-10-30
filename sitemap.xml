@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://486916.xyz/2023/10/28/Github%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA/</loc>
+    
+    <lastmod>2023-10-30</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://486916.xyz/2023/10/29/%E7%8C%8E%E9%B9%B09%E5%9B%9E%E6%94%B6%E8%A7%86%E9%A2%91/</loc>
     
     <lastmod>2023-10-29</lastmod>
@@ -20,15 +29,6 @@
   </url>
   
   <url>
-    <loc>http://486916.xyz/2023/10/29/%E6%B5%8B%E8%AF%95/</loc>
-    
-    <lastmod>2023-10-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://486916.xyz/2023/10/02/%E5%AE%9E%E7%8E%B0%E6%96%87%E7%AB%A0%E7%BB%9F%E8%AE%A1%E9%A1%B5%E9%9D%A2/</loc>
     
     <lastmod>2023-10-29</lastmod>
@@ -39,15 +39,6 @@
   
   <url>
     <loc>http://486916.xyz/2023/10/21/%E6%88%91%E8%A6%81%E6%88%91%E4%BB%AC%E5%9C%A8%E4%B8%80%E8%B5%B7/</loc>
-    
-    <lastmod>2023-10-29</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://486916.xyz/2023/10/28/Github%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA/</loc>
     
     <lastmod>2023-10-29</lastmod>
     
@@ -1133,14 +1124,14 @@
   </url>
   
   <url>
-    <loc>http://486916.xyz/tags/SpaceX/</loc>
+    <loc>http://486916.xyz/tags/%E7%A1%AC%E7%9B%98/</loc>
     <lastmod>2023-10-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://486916.xyz/tags/%E7%A1%AC%E7%9B%98/</loc>
+    <loc>http://486916.xyz/tags/SpaceX/</loc>
     <lastmod>2023-10-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1226,14 +1217,14 @@
   </url>
   
   <url>
-    <loc>http://486916.xyz/categories/%E7%A7%91%E6%8A%80/</loc>
+    <loc>http://486916.xyz/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/</loc>
     <lastmod>2023-10-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://486916.xyz/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/</loc>
+    <loc>http://486916.xyz/categories/%E7%A7%91%E6%8A%80/</loc>
     <lastmod>2023-10-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
