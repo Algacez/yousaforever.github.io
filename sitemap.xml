@@ -1110,13 +1110,6 @@
   </url>
   
   <url>
-    <loc>http://www.486916.xyz/tags/PyTorch/</loc>
-    <lastmod>2023-11-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://www.486916.xyz/tags/Python/</loc>
     <lastmod>2023-11-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -1124,7 +1117,7 @@
   </url>
   
   <url>
-    <loc>http://www.486916.xyz/tags/%E7%A1%AC%E7%9B%98/</loc>
+    <loc>http://www.486916.xyz/tags/PyTorch/</loc>
     <lastmod>2023-11-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1132,6 +1125,13 @@
   
   <url>
     <loc>http://www.486916.xyz/tags/SpaceX/</loc>
+    <lastmod>2023-11-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.486916.xyz/tags/%E7%A1%AC%E7%9B%98/</loc>
     <lastmod>2023-11-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1217,14 +1217,14 @@
   </url>
   
   <url>
-    <loc>http://www.486916.xyz/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/</loc>
+    <loc>http://www.486916.xyz/categories/%E7%A7%91%E6%8A%80/</loc>
     <lastmod>2023-11-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://www.486916.xyz/categories/%E7%A7%91%E6%8A%80/</loc>
+    <loc>http://www.486916.xyz/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/</loc>
     <lastmod>2023-11-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
