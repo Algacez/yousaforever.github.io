@@ -1106,12 +1106,12 @@ const anzhiyu = {
         element.style.opacity = 0;
         travellingsTimer && clearTimeout(travellingsTimer);
       },
-      5000,
+      1000,
       "取消"
     );
     travellingsTimer = setTimeout(function () {
       window.open("https://www.travellings.cn/go.html", "_blank");
-    }, "5000");
+    }, "1000");
   },
 
   // 工具函数替换字符串
