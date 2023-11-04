@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.486916.xyz/updates/index.html</loc>
+    
+    <lastmod>2023-11-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.486916.xyz/2023/09/23/Git%E5%85%A5%E9%97%A8/</loc>
+    
+    <lastmod>2023-11-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://www.486916.xyz/2023/10/29/%E7%8C%8E%E9%B9%B09%E5%9B%9E%E6%94%B6%E8%A7%86%E9%A2%91/</loc>
     
     <lastmod>2023-11-04</lastmod>
@@ -50,15 +68,6 @@
     <loc>http://www.486916.xyz/gentleman/22.html</loc>
     
     <lastmod>2023-11-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.486916.xyz/updates/index.html</loc>
-    
-    <lastmod>2023-10-30</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -129,15 +138,6 @@
   
   <url>
     <loc>http://www.486916.xyz/2023/09/24/GH200/</loc>
-    
-    <lastmod>2023-10-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.486916.xyz/2023/09/23/Git%E5%85%A5%E9%97%A8/</loc>
     
     <lastmod>2023-10-22</lastmod>
     
@@ -1110,14 +1110,14 @@
   </url>
   
   <url>
-    <loc>http://www.486916.xyz/tags/Python/</loc>
+    <loc>http://www.486916.xyz/tags/PyTorch/</loc>
     <lastmod>2023-11-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://www.486916.xyz/tags/PyTorch/</loc>
+    <loc>http://www.486916.xyz/tags/Python/</loc>
     <lastmod>2023-11-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1131,14 +1131,14 @@
   </url>
   
   <url>
-    <loc>http://www.486916.xyz/tags/SpaceX/</loc>
+    <loc>http://www.486916.xyz/tags/%E5%AE%89%E7%9F%A5%E9%B1%BC/</loc>
     <lastmod>2023-11-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://www.486916.xyz/tags/%E5%AE%89%E7%9F%A5%E9%B1%BC/</loc>
+    <loc>http://www.486916.xyz/tags/SpaceX/</loc>
     <lastmod>2023-11-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
