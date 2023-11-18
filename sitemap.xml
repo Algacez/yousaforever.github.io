@@ -2,6 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.486916.xyz/2023/11/18/SpaceX-%E6%98%9F%E8%88%B0%E7%AC%AC%E4%BA%8C%E6%AC%A1%E5%8F%91%E5%B0%84%E5%85%A8%E7%A8%8B%E7%9B%B4%E6%92%AD%E5%9B%9E%E6%94%BE/</loc>
+    
+    <lastmod>2023-11-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.486916.xyz/2023/04/02/B%E7%AB%99%E8%A7%86%E9%A2%91%E6%B5%8B%E8%AF%95/</loc>
+    
+    <lastmod>2023-11-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.486916.xyz/2023/11/18/Docker%E5%92%8CVMware%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83%E5%86%B2%E7%AA%81%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</loc>
+    
+    <lastmod>2023-11-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.486916.xyz/2023/11/18/OpenAI-announces-leadership-transition/</loc>
+    
+    <lastmod>2023-11-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.486916.xyz/resources/index.html</loc>
+    
+    <lastmod>2023-11-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://www.486916.xyz/2023/11/12/%E4%BD%BF%E7%94%A8Cloudflare-Pages%E5%92%8CTelegraph%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/</loc>
     
     <lastmod>2023-11-12</lastmod>
@@ -56,6 +101,15 @@
   </url>
   
   <url>
+    <loc>http://www.486916.xyz/2023/09/24/GH200/</loc>
+    
+    <lastmod>2023-11-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://www.486916.xyz/2023/03/12/GPT-3%E6%A8%A1%E5%9E%8B/</loc>
     
     <lastmod>2023-11-05</lastmod>
@@ -66,15 +120,6 @@
   
   <url>
     <loc>http://www.486916.xyz/2023/04/01/GPT-4paper%E8%A7%A3%E8%AF%BB/</loc>
-    
-    <lastmod>2023-11-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.486916.xyz/2023/09/24/GH200/</loc>
     
     <lastmod>2023-11-05</lastmod>
     
@@ -128,7 +173,7 @@
   </url>
   
   <url>
-    <loc>http://www.486916.xyz/2023/05/07/%E6%B3%A0%E9%B8%A2lora%E6%A8%A1%E5%9E%8Bv2/</loc>
+    <loc>http://www.486916.xyz/2023/04/22/%E7%94%9F%E6%88%90%E5%BC%8F%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%9C%8D%E5%8A%A1%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95/</loc>
     
     <lastmod>2023-11-05</lastmod>
     
@@ -137,7 +182,7 @@
   </url>
   
   <url>
-    <loc>http://www.486916.xyz/2023/04/22/%E7%94%9F%E6%88%90%E5%BC%8F%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%9C%8D%E5%8A%A1%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95/</loc>
+    <loc>http://www.486916.xyz/2023/05/07/%E6%B3%A0%E9%B8%A2lora%E6%A8%A1%E5%9E%8Bv2/</loc>
     
     <lastmod>2023-11-05</lastmod>
     
@@ -272,15 +317,6 @@
   </url>
   
   <url>
-    <loc>http://www.486916.xyz/resources/index.html</loc>
-    
-    <lastmod>2023-11-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://www.486916.xyz/gentleman/23.html</loc>
     
     <lastmod>2023-11-04</lastmod>
@@ -290,7 +326,7 @@
   </url>
   
   <url>
-    <loc>http://www.486916.xyz/gentleman/21.html</loc>
+    <loc>http://www.486916.xyz/gentleman/22.html</loc>
     
     <lastmod>2023-11-04</lastmod>
     
@@ -299,7 +335,7 @@
   </url>
   
   <url>
-    <loc>http://www.486916.xyz/gentleman/22.html</loc>
+    <loc>http://www.486916.xyz/gentleman/21.html</loc>
     
     <lastmod>2023-11-04</lastmod>
     
@@ -515,7 +551,7 @@
   </url>
   
   <url>
-    <loc>http://www.486916.xyz/2023/09/17/anzhiyu-plugins/</loc>
+    <loc>http://www.486916.xyz/2023/09/03/anzhiyu%E4%B8%BB%E9%A2%98%E6%A0%87%E7%AD%BE/</loc>
     
     <lastmod>2023-10-05</lastmod>
     
@@ -524,7 +560,7 @@
   </url>
   
   <url>
-    <loc>http://www.486916.xyz/2023/09/03/anzhiyu%E4%B8%BB%E9%A2%98%E6%A0%87%E7%AD%BE/</loc>
+    <loc>http://www.486916.xyz/2023/09/17/anzhiyu-plugins/</loc>
     
     <lastmod>2023-10-05</lastmod>
     
@@ -893,15 +929,6 @@
   </url>
   
   <url>
-    <loc>http://www.486916.xyz/2023/04/02/B%E7%AB%99%E8%A7%86%E9%A2%91%E6%B5%8B%E8%AF%95/</loc>
-    
-    <lastmod>2023-08-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://www.486916.xyz/2023/08/23/%E5%8D%9A%E5%AE%A2%E9%87%8D%E6%9E%84/</loc>
     
     <lastmod>2023-08-24</lastmod>
@@ -1001,7 +1028,7 @@
   </url>
   
   <url>
-    <loc>http://www.486916.xyz/2023/06/07/2023%E9%AB%98%E8%80%83%E4%BD%9C%E6%96%87/</loc>
+    <loc>http://www.486916.xyz/2023/05/27/CUDA/</loc>
     
     <lastmod>2023-08-24</lastmod>
     
@@ -1010,7 +1037,7 @@
   </url>
   
   <url>
-    <loc>http://www.486916.xyz/2023/05/27/CUDA/</loc>
+    <loc>http://www.486916.xyz/2023/06/07/2023%E9%AB%98%E8%80%83%E4%BD%9C%E6%96%87/</loc>
     
     <lastmod>2023-08-24</lastmod>
     
@@ -1129,7 +1156,7 @@
 
   <url>
     <loc>http://www.486916.xyz/</loc>
-    <lastmod>2023-11-12</lastmod>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -1137,119 +1164,133 @@
   
   <url>
     <loc>http://www.486916.xyz/tags/%E5%8E%9F%E7%A5%9E/</loc>
-    <lastmod>2023-11-12</lastmod>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://www.486916.xyz/tags/%E7%BD%91%E7%BB%9C/</loc>
-    <lastmod>2023-11-12</lastmod>
+    <loc>http://www.486916.xyz/tags/Docker/</loc>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.486916.xyz/tags/%E7%A1%AC%E4%BB%B6/</loc>
-    <lastmod>2023-11-12</lastmod>
+    <lastmod>2023-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.486916.xyz/tags/%E7%BD%91%E7%BB%9C/</loc>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.486916.xyz/tags/Github/</loc>
-    <lastmod>2023-11-12</lastmod>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.486916.xyz/tags/%E5%9B%BE%E5%BA%8A/</loc>
-    <lastmod>2023-11-12</lastmod>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.486916.xyz/tags/Git/</loc>
-    <lastmod>2023-11-12</lastmod>
+    <lastmod>2023-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.486916.xyz/tags/OpenAI/</loc>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.486916.xyz/tags/%E4%BA%91%E6%9C%8D%E5%8A%A1/</loc>
-    <lastmod>2023-11-12</lastmod>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.486916.xyz/tags/PyTorch/</loc>
-    <lastmod>2023-11-12</lastmod>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.486916.xyz/tags/Python/</loc>
-    <lastmod>2023-11-12</lastmod>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.486916.xyz/tags/SpaceX/</loc>
-    <lastmod>2023-11-12</lastmod>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.486916.xyz/tags/%E7%A1%AC%E7%9B%98/</loc>
-    <lastmod>2023-11-12</lastmod>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.486916.xyz/tags/%E5%AE%89%E7%9F%A5%E9%B1%BC/</loc>
-    <lastmod>2023-11-12</lastmod>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.486916.xyz/tags/huggingface/</loc>
-    <lastmod>2023-11-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.486916.xyz/tags/%E6%95%B0%E5%AD%A6/</loc>
-    <lastmod>2023-11-12</lastmod>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.486916.xyz/tags/%E5%B0%8F%E8%AF%B4/</loc>
-    <lastmod>2023-11-12</lastmod>
+    <lastmod>2023-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.486916.xyz/tags/%E6%95%B0%E5%AD%A6/</loc>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.486916.xyz/tags/%E7%AE%97%E6%B3%95/</loc>
-    <lastmod>2023-11-12</lastmod>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.486916.xyz/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/</loc>
-    <lastmod>2023-11-12</lastmod>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -1257,50 +1298,50 @@
 
   
   <url>
-    <loc>http://www.486916.xyz/categories/%E5%8E%9F%E7%A5%9E/</loc>
-    <lastmod>2023-11-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://www.486916.xyz/categories/AI/</loc>
-    <lastmod>2023-11-12</lastmod>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://www.486916.xyz/categories/Hexo/</loc>
-    <lastmod>2023-11-12</lastmod>
+    <loc>http://www.486916.xyz/categories/%E5%8E%9F%E7%A5%9E/</loc>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.486916.xyz/categories/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2023-11-12</lastmod>
+    <lastmod>2023-11-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.486916.xyz/categories/Hexo/</loc>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.486916.xyz/categories/%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2023-11-12</lastmod>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.486916.xyz/categories/%E7%A7%91%E6%8A%80/</loc>
-    <lastmod>2023-11-12</lastmod>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://www.486916.xyz/categories/%E9%A1%B9%E7%9B%AE/</loc>
-    <lastmod>2023-11-12</lastmod>
+    <lastmod>2023-11-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
