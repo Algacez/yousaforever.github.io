@@ -128,7 +128,7 @@
   </url>
   
   <url>
-    <loc>http://www.486916.xyz/2023/03/12/GPT-3%E6%A8%A1%E5%9E%8B/</loc>
+    <loc>http://www.486916.xyz/2023/04/01/GPT-4paper%E8%A7%A3%E8%AF%BB/</loc>
     
     <lastmod>2023-11-05</lastmod>
     
@@ -137,7 +137,7 @@
   </url>
   
   <url>
-    <loc>http://www.486916.xyz/2023/04/01/GPT-4paper%E8%A7%A3%E8%AF%BB/</loc>
+    <loc>http://www.486916.xyz/2023/03/12/GPT-3%E6%A8%A1%E5%9E%8B/</loc>
     
     <lastmod>2023-11-05</lastmod>
     
@@ -209,7 +209,7 @@
   </url>
   
   <url>
-    <loc>http://www.486916.xyz/2023/05/13/DDSP-SVC-3-0/</loc>
+    <loc>http://www.486916.xyz/2023/03/26/Copilot/</loc>
     
     <lastmod>2023-11-05</lastmod>
     
@@ -218,7 +218,7 @@
   </url>
   
   <url>
-    <loc>http://www.486916.xyz/2023/03/26/Copilot/</loc>
+    <loc>http://www.486916.xyz/2023/05/13/DDSP-SVC-3-0/</loc>
     
     <lastmod>2023-11-05</lastmod>
     
@@ -344,7 +344,7 @@
   </url>
   
   <url>
-    <loc>http://www.486916.xyz/gentleman/21.html</loc>
+    <loc>http://www.486916.xyz/gentleman/22.html</loc>
     
     <lastmod>2023-11-04</lastmod>
     
@@ -353,7 +353,7 @@
   </url>
   
   <url>
-    <loc>http://www.486916.xyz/gentleman/22.html</loc>
+    <loc>http://www.486916.xyz/gentleman/21.html</loc>
     
     <lastmod>2023-11-04</lastmod>
     
@@ -1188,6 +1188,13 @@
   </url>
   
   <url>
+    <loc>http://www.486916.xyz/tags/Docker/</loc>
+    <lastmod>2023-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://www.486916.xyz/tags/%E7%BD%91%E7%BB%9C/</loc>
     <lastmod>2023-11-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -1216,13 +1223,6 @@
   </url>
   
   <url>
-    <loc>http://www.486916.xyz/tags/Docker/</loc>
-    <lastmod>2023-11-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://www.486916.xyz/tags/Git/</loc>
     <lastmod>2023-11-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -1237,14 +1237,14 @@
   </url>
   
   <url>
-    <loc>http://www.486916.xyz/tags/%E4%BA%91%E6%9C%8D%E5%8A%A1/</loc>
+    <loc>http://www.486916.xyz/tags/PyTorch/</loc>
     <lastmod>2023-11-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://www.486916.xyz/tags/PyTorch/</loc>
+    <loc>http://www.486916.xyz/tags/%E4%BA%91%E6%9C%8D%E5%8A%A1/</loc>
     <lastmod>2023-11-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
