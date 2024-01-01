@@ -1,3 +1,4 @@
+http://www.282994.xyz/2023/12/30/%E7%95%99%E7%BB%992023%E7%9A%84%E4%B8%80%E5%B0%81%E4%BF%A1/
 http://www.282994.xyz/gentleman/32.html
 http://www.282994.xyz/gentleman/index.html
 http://www.282994.xyz/updates/index.html
@@ -85,7 +86,6 @@ http://www.282994.xyz/2023/11/18/Docker%E5%92%8CVMware%E8%BF%90%E8%A1%8C%E7%8E%A
 http://www.282994.xyz/2023/05/13/DDSP-SVC-3-0/
 http://www.282994.xyz/2023/05/27/CUDA/
 http://www.282994.xyz/2023/06/07/2023%E9%AB%98%E8%80%83%E4%BD%9C%E6%96%87/
-http://www.282994.xyz/2023/12/29/2023%C2%B7%E5%9C%86%E9%94%A5%E6%9B%B2%E7%BA%BF%C2%B7%E7%BB%88/
 http://www.282994.xyz/2022/11/05/%E6%8A%98%E6%9E%9D%E8%90%BD%E6%A2%A6/
 http://www.282994.xyz/privacy/index.html
 http://www.282994.xyz/links/index.html
@@ -147,11 +147,10 @@ http://www.282994.xyz/about/index.html
 http://www.282994.xyz/node_modules/hexo-abbrlink/README.html
 http://www.282994.xyz/
 http://www.282994.xyz/tags/%E6%95%B0%E5%AD%A6/
-http://www.282994.xyz/tags/%E5%9C%86%E9%94%A5%E6%9B%B2%E7%BA%BF/
 http://www.282994.xyz/tags/%E5%8E%9F%E7%A5%9E/
 http://www.282994.xyz/tags/Docker/
-http://www.282994.xyz/tags/%E7%A1%AC%E4%BB%B6/
 http://www.282994.xyz/tags/%E7%BD%91%E7%BB%9C/
+http://www.282994.xyz/tags/%E7%A1%AC%E4%BB%B6/
 http://www.282994.xyz/tags/Github/
 http://www.282994.xyz/tags/%E5%9B%BE%E5%BA%8A/
 http://www.282994.xyz/tags/Git/
@@ -159,11 +158,12 @@ http://www.282994.xyz/tags/OpenAI/
 http://www.282994.xyz/tags/%E4%BA%91%E6%9C%8D%E5%8A%A1/
 http://www.282994.xyz/tags/PyTorch/
 http://www.282994.xyz/tags/Python/
-http://www.282994.xyz/tags/%E7%A1%AC%E7%9B%98/
 http://www.282994.xyz/tags/SpaceX/
+http://www.282994.xyz/tags/%E7%A1%AC%E7%9B%98/
 http://www.282994.xyz/tags/Windows/
 http://www.282994.xyz/tags/%E5%AE%89%E7%9F%A5%E9%B1%BC/
 http://www.282994.xyz/tags/huggingface/
+http://www.282994.xyz/tags/%E5%9C%86%E9%94%A5%E6%9B%B2%E7%BA%BF/
 http://www.282994.xyz/tags/%E7%BD%91%E7%9B%98/
 http://www.282994.xyz/tags/%E5%B0%8F%E8%AF%B4/
 http://www.282994.xyz/tags/%E7%AE%97%E6%B3%95/
