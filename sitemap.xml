@@ -1388,14 +1388,14 @@
 
   
   <url>
-    <loc>http://blog.282994.xyz/tags/%E6%95%B0%E5%AD%A6/</loc>
+    <loc>http://blog.282994.xyz/tags/%E7%A1%AC%E4%BB%B6/</loc>
     <lastmod>2024-02-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://blog.282994.xyz/tags/%E7%A1%AC%E4%BB%B6/</loc>
+    <loc>http://blog.282994.xyz/tags/%E6%95%B0%E5%AD%A6/</loc>
     <lastmod>2024-02-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1451,14 +1451,14 @@
   </url>
   
   <url>
-    <loc>http://blog.282994.xyz/tags/%E4%BA%91%E6%9C%8D%E5%8A%A1/</loc>
+    <loc>http://blog.282994.xyz/tags/Python/</loc>
     <lastmod>2024-02-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://blog.282994.xyz/tags/Python/</loc>
+    <loc>http://blog.282994.xyz/tags/%E4%BA%91%E6%9C%8D%E5%8A%A1/</loc>
     <lastmod>2024-02-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1507,14 +1507,14 @@
   </url>
   
   <url>
-    <loc>http://blog.282994.xyz/tags/%E7%BD%91%E7%9B%98/</loc>
+    <loc>http://blog.282994.xyz/tags/%E5%B0%8F%E8%AF%B4/</loc>
     <lastmod>2024-02-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://blog.282994.xyz/tags/%E5%B0%8F%E8%AF%B4/</loc>
+    <loc>http://blog.282994.xyz/tags/%E7%BD%91%E7%9B%98/</loc>
     <lastmod>2024-02-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1537,13 +1537,6 @@
 
   
   <url>
-    <loc>http://blog.282994.xyz/categories/%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2024-02-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://blog.282994.xyz/categories/%E7%A7%91%E6%8A%80/</loc>
     <lastmod>2024-02-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -1551,7 +1544,7 @@
   </url>
   
   <url>
-    <loc>http://blog.282994.xyz/categories/AI/</loc>
+    <loc>http://blog.282994.xyz/categories/%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2024-02-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1559,6 +1552,13 @@
   
   <url>
     <loc>http://blog.282994.xyz/categories/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2024-02-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.282994.xyz/categories/AI/</loc>
     <lastmod>2024-02-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
