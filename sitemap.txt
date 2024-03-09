@@ -1,3 +1,4 @@
+http://blog.282994.xyz/2024/02/21/%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%85%8D%E7%BD%AE/
 http://blog.282994.xyz/2024/02/19/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E6%90%AD%E5%BB%BALinux%E6%9C%8D%E5%8A%A1%E5%99%A8/
 http://blog.282994.xyz/gentleman/23.html
 http://blog.282994.xyz/gentleman/32.html
@@ -18,7 +19,6 @@ http://blog.282994.xyz/2023/10/28/Github%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA/
 http://blog.282994.xyz/2023/11/04/GFW/
 http://blog.282994.xyz/2024/02/18/WARP/
 http://blog.282994.xyz/2024/02/17/cloudflare%E5%8F%8D%E4%BB%A3OpenAI-API/
-http://blog.282994.xyz/2024/02/21/%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%85%8D%E7%BD%AE/
 http://blog.282994.xyz/memos/index.html
 http://blog.282994.xyz/2022/11/05/%E6%8A%98%E6%9E%9D%E8%90%BD%E6%A2%A6/
 http://blog.282994.xyz/updates/index.html
@@ -165,8 +165,8 @@ http://blog.282994.xyz/tags/%E4%BA%91%E6%9C%8D%E5%8A%A1/
 http://blog.282994.xyz/tags/Python/
 http://blog.282994.xyz/tags/%E7%A1%AC%E7%9B%98/
 http://blog.282994.xyz/tags/SpaceX/
-http://blog.282994.xyz/tags/Windows/
 http://blog.282994.xyz/tags/%E5%AE%89%E7%9F%A5%E9%B1%BC/
+http://blog.282994.xyz/tags/Windows/
 http://blog.282994.xyz/tags/huggingface/
 http://blog.282994.xyz/tags/%E5%9C%86%E9%94%A5%E6%9B%B2%E7%BA%BF/
 http://blog.282994.xyz/tags/%E7%BD%91%E7%9B%98/
