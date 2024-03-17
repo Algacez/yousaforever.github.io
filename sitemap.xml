@@ -2,7 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://blog.282994.xyz/2024/03/16/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%B8%8E%E7%A1%AC%E4%BB%B6%E7%AE%97%E5%8A%9B/</loc>
+    <loc>http://blog.282994.xyz/2024/03/17/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E6%90%AD%E5%BB%BALinux%E6%9C%8D%E5%8A%A1%E5%99%A81/</loc>
+    
+    <lastmod>2024-03-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.282994.xyz/2024/02/19/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E6%90%AD%E5%BB%BALinux%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
+    
+    <lastmod>2024-03-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.282994.xyz/2024/03/17/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E6%90%AD%E5%BB%BALinux%E6%9C%8D%E5%8A%A1%E5%99%A87-qbittorrent/</loc>
+    
+    <lastmod>2024-03-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.282994.xyz/2024/03/17/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E6%90%AD%E5%BB%BALinux%E6%9C%8D%E5%8A%A1%E5%99%A86-twikoo/</loc>
+    
+    <lastmod>2024-03-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.282994.xyz/2024/03/17/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E6%90%AD%E5%BB%BALinux%E6%9C%8D%E5%8A%A1%E5%99%A85-memos/</loc>
+    
+    <lastmod>2024-03-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.282994.xyz/2024/03/17/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E6%90%AD%E5%BB%BALinux%E6%9C%8D%E5%8A%A1%E5%99%A84-minio/</loc>
+    
+    <lastmod>2024-03-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.282994.xyz/2024/03/17/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E6%90%AD%E5%BB%BALinux%E6%9C%8D%E5%8A%A1%E5%99%A83-alist/</loc>
+    
+    <lastmod>2024-03-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.282994.xyz/2024/03/17/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E6%90%AD%E5%BB%BALinux%E6%9C%8D%E5%8A%A1%E5%99%A82-codeserv/</loc>
     
     <lastmod>2024-03-17</lastmod>
     
@@ -20,7 +83,7 @@
   </url>
   
   <url>
-    <loc>http://blog.282994.xyz/2024/02/19/%E5%AE%89%E5%8D%93%E6%89%8B%E6%9C%BA%E6%90%AD%E5%BB%BALinux%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
+    <loc>http://blog.282994.xyz/2024/03/16/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E4%B8%8E%E7%A1%AC%E4%BB%B6%E7%AE%97%E5%8A%9B/</loc>
     
     <lastmod>2024-03-17</lastmod>
     
@@ -1028,7 +1091,7 @@
   </url>
   
   <url>
-    <loc>http://blog.282994.xyz/gentleman/22.html</loc>
+    <loc>http://blog.282994.xyz/gentleman/21.html</loc>
     
     <lastmod>2023-11-04</lastmod>
     
@@ -1037,7 +1100,7 @@
   </url>
   
   <url>
-    <loc>http://blog.282994.xyz/gentleman/21.html</loc>
+    <loc>http://blog.282994.xyz/gentleman/22.html</loc>
     
     <lastmod>2023-11-04</lastmod>
     
@@ -1397,14 +1460,14 @@
 
   
   <url>
-    <loc>http://blog.282994.xyz/tags/%E6%95%B0%E5%AD%A6/</loc>
+    <loc>http://blog.282994.xyz/tags/%E7%A1%AC%E4%BB%B6/</loc>
     <lastmod>2024-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://blog.282994.xyz/tags/%E7%A1%AC%E4%BB%B6/</loc>
+    <loc>http://blog.282994.xyz/tags/%E6%95%B0%E5%AD%A6/</loc>
     <lastmod>2024-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1474,14 +1537,14 @@
   </url>
   
   <url>
-    <loc>http://blog.282994.xyz/tags/SpaceX/</loc>
+    <loc>http://blog.282994.xyz/tags/%E7%A1%AC%E7%9B%98/</loc>
     <lastmod>2024-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://blog.282994.xyz/tags/%E7%A1%AC%E7%9B%98/</loc>
+    <loc>http://blog.282994.xyz/tags/SpaceX/</loc>
     <lastmod>2024-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1516,7 +1579,21 @@
   </url>
   
   <url>
+    <loc>http://blog.282994.xyz/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
+    <lastmod>2024-03-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.282994.xyz/tags/%E5%B0%8F%E8%AF%B4/</loc>
+    <lastmod>2024-03-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.282994.xyz/tags/%E7%BD%91%E7%9B%98/</loc>
     <lastmod>2024-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1536,24 +1613,17 @@
     <priority>0.2</priority>
   </url>
   
-  <url>
-    <loc>http://blog.282994.xyz/tags/%E7%BD%91%E7%9B%98/</loc>
-    <lastmod>2024-03-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
   
   <url>
-    <loc>http://blog.282994.xyz/categories/%E5%AD%A6%E4%B9%A0/</loc>
+    <loc>http://blog.282994.xyz/categories/%E7%A7%91%E6%8A%80/</loc>
     <lastmod>2024-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://blog.282994.xyz/categories/%E7%A7%91%E6%8A%80/</loc>
+    <loc>http://blog.282994.xyz/categories/%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2024-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
