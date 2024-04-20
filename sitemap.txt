@@ -1,3 +1,4 @@
+http://blog.282994.xyz/updates/index.html
 http://blog.282994.xyz/todo/index.html
 http://blog.282994.xyz/2024/04/20/%E4%BD%BF%E7%94%A8memos%E5%AE%9E%E7%8E%B0%E8%AF%B4%E8%AF%B4%E7%95%8C%E9%9D%A2/
 http://blog.282994.xyz/memos/index.html
@@ -13,7 +14,6 @@ http://blog.282994.xyz/2024/03/23/%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5%E4%B8%AD%
 http://blog.282994.xyz/2024/03/31/match%E8%AF%AD%E5%8F%A5/
 http://blog.282994.xyz/2024/03/31/%E5%87%BD%E6%95%B0%E5%AE%9A%E4%B9%89%E8%AF%A6%E8%A7%A3/
 http://blog.282994.xyz/2023/12/09/%E5%9C%86%E9%94%A5%E6%9B%B2%E7%BA%BF%C2%B7%E7%B1%BB%E7%84%A6%E7%82%B9%E4%B8%8E%E7%B1%BB%E5%87%86%E7%BA%BF/
-http://blog.282994.xyz/updates/index.html
 http://blog.282994.xyz/2023/12/09/%E5%9C%86%E9%94%A5%E6%9B%B2%E7%BA%BF%C2%B7%E9%98%BF%E5%9F%BA%E7%B1%B3%E5%BE%B7%E4%B8%89%E8%A7%92%E5%BD%A2/
 http://blog.282994.xyz/2023/12/09/%E5%9C%86%E9%94%A5%E6%9B%B2%E7%BA%BF%C2%B7%E4%BC%B4%E4%BE%A3%E7%82%B9/
 http://blog.282994.xyz/2023/11/25/%E5%9C%86%E9%94%A5%E6%9B%B2%E7%BA%BF%E5%85%89%E5%AD%A6%E6%80%A7%E8%B4%A8/
@@ -141,9 +141,9 @@ http://blog.282994.xyz/tags/%E5%9B%BE%E5%BA%8A/
 http://blog.282994.xyz/tags/Git/
 http://blog.282994.xyz/tags/OpenAI/
 http://blog.282994.xyz/tags/%E4%BA%91%E6%9C%8D%E5%8A%A1/
-http://blog.282994.xyz/tags/%E7%A1%AC%E7%9B%98/
 http://blog.282994.xyz/tags/PyTorch/
 http://blog.282994.xyz/tags/SpaceX/
+http://blog.282994.xyz/tags/%E7%A1%AC%E7%9B%98/
 http://blog.282994.xyz/tags/Windows/
 http://blog.282994.xyz/tags/huggingface/
 http://blog.282994.xyz/tags/Python/
