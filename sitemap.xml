@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://blog.282994.xyz/2024/04/20/%E4%BD%BF%E7%94%A8memos%E5%AE%9E%E7%8E%B0%E8%AF%B4%E8%AF%B4%E7%95%8C%E9%9D%A2/</loc>
+    <loc>http://blog.282994.xyz/todo/index.html</loc>
     
     <lastmod>2024-04-20</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://blog.282994.xyz/todo/index.html</loc>
+    <loc>http://blog.282994.xyz/2024/04/20/%E4%BD%BF%E7%94%A8memos%E5%AE%9E%E7%8E%B0%E8%AF%B4%E8%AF%B4%E7%95%8C%E9%9D%A2/</loc>
     
     <lastmod>2024-04-20</lastmod>
     
@@ -1037,7 +1037,7 @@
   </url>
   
   <url>
-    <loc>http://blog.282994.xyz/gentleman/22.html</loc>
+    <loc>http://blog.282994.xyz/gentleman/21.html</loc>
     
     <lastmod>2023-11-04</lastmod>
     
@@ -1046,7 +1046,7 @@
   </url>
   
   <url>
-    <loc>http://blog.282994.xyz/gentleman/21.html</loc>
+    <loc>http://blog.282994.xyz/gentleman/22.html</loc>
     
     <lastmod>2023-11-04</lastmod>
     
@@ -1273,6 +1273,13 @@
   </url>
   
   <url>
+    <loc>http://blog.282994.xyz/tags/%E7%A1%AC%E7%9B%98/</loc>
+    <lastmod>2024-04-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.282994.xyz/tags/PyTorch/</loc>
     <lastmod>2024-04-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -1281,13 +1288,6 @@
   
   <url>
     <loc>http://blog.282994.xyz/tags/SpaceX/</loc>
-    <lastmod>2024-04-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.282994.xyz/tags/%E7%A1%AC%E7%9B%98/</loc>
     <lastmod>2024-04-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1329,14 +1329,14 @@
   </url>
   
   <url>
-    <loc>http://blog.282994.xyz/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
+    <loc>http://blog.282994.xyz/tags/%E6%B8%B8%E6%88%8F/</loc>
     <lastmod>2024-04-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://blog.282994.xyz/tags/%E6%B8%B8%E6%88%8F/</loc>
+    <loc>http://blog.282994.xyz/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
     <lastmod>2024-04-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
