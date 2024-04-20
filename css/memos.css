@@ -1,89 +1,38 @@
-/* maintop */
+/* 底部 */
 
-div#main_top {
-    z-index: 1;
-    max-width: 1200px;
-    margin: 20px auto -15px;
-    width: 100%;
-    padding: 0 15px;
+.talk_bottom {
+    opacity: .9;
 }
-
-@media screen and (min-width: 2000px) {
-    div#main_top {
-        max-width: 1500px;
-    }
-}
-
-#bber-talk {
-    border-radius: 12px;
-    box-shadow: none;
-    border: 1px solid #e0e3ed;
-    box-sizing: border-box;
-    transition: all .3s ease-in-out;
-    cursor: pointer;
-    width: 100%;
-    min-height: 50px;
-    background: var(--card-bg);
-    padding: .5rem 1rem;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-    font-weight: 700;
-}
-
-#bber-talk:hover {
-    border-color: #49b1f5;
-    box-shadow: none;
-}
-
-#bber-talk,
-#bber-talk a {
+.talk_bottom .icon {
     color: var(--font-color);
+    float: right;
+    transition: all .3s;
 }
 
-#bber-talk svg.icon {
-    width: 1em;
-    height: 1em;
-    vertical-align: -.15em;
-    fill: currentColor;
-    overflow: hidden;
-    font-size: 20px;
+.talk_bottom .icon:hover {
+    color: #49b1f5;
 }
 
-#bber-talk .item i {
-    margin-left: 5px;
+span.talk_tag{
+    font-size: 14px;
+}
+.talk_content>a {
+    margin: 0 3px;
+    color: #ff7d73 !important;
+}
+.talk_content>a:hover{
+    text-decoration: none !important;
+    color: #ff5143 !important
 }
 
-#bber-talk>i {
-    font-size: 1.1rem;
-}
-
-#bber-talk .talk-list {
-    flex: 1;
-    max-height: 32px;
-    font-size: 16px;
-    padding: 0;
+.talk_content iframe {
     margin: 0;
-    overflow: hidden;
+    border-radius: 12px;
+    border: var(--leonus-border);
 }
 
-#bber-talk .talk-list :hover {
-    color: #49b1f5 !important;
-    transition: all .2s ease-in-out;
-}
-
-#bber-talk .talk-list li {
-    list-style: none;
-    width: 100%;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    margin-left: 10px;
-}
-
-@media screen and (min-width: 768px) {
-    #bber-talk .talk-list {
-        text-align: center;
-        margin-right: 20px;
+@media screen and (max-width: 768px) {
+    .talk_item {
+        width: 100%;
     }
 }

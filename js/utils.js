@@ -456,7 +456,7 @@ const anzhiyu = {
   },
   // 初始化即刻
   initIndexEssay: function () {
-    if (!document.getElementById("bbTimeList")) return;
+    if (document.getElementById("bbTimeList")) return;
     setTimeout(() => {
       let essay_bar_swiper = new Swiper(".essay_bar_swiper_container", {
         passiveListeners: true,
