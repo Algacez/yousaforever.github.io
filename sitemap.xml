@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.282994.xyz/updates/index.html</loc>
+    
+    <lastmod>2024-04-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.282994.xyz/2024/04/20/%E4%BD%BF%E7%94%A8memos%E5%AE%9E%E7%8E%B0%E8%AF%B4%E8%AF%B4%E7%95%8C%E9%9D%A2/</loc>
     
     <lastmod>2024-04-21</lastmod>
@@ -21,15 +30,6 @@
   
   <url>
     <loc>http://blog.282994.xyz/2024/04/20/IP%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</loc>
-    
-    <lastmod>2024-04-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.282994.xyz/updates/index.html</loc>
     
     <lastmod>2024-04-21</lastmod>
     
@@ -317,7 +317,7 @@
   </url>
   
   <url>
-    <loc>http://blog.282994.xyz/2023/11/04/Markdown%E8%AF%AD%E6%B3%95%E9%80%9F%E6%9F%A5/</loc>
+    <loc>http://blog.282994.xyz/2023/11/18/OpenAI-announces-leadership-transition/</loc>
     
     <lastmod>2024-03-24</lastmod>
     
@@ -326,7 +326,7 @@
   </url>
   
   <url>
-    <loc>http://blog.282994.xyz/2023/11/18/OpenAI-announces-leadership-transition/</loc>
+    <loc>http://blog.282994.xyz/2023/11/04/Markdown%E8%AF%AD%E6%B3%95%E9%80%9F%E6%9F%A5/</loc>
     
     <lastmod>2024-03-24</lastmod>
     
@@ -1224,14 +1224,14 @@
   </url>
   
   <url>
-    <loc>http://blog.282994.xyz/tags/Docker/</loc>
+    <loc>http://blog.282994.xyz/tags/%E7%BD%91%E7%BB%9C/</loc>
     <lastmod>2024-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://blog.282994.xyz/tags/%E7%BD%91%E7%BB%9C/</loc>
+    <loc>http://blog.282994.xyz/tags/Docker/</loc>
     <lastmod>2024-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1301,14 +1301,14 @@
   </url>
   
   <url>
-    <loc>http://blog.282994.xyz/tags/huggingface/</loc>
+    <loc>http://blog.282994.xyz/tags/Python/</loc>
     <lastmod>2024-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://blog.282994.xyz/tags/Python/</loc>
+    <loc>http://blog.282994.xyz/tags/huggingface/</loc>
     <lastmod>2024-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
